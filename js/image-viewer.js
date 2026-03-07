@@ -9,20 +9,31 @@ export function initImageViewer() {
   const img = document.getElementById("image-viewer-img");
   const closeBtn = document.getElementById("image-viewer-close-btn");
   const titleEl = document.getElementById("image-viewer-title");
+  let lastFocused = null;
 
   function openImageViewer(srcUrl, altText = "") {
+    lastFocused = document.activeElement;
+
     img.src = srcUrl;
     img.alt = altText;
     titleEl.textContent = altText;
     modal.classList.remove("hidden");
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
+
+    // move focus into the dialog
+    closeBtn.focus();
   }
 
   function closeImageViewer() {
     modal.classList.add("hidden");
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
+
+    // restore previous focus
+    if (lastFocused && lastFocused.focus) {
+      lastFocused.focus();
+    }
   }
 
   // Close button
