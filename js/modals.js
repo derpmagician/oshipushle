@@ -1,24 +1,126 @@
 import { MAX_GUESSES } from "./constants.js";
 import { compareExact, compareArrays, compareNumeric } from "./compare.js";
+import { isAllowedImageUrl } from "./sanitize.js";
+
+let modalHandlersBound = false;
+let lastFocusedElement = null;
+let countdownIntervalId = null;
+
+function getModal() {
+  return document.getElementById("win-modal");
+}
+
+function getFocusableElements(modal) {
+  return Array.from(
+    modal.querySelectorAll(
+      "button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex='-1'])"
+    )
+  ).filter((el) => el.offsetParent !== null || el === document.activeElement);
+}
+
+function onModalKeydown(event) {
+  const modal = getModal();
+  if (modal.classList.contains("hidden")) return;
+
+  if (event.key === "Escape") {
+    event.preventDefault();
+    closeWinModal();
+    return;
+  }
+
+  if (event.key !== "Tab") return;
+
+  const focusables = getFocusableElements(modal);
+  if (!focusables.length) {
+    event.preventDefault();
+    return;
+  }
+
+  const first = focusables[0];
+  const last = focusables[focusables.length - 1];
+
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+}
+
+function bindModalHandlers() {
+  if (modalHandlersBound) return;
+
+  const modal = getModal();
+  const closeBtn = document.getElementById("win-close-btn");
+
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) closeWinModal();
+  });
+
+  closeBtn.addEventListener("click", () => {
+    closeWinModal();
+  });
+
+  modal.addEventListener("keydown", onModalKeydown);
+  modalHandlersBound = true;
+}
+
+function openWinModal() {
+  const modal = getModal();
+  bindModalHandlers();
+
+  if (document.activeElement instanceof HTMLElement) {
+    lastFocusedElement = document.activeElement;
+  }
+
+  modal.classList.remove("hidden");
+  modal.setAttribute("aria-hidden", "false");
+
+  const dailySectionHidden = document.getElementById("daily-modal-section").classList.contains("hidden");
+  const preferredFocusId = dailySectionHidden ? "next-challenge-btn" : "share-btn";
+  const target = document.getElementById(preferredFocusId) || document.getElementById("win-close-btn");
+  target.focus();
+}
+
+export function closeWinModal() {
+  const modal = getModal();
+  if (modal.classList.contains("hidden")) return;
+
+  modal.classList.add("hidden");
+  modal.setAttribute("aria-hidden", "true");
+
+  if (lastFocusedElement && document.contains(lastFocusedElement)) {
+    lastFocusedElement.focus();
+  }
+}
+
+function setCardImage(container, url, altText) {
+  container.textContent = "";
+  if (!url || !isAllowedImageUrl(url)) return;
+  const img = document.createElement("img");
+  img.src = url;
+  img.alt = altText;
+  container.appendChild(img);
+}
 
 // ── Daily win modal ───────────────────────────────────────────────────────────
 export function showWinModal(answer, guesses, puzzleNumber) {
-  const modal = document.getElementById("win-modal");
   const msg   = document.getElementById("win-message");
   const imgDiv = document.getElementById("win-card-image");
+  const shareBtn = document.getElementById("share-btn");
 
   msg.textContent = `${answer.name} (${answer.cardNumber}) — ${guesses.length}/${MAX_GUESSES} guesses`;
 
   const imgUrl = answer.variants?.[0]?.myUrl;
-  if (imgUrl) {
-    imgDiv.innerHTML = `<img src="${imgUrl}" alt="${answer.name}" />`;
-  }
+  setCardImage(imgDiv, imgUrl, answer.name);
 
-  document.getElementById("share-btn").onclick = () => {
+  shareBtn.textContent = "📋 Share Result";
+  shareBtn.onclick = () => {
     const squares = guesses.map((g) => guessToSquares(g, answer)).join("\n");
     const text = `OshiPushle #${puzzleNumber} ${guesses.length}/${MAX_GUESSES}\n\n${squares}`;
     navigator.clipboard.writeText(text).then(() => {
-      document.getElementById("share-btn").textContent = "✅ Copied!";
+      shareBtn.textContent = "✅ Copied!";
     });
   };
 
@@ -26,25 +128,18 @@ export function showWinModal(answer, guesses, puzzleNumber) {
   document.getElementById("endless-modal-section").classList.add("hidden");
 
   startCountdown();
-
-  modal.classList.remove("hidden");
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) modal.classList.add("hidden");
-  });
+  openWinModal();
 }
 
 // ── Endless / Platform win modal ──────────────────────────────────────────────
 export function showEndlessWinModal(answer, guesses, session, onNextChallenge) {
-  const modal  = document.getElementById("win-modal");
   const msg    = document.getElementById("win-message");
   const imgDiv = document.getElementById("win-card-image");
 
   msg.textContent = `${answer.name} (${answer.cardNumber}) — solved in ${guesses.length} guess${guesses.length !== 1 ? "es" : ""}`;
 
   const imgUrl = answer.variants?.[0]?.myUrl;
-  if (imgUrl) {
-    imgDiv.innerHTML = `<img src="${imgUrl}" alt="${answer.name}" />`;
-  }
+  setCardImage(imgDiv, imgUrl, answer.name);
 
   document.getElementById("daily-modal-section").classList.add("hidden");
   document.getElementById("endless-modal-section").classList.remove("hidden");
@@ -57,14 +152,11 @@ export function showEndlessWinModal(answer, guesses, session, onNextChallenge) {
   const newBtn = oldBtn.cloneNode(true);
   oldBtn.parentNode.replaceChild(newBtn, oldBtn);
   newBtn.addEventListener("click", () => {
-    modal.classList.add("hidden");
+    closeWinModal();
     onNextChallenge();
   });
 
-  modal.classList.remove("hidden");
-  modal.addEventListener("click", (e) => {
-    if (e.target === modal) modal.classList.add("hidden");
-  });
+  openWinModal();
 }
 
 // ── Share squares helper ──────────────────────────────────────────────────────
@@ -106,6 +198,10 @@ export function startCountdown() {
     timerEl.textContent = `Next puzzle in ${h}:${m}:${s}`;
   }
 
+  if (countdownIntervalId !== null) {
+    clearInterval(countdownIntervalId);
+  }
+
   tick();
-  setInterval(tick, 1_000);
+  countdownIntervalId = setInterval(tick, 1_000);
 }

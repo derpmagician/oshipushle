@@ -14,10 +14,31 @@
 
   <main>
     <!-- Mode tabs -->
-    <div class="mode-tabs">
-      <button class="mode-btn active" data-mode="daily">📅 Daily</button>
-      <button class="mode-btn" data-mode="endless">♾️ Endless</button>
-      <button class="mode-btn" data-mode="platform">🖥️ Platform</button>
+    <div class="mode-tabs" role="tablist" aria-label="Game modes">
+      <button
+        id="tab-daily"
+        class="mode-btn active"
+        data-mode="daily"
+        role="tab"
+        aria-selected="true"
+        tabindex="0"
+      >📅 Daily</button>
+      <button
+        id="tab-endless"
+        class="mode-btn"
+        data-mode="endless"
+        role="tab"
+        aria-selected="false"
+        tabindex="-1"
+      >♾️ Endless</button>
+      <button
+        id="tab-platform"
+        class="mode-btn"
+        data-mode="platform"
+        role="tab"
+        aria-selected="false"
+        tabindex="-1"
+      >🖥️ Platform</button>
     </div>
 
     <!-- Endless mode stats (hidden in daily mode) -->
@@ -36,13 +57,23 @@
 
     <!-- Search / Guess input -->
     <div class="guess-input-wrapper">
+      <label for="guess-input" class="visually-hidden">Card name</label>
       <input
         type="text"
         id="guess-input"
         placeholder="Type a card name..."
         autocomplete="off"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls="autocomplete-list"
+        aria-describedby="guess-input-help"
       />
-      <ul id="autocomplete-list" class="autocomplete-list hidden"></ul>
+      <p id="guess-input-help" class="visually-hidden">
+        Type to search cards. Use arrow keys to navigate suggestions and Enter to select.
+      </p>
+      <ul id="autocomplete-list" class="autocomplete-list hidden" role="listbox" aria-label="Card suggestions"></ul>
+      <p id="autocomplete-status" class="visually-hidden" role="status" aria-live="polite" aria-atomic="true"></p>
     </div>
 
     <!-- Attribute headers -->
@@ -59,12 +90,21 @@
     </div>
 
     <!-- Guesses will be inserted here -->
-    <div id="guesses-container"></div>
+    <div id="guesses-container" role="grid" aria-label="Guess results"></div>
 
     <!-- Win modal -->
-    <div id="win-modal" class="modal hidden">
+    <div
+      id="win-modal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="win-modal-title"
+      aria-describedby="win-message"
+      aria-hidden="true"
+    >
       <div class="modal-content">
-        <h2>🎉 You got it!</h2>
+        <button id="win-close-btn" class="modal-close" type="button" aria-label="Close dialog">×</button>
+        <h2 id="win-modal-title">🎉 You got it!</h2>
         <p id="win-message"></p>
         <div id="win-card-image"></div>
         <!-- Daily mode section -->
@@ -83,9 +123,10 @@
 
   <footer>
     <p>
-      Card data from <a href="https://www.theoshivault.com" target="_blank" rel="noopener noreferrer">The Oshi Vault</a>
+      Card data from <a href="https://www.theoshivault.com" target="_blank" rel="noopener noreferrer" aria-describedby="vault-link-hint">The Oshi Vault</a>
+      <span id="vault-link-hint" class="visually-hidden">opens in a new tab</span>
       <span id="puzzle-footer"> · Puzzle <span id="puzzle-number"></span>
-      · Cycle <span id="cycle-number"></span></span>
+      · Cycle <span id="cycle-number"></span> · by DerpMagician</span>
     </p>
   </footer>
 

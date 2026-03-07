@@ -39,50 +39,85 @@ async function main() {
   let currentMode = "daily";
 
   // Mode tab switching
-  document.querySelectorAll(".mode-btn").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const mode = btn.dataset.mode;
-      if (mode === currentMode) return;
-      currentMode = mode;
+  const modeTabs = Array.from(document.querySelectorAll(".mode-btn"));
 
-      document.querySelectorAll(".mode-btn").forEach((b) =>
-        b.classList.toggle("active", b.dataset.mode === mode)
-      );
+  function updateTabState(mode) {
+    modeTabs.forEach((tab) => {
+      const isActive = tab.dataset.mode === mode;
+      tab.classList.toggle("active", isActive);
+      tab.setAttribute("aria-selected", isActive ? "true" : "false");
+      tab.tabIndex = isActive ? 0 : -1;
+    });
+  }
 
-      const isEndless  = mode === "endless";
-      const isPlatform = mode === "platform";
-      document.getElementById("endless-stats").classList.toggle("hidden", !isEndless);
-      document.getElementById("platform-stats").classList.toggle("hidden", !isPlatform);
-      document.getElementById("puzzle-footer").classList.toggle("hidden", isEndless || isPlatform);
-      document.getElementById("win-modal").classList.add("hidden");
-      clearBoard();
+  function activateMode(mode) {
+    if (mode === currentMode) return;
+    currentMode = mode;
+    updateTabState(mode);
 
-      if (mode === "daily") {
-        gameRef.mode  = "daily";
-        gameRef.cards = nonPlatformCards;
-        setGridMode("default");
-        playDailyMode(nonPlatformCards, gameRef);
-      } else if (mode === "endless") {
-        gameRef.mode  = "endless";
-        gameRef.cards = nonPlatformCards;
-        setGridMode("default");
-        session.usedIndices.clear();
-        session.challengeNumber = 0;
-        session.solvedCount     = 0;
-        session.totalGuesses    = 0;
-        playEndlessMode(nonPlatformCards, gameRef, session, clearBoard);
+    const isEndless  = mode === "endless";
+    const isPlatform = mode === "platform";
+    document.getElementById("endless-stats").classList.toggle("hidden", !isEndless);
+    document.getElementById("platform-stats").classList.toggle("hidden", !isPlatform);
+    document.getElementById("puzzle-footer").classList.toggle("hidden", isEndless || isPlatform);
+    document.getElementById("win-modal").classList.add("hidden");
+    document.getElementById("win-modal").setAttribute("aria-hidden", "true");
+    clearBoard();
+
+    if (mode === "daily") {
+      gameRef.mode  = "daily";
+      gameRef.cards = nonPlatformCards;
+      setGridMode("default");
+      playDailyMode(nonPlatformCards, gameRef);
+    } else if (mode === "endless") {
+      gameRef.mode  = "endless";
+      gameRef.cards = nonPlatformCards;
+      setGridMode("default");
+      session.usedIndices.clear();
+      session.challengeNumber = 0;
+      session.solvedCount     = 0;
+      session.totalGuesses    = 0;
+      playEndlessMode(nonPlatformCards, gameRef, session, clearBoard);
+    } else {
+      setGridMode("platform");
+      session.usedIndices.clear();
+      session.challengeNumber = 0;
+      session.solvedCount     = 0;
+      session.totalGuesses    = 0;
+      playPlatformMode(cards, gameRef, session, clearBoard);
+    }
+  }
+
+  modeTabs.forEach((tab, index) => {
+    tab.addEventListener("click", () => {
+      activateMode(tab.dataset.mode);
+    });
+
+    tab.addEventListener("keydown", (event) => {
+      let targetIndex = null;
+      if (event.key === "ArrowRight") {
+        targetIndex = (index + 1) % modeTabs.length;
+      } else if (event.key === "ArrowLeft") {
+        targetIndex = (index - 1 + modeTabs.length) % modeTabs.length;
+      } else if (event.key === "Home") {
+        targetIndex = 0;
+      } else if (event.key === "End") {
+        targetIndex = modeTabs.length - 1;
+      } else if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        activateMode(tab.dataset.mode);
+        return;
       } else {
-        setGridMode("platform");
-        session.usedIndices.clear();
-        session.challengeNumber = 0;
-        session.solvedCount     = 0;
-        session.totalGuesses    = 0;
-        playPlatformMode(cards, gameRef, session, clearBoard);
+        return;
       }
+
+      event.preventDefault();
+      modeTabs[targetIndex].focus();
     });
   });
 
   // Boot into daily mode
+  updateTabState(currentMode);
   playDailyMode(nonPlatformCards, gameRef);
 }
 
