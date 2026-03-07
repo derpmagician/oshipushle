@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OshiPushle — Daily Oshi Push! Card Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>OshiPushle</h1>
+    <p class="subtitle">Guess today's <strong>Oshi Push!</strong> card</p>
+  </header>
+
+  <main>
+    <!-- Mode tabs -->
+    <div class="mode-tabs">
+      <button class="mode-btn active" data-mode="daily">📅 Daily</button>
+      <button class="mode-btn" data-mode="endless">♾️ Endless</button>
+      <button class="mode-btn" data-mode="platform">🖥️ Platform</button>
+    </div>
+
+    <!-- Endless mode stats (hidden in daily mode) -->
+    <div id="endless-stats" class="endless-stats hidden">
+      <span id="endless-challenge-num">Challenge #1</span>
+      <span class="stat-sep">·</span>
+      <span id="endless-total-stats">0 solved · 0 guesses</span>
+    </div>
+
+    <!-- Platform mode stats (hidden in other modes) -->
+    <div id="platform-stats" class="endless-stats hidden">
+      <span id="platform-challenge-num">Challenge #1</span>
+      <span class="stat-sep">·</span>
+      <span id="platform-total-stats">0 solved · 0 guesses</span>
+    </div>
+
+    <!-- Search / Guess input -->
+    <div class="guess-input-wrapper">
+      <input
+        type="text"
+        id="guess-input"
+        placeholder="Type a card name..."
+        autocomplete="off"
+      />
+      <ul id="autocomplete-list" class="autocomplete-list hidden"></ul>
+    </div>
+
+    <!-- Attribute headers -->
+    <div class="grid-header" id="grid-header">
+      <span></span>
+      <span>Card</span>
+      <span>Type</span>
+      <span>Color</span>
+      <span>Genre</span>
+      <span>Cost</span>
+      <span>Bits</span>
+      <span>Influence</span>
+      <span>VTuber</span>
+    </div>
+
+    <!-- Guesses will be inserted here -->
+    <div id="guesses-container"></div>
+
+    <!-- Win modal -->
+    <div id="win-modal" class="modal hidden">
+      <div class="modal-content">
+        <h2>🎉 You got it!</h2>
+        <p id="win-message"></p>
+        <div id="win-card-image"></div>
+        <!-- Daily mode section -->
+        <div id="daily-modal-section">
+          <button id="share-btn">📋 Share Result</button>
+          <p id="next-puzzle-timer"></p>
+        </div>
+        <!-- Endless mode section -->
+        <div id="endless-modal-section" class="hidden">
+          <p id="endless-session-stats"></p>
+          <button id="next-challenge-btn">▶ Next Challenge</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      Card data from <a href="https://www.theoshivault.com" target="_blank" rel="noopener noreferrer">The Oshi Vault</a>
+      <span id="puzzle-footer"> · Puzzle <span id="puzzle-number"></span>
+      · Cycle <span id="cycle-number"></span></span>
+    </p>
+  </footer>
+
+  <script src="js/main.js" type="module"></script>
+</body>
+</html>
