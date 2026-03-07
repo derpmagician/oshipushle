@@ -19,7 +19,10 @@ export function makeNumericCell(text, { status, direction }) {
   if (direction) {
     const arrow = document.createElement("span");
     arrow.className = `arrow ${direction === "up" ? "up" : "down"}`;
-    arrow.textContent = direction === "up" ? "▲ higher" : "▼ lower";
+    // only show the triangle glyph; the word is redundant and wastes space.
+    arrow.textContent = direction === "up" ? "▲" : "▼";
+    // keep an accessible label so screen‑readers and tooltips still convey meaning
+    arrow.setAttribute("title", direction === "up" ? "higher" : "lower");
     cell.appendChild(arrow);
   }
   return cell;
