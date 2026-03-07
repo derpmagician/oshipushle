@@ -1,6 +1,7 @@
 import { DATA_URL } from "./constants.js";
 import { setGridMode } from "./grid.js";
 import { setupAutocomplete } from "./autocomplete.js";
+import { initImageViewer } from "./image-viewer.js";
 import { playDailyMode } from "./modes/daily-mode.js";
 import { playEndlessMode } from "./modes/endless-mode.js";
 import { playPlatformMode } from "./modes/platform-mode.js";
@@ -27,6 +28,7 @@ async function main() {
   const input  = document.getElementById("guess-input");
   const listEl = document.getElementById("autocomplete-list");
   setupAutocomplete(input, listEl, gameRef);
+  initImageViewer();
 
   // Session state (persists across challenges within a tab; resets on mode switch)
   const session = {

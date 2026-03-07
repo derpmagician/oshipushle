@@ -1,5 +1,6 @@
 import { compareExact, compareArrays, compareNumeric } from "./compare.js";
 import { isAllowedImageUrl } from "./sanitize.js";
+import { attachImageViewerListener } from "./image-viewer.js";
 
 function statusText(status) {
   if (status === "correct") return "correct";
@@ -72,6 +73,7 @@ export function renderGuessRow(guess, answer) {
     img.src = thumbUrl;
     img.alt = "";
     img.loading = "lazy";
+    attachImageViewerListener(img, guess.name);
     thumbCell.appendChild(img);
   }
   row.appendChild(thumbCell);
@@ -139,6 +141,7 @@ export function renderPlatformGuessRow(guess, answer) {
     img.src = thumbUrl;
     img.alt = "";
     img.loading = "lazy";
+    attachImageViewerListener(img, guess.name);
     thumbCell.appendChild(img);
   }
   row.appendChild(thumbCell);

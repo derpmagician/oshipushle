@@ -121,6 +121,24 @@
         </div>
       </div>
     </div>
+
+    <!-- Image viewer modal -->
+    <div
+      id="image-viewer-modal"
+      class="modal hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="image-viewer-title"
+      aria-hidden="true"
+    >
+      <div class="image-viewer-content">
+        <button id="image-viewer-close-btn" class="modal-close" type="button" aria-label="Close image viewer">×</button>
+        <div id="image-viewer-container" class="image-viewer-container">
+          <img id="image-viewer-img" src="" alt="Card image" />
+        </div>
+        <p id="image-viewer-title" class="visually-hidden"></p>
+      </div>
+    </div>
   </main>
 
   <footer>
