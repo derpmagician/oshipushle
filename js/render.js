@@ -124,6 +124,11 @@ export function renderGuessRow(guess, answer) {
   vtuberCell.appendChild(inner);
   row.appendChild(vtuberCell);
 
+  // apply index property for animation delay; DOM order matches column order
+  row.querySelectorAll('.guess-cell').forEach((cell, i) => {
+    cell.style.setProperty('--i', i);
+  });
+
   return row;
 }
 
@@ -176,6 +181,11 @@ export function renderPlatformGuessRow(guess, answer) {
     ? numFmt.format(guess.popularityThreshold)
     : "—";
   row.appendChild(makeNumericCell(popDisplay, popCmp, "Popularity"));
+
+  // set index custom property for delay formula
+  row.querySelectorAll('.guess-cell').forEach((cell, i) => {
+    cell.style.setProperty('--i', i);
+  });
 
   return row;
 }

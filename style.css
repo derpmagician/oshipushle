@@ -190,7 +190,7 @@ main.platform-mode {
   border-radius: var(--radius);
   background: var(--surface);
   color: var(--text);
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.12s ease;
 
   &:focus {
     outline: none;
@@ -202,6 +202,17 @@ main.platform-mode {
     opacity: 0.5;
     cursor: not-allowed;
   }
+}
+
+/* Phase 3: Anticipation – input "fires" before the row appears */
+@keyframes inputFire {
+  0%   { transform: scale(1);    border-color: var(--border); }
+  30%  { transform: scale(0.97); border-color: var(--accent); }
+  100% { transform: scale(1);    border-color: var(--border); }
+}
+
+#guess-input.input-fire {
+  animation: inputFire 0.25s ease-out;
 }
 
 
@@ -347,8 +358,10 @@ main.platform-mode .ac-thumb {
 }
 
 @keyframes revealCell {
-  0% { transform: rotateX(-90deg); opacity: 0; }
-  100% { transform: rotateX(0deg); opacity: 1; }
+  0%   { transform: rotateX(-90deg) scale(0.9); opacity: 0; }
+  60%  { transform: rotateX(8deg)   scale(1.03); opacity: 1; }
+  80%  { transform: rotateX(-3deg)  scale(0.99); }
+  100% { transform: rotateX(0deg)   scale(1);    opacity: 1; }
 }
 
 .guess-cell {
@@ -381,15 +394,11 @@ main.platform-mode .ac-thumb {
 }
 
 
-.guess-row .guess-cell:nth-child(1) { animation-delay: 0.0s; }
-.guess-row .guess-cell:nth-child(2) { animation-delay: 0.1s; }
-.guess-row .guess-cell:nth-child(3) { animation-delay: 0.2s; }
-.guess-row .guess-cell:nth-child(4) { animation-delay: 0.3s; }
-.guess-row .guess-cell:nth-child(5) { animation-delay: 0.4s; }
-.guess-row .guess-cell:nth-child(6) { animation-delay: 0.5s; }
-.guess-row .guess-cell:nth-child(7) { animation-delay: 0.7s; }
-.guess-row .guess-cell:nth-child(8) { animation-delay: 0.8s; }
-.guess-row .guess-cell:nth-child(9) { animation-delay: 0.9s; }
+.guess-row .guess-cell {
+  /* Phase 1: snappier reveal with elastic overshoot curve */
+  animation: revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation-delay: calc(var(--i, 0) * 0.08s);
+}
 
 .guess-cell.name-cell, 
 .ac-name {
@@ -410,10 +419,38 @@ main.platform-mode .ac-thumb {
   border-radius: 3px;
 }
 
+/* ── Phase 2: Exaggeration & Appeal on feedback ───────── */
+@keyframes correctPop {
+  0%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(83, 141, 78, 0); }
+  40%  { transform: scale(1.10); box-shadow: 0 0 12px 2px rgba(83, 141, 78, 0.5); }
+  70%  { transform: scale(0.97); }
+  100% { transform: scale(1);    box-shadow: 0 0 0 0 rgba(83, 141, 78, 0); }
+}
+
+@keyframes partialPulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.04); }
+  100% { transform: scale(1); }
+}
+
 /* Feedback colors */
-.guess-cell.correct { background: var(--correct); }
-.guess-cell.partial { background: var(--partial); color: #1a1a2e; }
-.guess-cell.wrong   { background: var(--wrong); }
+.guess-cell.correct {
+  background: var(--correct);
+  /* chain: reveal first, then the pop celebration */
+  animation:
+    revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
+    correctPop 0.4s ease-out calc(var(--i, 0) * 0.08s + 0.35s) both;
+}
+
+.guess-cell.partial {
+  background: var(--partial);
+  color: #1a1a2e;
+  animation:
+    revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
+    partialPulse 0.35s ease-out calc(var(--i, 0) * 0.08s + 0.35s) both;
+}
+
+.guess-cell.wrong { background: var(--wrong); }
 
 /* Arrows for numeric comparisons */
 .guess-cell .arrow {

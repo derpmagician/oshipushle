@@ -34,6 +34,11 @@ export function playPlatformMode(allCards, gameRef, session, clearBoard) {
   gameRef.onSelect = function submitPlatformGuess(card) {
     if (solved) return;
 
+    // Phase 3: anticipation pulse on the input
+    input.classList.remove('input-fire');
+    void input.offsetWidth;
+    input.classList.add('input-fire');
+
     guessedNums.add(card.cardNumber);
     guesses.push(card);
     session.totalGuesses++;

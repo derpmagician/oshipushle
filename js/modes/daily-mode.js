@@ -46,6 +46,11 @@ export function playDailyMode(cards, gameRef) {
   gameRef.onSelect = function submitGuess(card) {
     if (won || guesses.length >= MAX_GUESSES) return;
 
+    // Phase 3: anticipation pulse on the input
+    input.classList.remove('input-fire');
+    void input.offsetWidth;           // force reflow to restart animation
+    input.classList.add('input-fire');
+
     guessedNames.add(card.cardNumber);
     guesses.push(card);
     container.prepend(renderGuessRow(card, answer));
