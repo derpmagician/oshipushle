@@ -53,12 +53,14 @@ header h1 {
   font-size: 2.5rem;
   letter-spacing: 0.05em;
   color: var(--accent);
+  text-wrap: balance;
 }
 
 .subtitle {
   color: var(--text-dim);
   font-size: 0.85rem;
   margin-top: 0.2rem;
+  text-wrap: balance;
 }
 
 /* ── Main ────────────────────────────────────────────────── */

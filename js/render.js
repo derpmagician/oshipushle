@@ -1,6 +1,7 @@
 import { compareExact, compareArrays, compareNumeric } from "./compare.js";
 import { isAllowedImageUrl } from "./sanitize.js";
 import { attachImageViewerListener } from "./image-viewer.js";
+import { numFmt } from "./constants.js";
 
 function statusText(status) {
   if (status === "correct") return "correct";
@@ -164,13 +165,16 @@ export function renderPlatformGuessRow(guess, answer) {
   // 3. Subscriber count (numeric)
   const subsCmp = compareNumeric(guess.subscriberCount, answer.subscriberCount);
   const subsDisplay = guess.subscriberCount
-    ? Number(guess.subscriberCount).toLocaleString()
+    ? numFmt.format(guess.subscriberCount)
     : "—";
   row.appendChild(makeNumericCell(subsDisplay, subsCmp, "Subscribers"));
 
   // 4. Popularity threshold (numeric)
   const popCmp = compareNumeric(guess.popularityThreshold, answer.popularityThreshold);
-  row.appendChild(makeNumericCell(guess.popularityThreshold ?? "—", popCmp, "Popularity"));
+  const popDisplay = guess.popularityThreshold != null
+    ? numFmt.format(guess.popularityThreshold)
+    : "—";
+  row.appendChild(makeNumericCell(popDisplay, popCmp, "Popularity"));
 
   return row;
 }

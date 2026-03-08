@@ -1,4 +1,5 @@
 import { isAllowedImageUrl } from "./sanitize.js";
+import { numFmt } from "./constants.js";
 
 // ── Autocomplete ──────────────────────────────────────────────────────────────
 export function setupAutocomplete(input, listEl, gameRef) {
@@ -12,7 +13,7 @@ export function setupAutocomplete(input, listEl, gameRef) {
   function buildOptionLabel(card) {
     if (gameRef.mode === "platform") {
       const tags = (card.tags || []).join(", ") || "none";
-      const subs = card.subscriberCount ? Number(card.subscriberCount).toLocaleString() : "unknown";
+      const subs = card.subscriberCount ? numFmt.format(card.subscriberCount) : "unknown";
       const pop = card.popularityThreshold ?? "unknown";
       return `${card.name}, ${card.cardNumber}. Tags: ${tags}. Subscribers: ${subs}. Popularity: ${pop}.`;
     }
@@ -116,7 +117,7 @@ export function setupAutocomplete(input, listEl, gameRef) {
 
       if (gameRef.mode === "platform") {
         const tags = (card.tags || []).join(", ") || "—";
-        const subs = card.subscriberCount ? Number(card.subscriberCount).toLocaleString() : "—";
+        const subs = card.subscriberCount ? numFmt.format(card.subscriberCount) : "—";
         const pop = card.popularityThreshold ?? "—";
         detailsDiv.appendChild(createTag("ac-pt-tags", "Tags", tags));
         detailsDiv.appendChild(createTag("ac-pt-subs", "Subscribers", subs));
