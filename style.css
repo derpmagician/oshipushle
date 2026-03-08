@@ -19,7 +19,7 @@
 html { font-size: 16px; }
 
 body {
-  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;
@@ -48,8 +48,10 @@ header {
 }
 
 header h1 {
-  font-size: 2rem;
-  letter-spacing: 0.08em;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
   color: var(--accent);
 }
 
@@ -61,11 +63,11 @@ header h1 {
 
 /* ── Main ────────────────────────────────────────────────── */
 main {
-  width: 90%;            /* use percentage to grow on large screens */
-  max-width: 900px;      /* cap so it doesn't get ridiculously wide */
+  width: 90%;
+  max-width: 900px;
   padding: 0 1rem 2rem;
   flex: 1;
-  margin: 0 auto;        /* center when using percentage */
+  margin: 0 auto;
 }
 
 /* ── Mode Tabs ───────────────────────────────────────────── */
@@ -78,14 +80,17 @@ main {
 .mode-btn {
   flex: 1;
   padding: 0.55rem 1rem;
+  font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   border: 2px solid var(--border);
   border-radius: var(--radius);
   background: var(--surface);
   color: var(--text-dim);
   cursor: pointer;
-  transition: border-color 0.2s, color 0.2s, background 0.2s;
+  transition: border-color 0.2s, color 0.2s, background 0.2s, box-shadow 0.2s;
 }
 
 .mode-btn:hover {
@@ -105,7 +110,7 @@ main {
 
 .mode-btn.active {
   border-color: var(--accent);
-  background: rgba(233, 69, 96, 0.15);
+  background: var(--border);
   color: var(--accent);
 }
 
@@ -310,14 +315,18 @@ main.platform-mode .ac-thumb-empty {
   /* thumb | card | type | color | genre | cost | bits | influence | vtuber */
   grid-template-columns: 48px 2fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
   gap: 4px;
-  padding: 0.4rem 0;
+  padding: 0.75rem 0.5rem;
   text-align: center;
+  font-family: "Outfit", sans-serif;
   font-size: 0.7rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.1em;
   color: var(--text-dim);
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 0.4rem;
+  border-bottom: 2px solid var(--border);
+  background: rgba(15, 52, 96, 0.2);
+  margin-bottom: 0.6rem;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 
 /* ── Guess Rows ──────────────────────────────────────────── */
@@ -341,12 +350,13 @@ main.platform-mode .ac-thumb-empty {
   text-align: center;
   padding: 0.5rem 0.3rem;
   border-radius: var(--radius);
+  font-family: "Inter", sans-serif;
   font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
   font-weight: 500;
   line-height: 1.2;
   min-height: 48px;
   word-break: break-word;
-  animation: revealCell 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
 }
 
 .guess-row .guess-cell:nth-child(1) { animation-delay: 0.0s; }
@@ -359,10 +369,11 @@ main.platform-mode .ac-thumb-empty {
 .guess-row .guess-cell:nth-child(8) { animation-delay: 0.8s; }
 .guess-row .guess-cell:nth-child(9) { animation-delay: 0.9s; }
 
-.guess-cell.name-cell {
-  justify-content: flex-start;
-  padding-left: 0.6rem;
-  font-weight: 600;
+.guess-cell.name-cell, 
+.ac-name {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .guess-cell.thumb-cell {
@@ -419,7 +430,7 @@ main.platform-mode .ac-thumb-empty {
 
 /* vtuber-specific tooltip can be wider */
 .vtuber-cell.has-tooltip::after {
-  max-width: 200px; /* double width but still centered */
+  max-width: 200px;
 }
 .has-tooltip:hover::after {
   opacity: 1;

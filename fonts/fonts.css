@@ -1,0 +1,56 @@
+/* Local @font-face declarations for downloaded Google Fonts */
+
+/* Inter weights */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Inter/static/Inter_18pt-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('Inter/static/Inter_18pt-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('Inter/static/Inter_18pt-SemiBold.ttf') format('truetype');
+}
+
+/* JetBrains Mono weights */
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('JetBrains_Mono/static/JetBrainsMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('JetBrains_Mono/static/JetBrainsMono-Bold.ttf') format('truetype');
+}
+
+/* Outfit weights */
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('Outfit/static/Outfit-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url('Outfit/static/Outfit-ExtraBold.ttf') format('truetype');
+}

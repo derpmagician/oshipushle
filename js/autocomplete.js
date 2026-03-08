@@ -81,6 +81,7 @@ export function setupAutocomplete(input, listEl, gameRef) {
         img.width = 44;
         img.height = 60;
         img.loading = "lazy";
+        img.crossOrigin = "anonymous";
         li.appendChild(img);
       } else {
         const placeholder = document.createElement("div");

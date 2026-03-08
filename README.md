@@ -14,7 +14,7 @@ Test yourself each day by guessing the card of the day using its attributes: Col
 
 ## Technologies
 
--   **HTML5 / CSS3**
+-   **HTML5 / CSS3** (with locally-hosted fonts: Inter, Outfit, JetBrains Mono)
 -   **Vanilla JavaScript**
 -   **Cloudinary**
 
