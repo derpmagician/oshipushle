@@ -78,6 +78,8 @@ export function setupAutocomplete(input, listEl, gameRef) {
         img.src = thumb;
         img.title = card.cardNumber;
         img.alt = "";
+        img.width = 44;
+        img.height = 60;
         img.loading = "lazy";
         li.appendChild(img);
       } else {
