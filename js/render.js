@@ -34,7 +34,8 @@ export function makeCell(text, status, columnLabel = "Result") {
 
 export function makeNumericCell(text, { status, direction }, columnLabel = "Result") {
   const cell = document.createElement("div");
-  cell.className = `guess-cell ${status}`;
+  // mark numeric cells so CSS can switch to Jost/tabular figures
+  cell.className = `guess-cell ${status} numeric-cell`;
 
   const span = document.createElement("span");
   span.textContent = text;

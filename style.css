@@ -93,28 +93,29 @@ main {
   color: var(--text-dim);
   cursor: pointer;
   transition: border-color 0.2s, color 0.2s, background 0.2s, box-shadow 0.2s;
+
+  &:hover {
+    border-color: var(--accent);
+    color: #fff;
+    background: var(--border);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
+
+  &.active {
+    border-color: var(--accent);
+    background: var(--border);
+    color: var(--accent);
+  }
 }
 
-.mode-btn:hover {
-  border-color: var(--accent);
-  color: #fff;
-  background: var(--border);
-}
-
-.mode-btn:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-
-.mode-btn:active {
-  transform: scale(0.96);
-}
-
-.mode-btn.active {
-  border-color: var(--accent);
-  background: var(--border);
-  color: var(--accent);
-}
 
 /* ── Endless Stats ───────────────────────────────────────── */
 .endless-stats {
@@ -125,9 +126,11 @@ main {
   font-size: 0.85rem;
   color: var(--text-dim);
   padding: 0.3rem 0 0.2rem;
-}
 
-.endless-stats.hidden { display: none; }
+  &.hidden {
+    display: none;
+  }
+}
 
 #endless-challenge-num {
   font-weight: 700;
@@ -142,21 +145,23 @@ main {
 }
 
 /* ── Platform mode – different grid columns ─────────────────────── */
-/* thumb | card | tags | subscribers | popularity */
-main.platform-mode .grid-header,
-main.platform-mode .guess-row {
-  grid-template-columns: 88px 2fr 2fr 1.5fr 1fr;
-}
+main.platform-mode {
 
-/* Platform cards are landscape – give the thumb cell room */
-main.platform-mode .guess-cell.thumb-cell {
-  min-height: 56px;
-}
+  /* thumb | card | tags | subscribers | popularity */
+  :is(.grid-header, .guess-row) {
+    grid-template-columns: 88px 2fr 2fr 1.5fr 1fr;
+  }
 
-main.platform-mode .guess-cell.thumb-cell img {
-  object-fit: contain;
-}
+  /* Platform cards are landscape – give the thumb cell room */
+  .guess-cell.thumb-cell {
+    min-height: 56px;
 
+    img {
+      object-fit: contain;
+    }
+  }
+
+}
 /* Platform ac-tag styles */
 .ac-pt-tags {
   background: rgba(74, 197, 160, 0.25);
@@ -186,18 +191,19 @@ main.platform-mode .guess-cell.thumb-cell img {
   background: var(--surface);
   color: var(--text);
   transition: border-color 0.2s, box-shadow 0.2s;
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(233, 69, 96, 0.4);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 }
 
-#guess-input:focus {
-  outline: none;
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(233, 69, 96, 0.4);
-}
-
-#guess-input:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
 
 /* ── Autocomplete ────────────────────────────────────────── */
 .autocomplete-list {
@@ -212,24 +218,25 @@ main.platform-mode .guess-cell.thumb-cell img {
   border-radius: 0 0 var(--radius) var(--radius);
   list-style: none;
   z-index: 10;
+
+  &.hidden { display: none; }
+
+  li {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:is(:hover, .active) {
+      background: var(--border);
+    }
+  }
+
 }
 
-.autocomplete-list.hidden { display: none; }
-
-.autocomplete-list li {
-  padding: 0.5rem 0.75rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.autocomplete-list li:hover,
-.autocomplete-list li.active {
-  background: var(--border);
-}
 
 /* Thumbnail */
 .ac-thumb {
@@ -246,14 +253,13 @@ main.platform-mode .guess-cell.thumb-cell img {
 }
 
 /* larger thumbs in autocomplete when platform mode active */
-main.platform-mode .ac-thumb {
+main.platform-mode :is(.ac-thumb, .ac-thumb-empty) {
   width: 64px;
   height: 44px;
-  object-fit: contain;
 }
-main.platform-mode .ac-thumb-empty {
-  width: 64px;
-  height: 44px;
+
+main.platform-mode .ac-thumb {
+  object-fit: contain;
 }
 
 /* Main area: name + card number */
@@ -360,6 +366,20 @@ main.platform-mode .ac-thumb-empty {
   min-height: 48px;
   word-break: break-word;
 }
+
+/* use Jost for any numeric-only cells so that tabular digits are rendered with Jost */
+.numeric-cell {
+  font-family: "Jost", sans-serif;
+  /* most browsers already respect font-variant-numeric on parent, but include again */
+  font-variant-numeric: tabular-nums;
+  font-size: 1.2rem; /* slightly larger than base 0.78 */
+}
+
+/* ensure the inner span of a numeric cell also inherits the Jost family */
+.numeric-cell > span {
+  font-family: inherit;
+}
+
 
 .guess-row .guess-cell:nth-child(1) { animation-delay: 0.0s; }
 .guess-row .guess-cell:nth-child(2) { animation-delay: 0.1s; }

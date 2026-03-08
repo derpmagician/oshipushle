@@ -54,3 +54,26 @@
   font-display: swap;
   src: url('Outfit/static/Outfit-ExtraBold.ttf') format('truetype');
 }
+
+/* Jost weights (used for tabular numbers in grids) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('Jost/static/Jost-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('Jost/static/Jost-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('Jost/static/Jost-Bold.ttf') format('truetype');
+}
