@@ -1,3 +1,5 @@
+import { isAllowedImageUrl } from "./sanitize.js";
+
 // ── Image Viewer Modal ────────────────────────────────────────────────────────
 let imageViewerHandlersBound = false;
 
@@ -12,6 +14,7 @@ export function initImageViewer() {
   let lastFocused = null;
 
   function openImageViewer(srcUrl, altText = "") {
+    if (!isAllowedImageUrl(srcUrl)) return;
     lastFocused = document.activeElement;
 
     img.src = srcUrl;
