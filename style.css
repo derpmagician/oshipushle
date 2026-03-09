@@ -205,7 +205,7 @@ main.platform-mode {
   }
 }
 
-/* Phase 3: Anticipation – input "fires" before the row appears */
+/* Anticipation – input "fires" before the row appears */
 @keyframes inputFire {
   0%   { transform: scale(1);    border-color: var(--border); }
   30%  { transform: scale(0.97); border-color: var(--accent); }
@@ -384,43 +384,45 @@ main.platform-mode .ac-thumb {
 /* use Jost for any numeric-only cells so that tabular digits are rendered with Jost */
 .numeric-cell {
   font-family: "Jost", sans-serif;
-  /* most browsers already respect font-variant-numeric on parent, but include again */
   font-variant-numeric: tabular-nums;
-  font-size: 1.2rem; /* slightly larger than base 0.78 */
+  font-size: 1.2rem;
 }
-
-/* ensure the inner span of a numeric cell also inherits the Jost family */
-.numeric-cell > span {
-  font-family: inherit;
-}
-
 
 .guess-row .guess-cell {
-  /* Phase 1: snappier reveal with elastic overshoot curve */
+  /* Snappier reveal with elastic overshoot curve */
   animation: revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation-delay: calc(var(--i, 0) * 0.08s);
 }
 
-.guess-cell.name-cell, 
+.guess-cell {
+
+  &.name-cell {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  &.thumb-cell {
+    background: transparent;
+    padding: 2px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+  }
+
+}
+
 .ac-name {
   font-family: "JetBrains Mono", monospace;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
 
-.guess-cell.thumb-cell {
-  background: transparent;
-  padding: 2px;
-}
-
-.guess-cell.thumb-cell img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 3px;
-}
-
-/* ── Phase 2: Exaggeration & Appeal on feedback ───────── */
+/* ── Exaggeration & Appeal on feedback ───────── */
 @keyframes correctPop {
   0%   { transform: scale(1);    box-shadow: 0 0 0 0 rgba(83, 141, 78, 0); }
   40%  { transform: scale(1.10); box-shadow: 0 0 12px 2px rgba(83, 141, 78, 0.5); }
@@ -435,75 +437,81 @@ main.platform-mode .ac-thumb {
 }
 
 /* Feedback colors */
-.guess-cell.correct {
-  background: var(--correct);
-  color: var(--text-dark);
-  /* chain: reveal first, then the pop celebration */
-  animation:
-    revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
-    correctPop 0.4s ease-out calc(var(--i, 0) * 0.08s + 0.35s) both;
-}
+.guess-cell {
 
-.guess-cell.partial {
-  background: var(--partial);
-  color: #1a1a2e;
-  animation:
-    revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
-    partialPulse 0.35s ease-out calc(var(--i, 0) * 0.08s + 0.35s) both;
-}
+  &.correct {
+    background: var(--correct);
+    color: var(--text-dark);
+    /* chain: reveal first, then the pop celebration */
+    animation:
+      revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
+      correctPop 0.4s ease-out calc(var(--i, 0) * 0.08s + 0.35s) both;
+  }
 
-.guess-cell.wrong { background: var(--wrong); }
+  &.partial {
+    background: var(--partial);
+    color: #1a1a2e;
+    animation:
+      revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
+      partialPulse 0.35s ease-out calc(var(--i, 0) * 0.08s + 0.35s) both;
+  }
 
-/* Arrows for numeric comparisons */
-.guess-cell .arrow {
-  display: block;
-  font-size: 0.65rem;
-  margin-top: 2px;
+  &.wrong {
+    background: var(--wrong);
+  }
+
+  /* Arrows for numeric comparisons */
+  .arrow {
+    display: block;
+    font-size: 0.65rem;
+    margin-top: 2px;
+  }
+
 }
 
 /* Custom tooltip */
 .has-tooltip {
   position: relative;
   cursor: help;
-}
-.has-tooltip::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  bottom: calc(100% + 6px);
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 100px;
-  width: max-content;
-  padding: 4px 8px;
-  background: #222;
-  color: #fff;
-  font-size: 0.7rem;
-  line-height: 1.3;
-  border-radius: 4px;
-  white-space: normal;
-  word-wrap: break-word;
-  text-align: center;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.15s;
-  z-index: 20;
+
+  &::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    inset-block-end: calc(100% + 6px);
+    inset-inline-start: 50%;
+    transform: translateX(-50%);
+    max-width: 100px;
+    width: max-content;
+    padding: 4px 8px;
+    background: #222;
+    color: #fff;
+    font-size: 0.7rem;
+    line-height: 1.3;
+    border-radius: 4px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 20;
+  }
+
+  &:is(:hover, :focus-visible)::after {
+    opacity: 1;
+  }
 }
 
-/* vtuber-specific tooltip can be wider */
-.vtuber-cell.has-tooltip::after {
-  max-width: 200px;
-}
-.has-tooltip:hover::after {
-  opacity: 1;
-}
-
-/* VTuber column truncation */
 .vtuber-cell {
-  /* use flex for vertical centering */
   display: flex;
   align-items: center;
-  /* internal wrapper will handle clamping */
+
+  &.has-tooltip::after {
+    max-width: 200px;
+  }
 }
+
+
 .vtuber-cell .vtuber-text {
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -514,6 +522,7 @@ main.platform-mode .ac-thumb {
 .vtuber-cell:hover {
   cursor: help;
 }
+
 
 .guess-cell .arrow.up   { color: #ff9999; }
 .guess-cell .arrow.down { color: #99ccff; }
