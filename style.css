@@ -6,6 +6,7 @@
   --surface:   #16213e;
   --border:    #0f3460;
   --text:      #e0e0e0;
+  --text-dark: #221100;
   --text-dim:  #8892a8;
   --correct:   #538d4e;
   --partial:   #b59f3b;
@@ -436,6 +437,7 @@ main.platform-mode .ac-thumb {
 /* Feedback colors */
 .guess-cell.correct {
   background: var(--correct);
+  color: var(--text-dark);
   /* chain: reveal first, then the pop celebration */
   animation:
     revealCell 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) both,
