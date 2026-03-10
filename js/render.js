@@ -63,7 +63,7 @@ export function renderGuessRow(guess, answer) {
   row.setAttribute("role", "row");
   row.setAttribute("aria-label", `Guess row for ${guess.name}`);
 
-  // 0. Thumbnail
+  // ── Col 1: Thumbnail ──
   const thumbCell = document.createElement("div");
   thumbCell.className = "guess-cell thumb-cell has-tooltip";
   thumbCell.setAttribute("data-tooltip", guess.cardNumber);
@@ -83,35 +83,43 @@ export function renderGuessRow(guess, answer) {
   }
   row.appendChild(thumbCell);
 
-  // 1. Name
+  // ── Col 2: Info wrapper ──
+  const info = document.createElement("div");
+  info.className = "guess-info";
+
+  // Row 1: Name + card number
+  const nameRow = document.createElement("div");
+  nameRow.className = "guess-info-name";
   const nameCell = makeCell(guess.name, compareExact(guess.name, answer.name), "Card");
   nameCell.classList.add("name-cell");
-  row.appendChild(nameCell);
+  const numberSpan = document.createElement("span");
+  numberSpan.className = "card-number";
+  numberSpan.textContent = guess.cardNumber ?? "";
+  nameRow.appendChild(nameCell);
+  nameRow.appendChild(numberSpan);
+  info.appendChild(nameRow);
 
-  // 2. Card Type
-  row.appendChild(makeCell(guess.cardType, compareExact(guess.cardType, answer.cardType), "Type"));
+  // Row 2: Attributes
+  const attrsRow = document.createElement("div");
+  attrsRow.className = "guess-info-attrs";
 
-  // 3. Color
+  attrsRow.appendChild(makeCell(guess.cardType, compareExact(guess.cardType, answer.cardType), "Type"));
+
   const colorText = (guess.color ?? []).join(", ") || "—";
-  row.appendChild(makeCell(colorText, compareArrays(guess.color, answer.color), "Color"));
+  attrsRow.appendChild(makeCell(colorText, compareArrays(guess.color, answer.color), "Color"));
 
-  // 4. Genre
   const genreText = (guess.genre ?? []).join(", ") || "—";
-  row.appendChild(makeCell(genreText, compareArrays(guess.genre, answer.genre), "Genre"));
+  attrsRow.appendChild(makeCell(genreText, compareArrays(guess.genre, answer.genre), "Genre"));
 
-  // 5. Cost (numeric)
   const costCmp = compareNumeric(guess.cost, answer.cost);
-  row.appendChild(makeNumericCell(guess.cost ?? "—", costCmp, "Cost"));
+  attrsRow.appendChild(makeNumericCell(guess.cost ?? "—", costCmp, "Cost"));
 
-  // 6. Bits (numeric)
   const bitsCmp = compareNumeric(guess.bits, answer.bits);
-  row.appendChild(makeNumericCell(guess.bits ?? "—", bitsCmp, "Bits"));
+  attrsRow.appendChild(makeNumericCell(guess.bits ?? "—", bitsCmp, "Bits"));
 
-  // 7. Influence (numeric)
   const infCmp = compareNumeric(guess.influence, answer.influence);
-  row.appendChild(makeNumericCell(guess.influence ?? "—", infCmp, "Influence"));
+  attrsRow.appendChild(makeNumericCell(guess.influence ?? "—", infCmp, "Influence"));
 
-  // 8. VTuber
   const vtuberArr = guess.vtuber ?? [];
   const vtuberText = vtuberArr.join(", ") || "—";
   const vtuberCell = makeCell("", compareArrays(guess.vtuber, answer.vtuber), "VTuber");
@@ -122,9 +130,12 @@ export function renderGuessRow(guess, answer) {
   inner.className = "vtuber-text";
   inner.textContent = vtuberText;
   vtuberCell.appendChild(inner);
-  row.appendChild(vtuberCell);
+  attrsRow.appendChild(vtuberCell);
 
-  // apply index property for animation delay; DOM order matches column order
+  info.appendChild(attrsRow);
+  row.appendChild(info);
+
+  // apply index property for animation delay
   row.querySelectorAll('.guess-cell').forEach((cell, i) => {
     cell.style.setProperty('--i', i);
   });
@@ -139,7 +150,7 @@ export function renderPlatformGuessRow(guess, answer) {
   row.setAttribute("role", "row");
   row.setAttribute("aria-label", `Guess row for ${guess.name}`);
 
-  // 0. Thumbnail
+  // ── Col 1: Thumbnail ──
   const thumbCell = document.createElement("div");
   thumbCell.className = "guess-cell thumb-cell has-tooltip";
   thumbCell.setAttribute("data-tooltip", guess.cardNumber);
@@ -159,28 +170,43 @@ export function renderPlatformGuessRow(guess, answer) {
   }
   row.appendChild(thumbCell);
 
-  // 1. Name
+  // ── Col 2: Info wrapper ──
+  const info = document.createElement("div");
+  info.className = "guess-info";
+
+  // Row 1: Name + card number
+  const nameRow = document.createElement("div");
+  nameRow.className = "guess-info-name";
   const nameCell = makeCell(guess.name, compareExact(guess.name, answer.name), "Card");
   nameCell.classList.add("name-cell");
-  row.appendChild(nameCell);
+  const numberSpan = document.createElement("span");
+  numberSpan.className = "card-number";
+  numberSpan.textContent = guess.cardNumber ?? "";
+  nameRow.appendChild(nameCell);
+  nameRow.appendChild(numberSpan);
+  info.appendChild(nameRow);
 
-  // 2. Tags
+  // Row 2: Attributes
+  const attrsRow = document.createElement("div");
+  attrsRow.className = "guess-info-attrs";
+
   const tagsText = (guess.tags ?? []).join(", ") || "—";
-  row.appendChild(makeCell(tagsText, compareArrays(guess.tags, answer.tags), "Tags"));
+  attrsRow.appendChild(makeCell(tagsText, compareArrays(guess.tags, answer.tags), "Tags"));
 
-  // 3. Subscriber count (numeric)
   const subsCmp = compareNumeric(guess.subscriberCount, answer.subscriberCount);
   const subsDisplay = guess.subscriberCount
     ? numFmt.format(guess.subscriberCount)
     : "—";
-  row.appendChild(makeNumericCell(subsDisplay, subsCmp, "Subscribers"));
+  attrsRow.appendChild(makeNumericCell(subsDisplay, subsCmp, "Subscribers"));
 
-  // 4. Popularity threshold (numeric)
   const popCmp = compareNumeric(guess.popularityThreshold, answer.popularityThreshold);
   const popDisplay = guess.popularityThreshold != null
     ? numFmt.format(guess.popularityThreshold)
     : "—";
-  row.appendChild(makeNumericCell(popDisplay, popCmp, "Popularity"));
+  attrsRow.appendChild(makeNumericCell(popDisplay, popCmp, "Popularity"));
+
+  info.appendChild(attrsRow);
+  row.appendChild(info);
 
   // set index custom property for delay formula
   row.querySelectorAll('.guess-cell').forEach((cell, i) => {

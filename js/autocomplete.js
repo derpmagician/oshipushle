@@ -90,20 +90,24 @@ export function setupAutocomplete(input, listEl, gameRef) {
         li.appendChild(placeholder);
       }
 
-      // Main info
-      const mainDiv = document.createElement("div");
-      mainDiv.className = "ac-main";
+      // Info wrapper (matches guess-info structure)
+      const infoDiv = document.createElement("div");
+      infoDiv.className = "ac-info";
+
+      // Row 1: Name + card number
+      const nameRow = document.createElement("div");
+      nameRow.className = "ac-info-name";
       const nameSpan = document.createElement("span");
       nameSpan.className = "ac-name";
       nameSpan.textContent = card.name;
       const numberSpan = document.createElement("span");
       numberSpan.className = "ac-number";
       numberSpan.textContent = card.cardNumber;
-      mainDiv.appendChild(nameSpan);
-      mainDiv.appendChild(numberSpan);
-      li.appendChild(mainDiv);
+      nameRow.appendChild(nameSpan);
+      nameRow.appendChild(numberSpan);
+      infoDiv.appendChild(nameRow);
 
-      // Details tags
+      // Row 2: Details tags
       const detailsDiv = document.createElement("div");
       detailsDiv.className = "ac-details";
 
@@ -136,6 +140,8 @@ export function setupAutocomplete(input, listEl, gameRef) {
         detailsDiv.appendChild(createTag("ac-influence", "Influence", influence));
       }
       li.appendChild(detailsDiv);
+      infoDiv.appendChild(detailsDiv);
+      li.appendChild(infoDiv);
 
       li.addEventListener("mousedown", (e) => {
         e.preventDefault();
