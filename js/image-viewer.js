@@ -24,6 +24,9 @@ export function initImageViewer() {
     modal.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
 
+    // reset tilt
+    img.style.transform = "";
+
     // move focus into the dialog
     closeBtn.focus();
   }
@@ -33,11 +36,32 @@ export function initImageViewer() {
     modal.setAttribute("aria-hidden", "true");
     document.body.style.overflow = "";
 
+    // reset tilt
+    img.style.transform = "";
+
     // restore previous focus
     if (lastFocused && lastFocused.focus) {
       lastFocused.focus();
     }
   }
+
+  // 3D tilt on mouse move
+  const MAX_TILT = 15; // degrees
+
+  img.addEventListener("mousemove", (e) => {
+    const rect = img.getBoundingClientRect();
+    // normalise to -1 … 1 from centre
+    const x = ((e.clientX - rect.left) / rect.width  - 0.5) * 2;
+    const y = ((e.clientY - rect.top)  / rect.height - 0.5) * 2;
+    // rotateY follows X axis, rotateX inverted Y axis
+    const rotY =  x * MAX_TILT;
+    const rotX = -y * MAX_TILT;
+    img.style.transform = `perspective(800px) rotateX(${rotX}deg) rotateY(${rotY}deg) scale(1.03)`;
+  });
+
+  img.addEventListener("mouseleave", () => {
+    img.style.transform = "";
+  });
 
   // Close button
   closeBtn.addEventListener("click", closeImageViewer);

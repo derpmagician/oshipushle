@@ -831,6 +831,8 @@ footer {
   object-fit: contain;
   border-radius: var(--radius);
   cursor: pointer;
+  transition: transform 0.15s ease-out;
+  will-change: transform;
 }
 
 #image-viewer-close-btn {
