@@ -557,6 +557,7 @@ main.platform-mode .ac-thumb {
   max-width: 400px;
   width: 90%;
 }
+
 .modal-close {
   position: absolute;
   top: 10px;
@@ -571,20 +572,24 @@ main.platform-mode .ac-thumb {
   line-height: 1;
   cursor: pointer;
   transition: transform 0.1s;
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+
 }
 
-.modal-close:active {
-  transform: scale(0.9);
-}
-
-.modal-close:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-.modal-close:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
 
 .modal-content h2 {
   font-size: 1.6rem;
@@ -611,10 +616,16 @@ main.platform-mode .ac-thumb {
   font-size: 0.95rem;
   cursor: pointer;
   transition: opacity 0.2s, transform 0.1s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
 }
 
-#share-btn:hover { opacity: 0.85; }
-#share-btn:active { transform: scale(0.96); }
 
 #next-puzzle-timer {
   margin-top: 1rem;
@@ -642,10 +653,16 @@ main.platform-mode .ac-thumb {
   border-radius: var(--radius);
   cursor: pointer;
   transition: transform 0.1s;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  &:active {
+    transform: scale(0.96);
+  }
 }
 
-#next-challenge-btn:hover { opacity: 0.85; }
-#next-challenge-btn:active { transform: scale(0.96); }
 
 /* ── Footer ──────────────────────────────────────────────── */
 footer {
@@ -653,12 +670,21 @@ footer {
   padding: 1rem;
   font-size: 0.75rem;
   color: var(--text-dim);
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  img.footer-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    margin: 0 0.2em 0 -0.1em;
+  }
+
 }
 
-footer a {
-  color: var(--accent);
-  text-decoration: none;
-}
 
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 600px) {
