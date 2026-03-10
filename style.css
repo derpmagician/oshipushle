@@ -792,6 +792,17 @@ footer {
     font-size: 0.6rem;
   }
 
+  .gh-attrs > span {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    justify-self: center;
+    white-space: nowrap;
+    line-height: 1;
+    max-height: 7.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   header h1 { font-size: 1.5rem; }
 }
 
