@@ -746,8 +746,9 @@ main.platform-mode .ac-details {
 footer {
   text-align: center;
   padding: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--text-dim);
+  font-family: "Jost", sans-serif;
 
   a {
     color: var(--accent);
