@@ -1,5 +1,5 @@
 {
-  "totalUniqueCards": 209,
+  "totalUniqueCards": 336,
   "sets": [
     {
       "id": "6909782d4f4a7b9ab155beaa",
@@ -16,7 +16,7 @@
       "setCode": "OP02",
       "releaseDate": "2026-04-01T00:00:00.000Z",
       "setPageUrl": "https://www.theoshivault.com/set/698bfdda017e44430a8f0e0c",
-      "totalCards": 26,
+      "totalCards": 153,
       "sourceFile": "OP02_Set_2__Gen_Two_-_Hidden_Links.json"
     },
     {
@@ -25,7 +25,7 @@
       "setCode": "OPKS",
       "releaseDate": "2025-10-15T00:00:00.000Z",
       "setPageUrl": "https://www.theoshivault.com/set/6913933901489a191c7db31b",
-      "totalCards": 3,
+      "totalCards": 27,
       "sourceFile": "OPKS_Gen_One_-_Phase_Origins__Pipkin_Pippa_Starter_Deck.json"
     },
     {
@@ -34,7 +34,7 @@
       "setCode": "OPKS",
       "releaseDate": "2025-10-15T00:00:00.000Z",
       "setPageUrl": "https://www.theoshivault.com/set/6913936d01489a191c7db321",
-      "totalCards": 3,
+      "totalCards": 27,
       "sourceFile": "OPKS_Gen_One_-_Phase_Origins__Tenma_Maemi_Starter_Deck.json"
     },
     {
@@ -152,10 +152,10 @@
       "color": [
         "Red"
       ],
-      "nickname": "Filippa Pipkin",
       "genre": [
         "Zatsudan"
       ],
+      "nickname": "Filippa Pipkin",
       "cost": "3",
       "bits": "4",
       "influence": "6",
@@ -194,6 +194,17 @@
           "cardPageUrl": "https://www.theoshivault.com/card/6956c7c36a2fc4705f527a37",
           "limit": 3,
           "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-002__6956c7c36a2fc4705f527a35.webp"
+        },
+        {
+          "id": "69127e282786dbc92ba7deb5",
+          "rarity": "Supa!",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "69127f93576a42015f1852b8",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69127f93576a42015f1852b8",
+          "cardPageUrl": "https://www.theoshivault.com/card/69127e282786dbc92ba7deb5",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-002__69127f93576a42015f1852b8.webp"
         }
       ]
     },
@@ -1979,10 +1990,10 @@
       "color": [
         "Green"
       ],
-      "nickname": "Mii-chan",
       "genre": [
         "Experience"
       ],
+      "nickname": "Mii-chan",
       "cost": "3",
       "bits": "4",
       "influence": "6",
@@ -2033,6 +2044,17 @@
           "cardPageUrl": "https://www.theoshivault.com/card/6956bbd378df33989c6e62be",
           "limit": 3,
           "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-038__6956bbd378df33989c6e62bc.webp"
+        },
+        {
+          "id": "69130fca1d17611a9d01c182",
+          "rarity": "Supa!",
+          "artist": [
+            "capri134"
+          ],
+          "imageId": "69130fca1d17611a9d01c180",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69130fca1d17611a9d01c180",
+          "cardPageUrl": "https://www.theoshivault.com/card/69130fca1d17611a9d01c182",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-038__69130fca1d17611a9d01c180.webp"
         }
       ]
     },
@@ -2198,13 +2220,20 @@
       "effect": "",
       "keywords": [],
       "vtuber": [],
-      "tags": [
-        "Independent",
-        "Networking"
-      ],
       "subscriberCount": "400000",
       "popularityThreshold": "3",
       "variants": [
+        {
+          "id": "69139cfe2ecfadf711ee66d5",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69139cfe2ecfadf711ee66d3",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69139cfe2ecfadf711ee66d3",
+          "cardPageUrl": "https://www.theoshivault.com/card/69139cfe2ecfadf711ee66d5",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-049__69139cfe2ecfadf711ee66d3.webp"
+        },
         {
           "id": "69139cfe2ecfadf711ee66d5",
           "rarity": "Pon",
@@ -2283,12 +2312,20 @@
         "Clash Reward"
       ],
       "vtuber": [],
-      "tags": [
-        "Image Sharing"
-      ],
       "subscriberCount": "300000",
       "popularityThreshold": "2",
       "variants": [
+        {
+          "id": "6913a3092ecfadf711ee6753",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6913a3092ecfadf711ee6751",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6913a3092ecfadf711ee6751",
+          "cardPageUrl": "https://www.theoshivault.com/card/6913a3092ecfadf711ee6753",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-052__6913a3092ecfadf711ee6751.webp"
+        },
         {
           "id": "6913a3092ecfadf711ee6753",
           "rarity": "Pon",
@@ -2339,12 +2376,20 @@
         "Clash Reward"
       ],
       "vtuber": [],
-      "tags": [
-        "Podcasting"
-      ],
       "subscriberCount": "600000",
       "popularityThreshold": "4",
       "variants": [
+        {
+          "id": "6913a9b6fa51b9e5be4a05e2",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6913a9b6fa51b9e5be4a05e0",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6913a9b6fa51b9e5be4a05e0",
+          "cardPageUrl": "https://www.theoshivault.com/card/6913a9b6fa51b9e5be4a05e2",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-054__6913a9b6fa51b9e5be4a05e0.webp"
+        },
         {
           "id": "6913a9b6fa51b9e5be4a05e2",
           "rarity": "Pon",
@@ -2393,13 +2438,20 @@
       "effect": "",
       "keywords": [],
       "vtuber": [],
-      "tags": [
-        "Independent",
-        "Streaming"
-      ],
       "subscriberCount": "300000",
       "popularityThreshold": "2",
       "variants": [
+        {
+          "id": "6913ab18fa51b9e5be4a05ec",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6913ab64fa51b9e5be4a0606",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6913ab64fa51b9e5be4a0606",
+          "cardPageUrl": "https://www.theoshivault.com/card/6913ab18fa51b9e5be4a05ec",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-056__6913ab64fa51b9e5be4a0606.webp"
+        },
         {
           "id": "6913ab18fa51b9e5be4a05ec",
           "rarity": "Pon",
@@ -2450,12 +2502,20 @@
         "Clash Reward"
       ],
       "vtuber": [],
-      "tags": [
-        "Podcasting"
-      ],
       "subscriberCount": "400000",
       "popularityThreshold": "3",
       "variants": [
+        {
+          "id": "6913ff280e124d21cae72857",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6913ff280e124d21cae72855",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6913ff280e124d21cae72855",
+          "cardPageUrl": "https://www.theoshivault.com/card/6913ff280e124d21cae72857",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-058__6913ff280e124d21cae72855.webp"
+        },
         {
           "id": "6913ff280e124d21cae72857",
           "rarity": "Supa!",
@@ -2476,13 +2536,20 @@
       "effect": "",
       "keywords": [],
       "vtuber": [],
-      "tags": [
-        "Independent",
-        "Podcasting"
-      ],
       "subscriberCount": "600000",
       "popularityThreshold": "4",
       "variants": [
+        {
+          "id": "6913ff9b0e124d21cae7285d",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6913ff9b0e124d21cae7285b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6913ff9b0e124d21cae7285b",
+          "cardPageUrl": "https://www.theoshivault.com/card/6913ff9b0e124d21cae7285d",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-059__6913ff9b0e124d21cae7285b.webp"
+        },
         {
           "id": "6913ff9b0e124d21cae7285d",
           "rarity": "Pon",
@@ -2503,13 +2570,20 @@
       "effect": "",
       "keywords": [],
       "vtuber": [],
-      "tags": [
-        "Independent",
-        "Image Sharing"
-      ],
       "subscriberCount": "500000",
       "popularityThreshold": "3",
       "variants": [
+        {
+          "id": "6913ffe00e124d21cae72861",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69140027bfda80224f032a3b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69140027bfda80224f032a3b",
+          "cardPageUrl": "https://www.theoshivault.com/card/6913ffe00e124d21cae72861",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-060__69140027bfda80224f032a3b.webp"
+        },
         {
           "id": "6913ffe00e124d21cae72861",
           "rarity": "Pon",
@@ -2530,13 +2604,20 @@
       "effect": "",
       "keywords": [],
       "vtuber": [],
-      "tags": [
-        "Independent",
-        "Video"
-      ],
       "subscriberCount": "200000",
       "popularityThreshold": "1",
       "variants": [
+        {
+          "id": "691400a1bfda80224f032a42",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "691400a1bfda80224f032a40",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691400a1bfda80224f032a40",
+          "cardPageUrl": "https://www.theoshivault.com/card/691400a1bfda80224f032a42",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-061__691400a1bfda80224f032a40.webp"
+        },
         {
           "id": "691400a1bfda80224f032a42",
           "rarity": "Pon",
@@ -2559,12 +2640,20 @@
         "Clash Reward"
       ],
       "vtuber": [],
-      "tags": [
-        "Video"
-      ],
       "subscriberCount": "400000",
       "popularityThreshold": "3",
       "variants": [
+        {
+          "id": "6914041248501ac5eee441bc",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6914041148501ac5eee441ba",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6914041148501ac5eee441ba",
+          "cardPageUrl": "https://www.theoshivault.com/card/6914041248501ac5eee441bc",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-062__6914041148501ac5eee441ba.webp"
+        },
         {
           "id": "6914041248501ac5eee441bc",
           "rarity": "Pon",
@@ -2585,13 +2674,20 @@
       "effect": "",
       "keywords": [],
       "vtuber": [],
-      "tags": [
-        "Independent",
-        "Video"
-      ],
       "subscriberCount": "500000",
       "popularityThreshold": "3",
       "variants": [
+        {
+          "id": "6914048048501ac5eee441c2",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "6914048048501ac5eee441c0",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6914048048501ac5eee441c0",
+          "cardPageUrl": "https://www.theoshivault.com/card/6914048048501ac5eee441c2",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-063__6914048048501ac5eee441c0.webp"
+        },
         {
           "id": "6914048048501ac5eee441c2",
           "rarity": "Pon",
@@ -2801,13 +2897,24 @@
       "color": [
         "Red"
       ],
-      "quote": "Look, there's trash.",
       "genre": [
         "Poggers"
       ],
+      "quote": "Look, there's trash.",
       "cost": "1",
       "influence": "3",
       "variants": [
+        {
+          "id": "691410ff5e89c7461e3f66dc",
+          "rarity": "Pon",
+          "artist": [
+            "Lim Si Yim"
+          ],
+          "imageId": "691410ff5e89c7461e3f66da",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691410ff5e89c7461e3f66da",
+          "cardPageUrl": "https://www.theoshivault.com/card/691410ff5e89c7461e3f66dc",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-071__691410ff5e89c7461e3f66da.webp"
+        },
         {
           "id": "691410ff5e89c7461e3f66dc",
           "rarity": "Pon",
@@ -2868,13 +2975,24 @@
       "color": [
         "Red"
       ],
-      "quote": "That rat has mad rizz.",
       "genre": [
         "Poggers"
       ],
+      "quote": "That rat has mad rizz.",
       "cost": "3",
       "influence": "6",
       "variants": [
+        {
+          "id": "691412ce5d763946a2ea087d",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "691412ce5d763946a2ea087b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691412ce5d763946a2ea087b",
+          "cardPageUrl": "https://www.theoshivault.com/card/691412ce5d763946a2ea087d",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-073__691412ce5d763946a2ea087b.webp"
+        },
         {
           "id": "691412ce5d763946a2ea087d",
           "rarity": "Pon",
@@ -3001,12 +3119,23 @@
       "color": [
         "Red"
       ],
-      "quote": "Do you eat that 'other' cheese too?",
       "genre": [
         "Poggers"
       ],
+      "quote": "Do you eat that 'other' cheese too?",
       "cost": "4",
       "variants": [
+        {
+          "id": "691416f251138bde6d816bd7",
+          "rarity": "Supa!",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "691416f251138bde6d816bd5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691416f251138bde6d816bd5",
+          "cardPageUrl": "https://www.theoshivault.com/card/691416f251138bde6d816bd7",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-077__691416f251138bde6d816bd5.webp"
+        },
         {
           "id": "691416f251138bde6d816bd7",
           "rarity": "Supa!",
@@ -3392,13 +3521,24 @@
       "color": [
         "Green"
       ],
-      "quote": "I'm gonna drink 7 beers after this stream.",
       "genre": [
         "Poggers"
       ],
+      "quote": "I'm gonna drink 7 beers after this stream.",
       "cost": "4",
       "influence": "6",
       "variants": [
+        {
+          "id": "691426b2d307d1e0650335cd",
+          "rarity": "Pon",
+          "artist": [
+            "碳水化物"
+          ],
+          "imageId": "691426b2d307d1e0650335cb",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691426b2d307d1e0650335cb",
+          "cardPageUrl": "https://www.theoshivault.com/card/691426b2d307d1e0650335cd",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-089__691426b2d307d1e0650335cb.webp"
+        },
         {
           "id": "691426b2d307d1e0650335cd",
           "rarity": "Pon",
@@ -3551,12 +3691,23 @@
       "color": [
         "Green"
       ],
-      "quote": "AHHH! THAT PINK SH*T!!!",
       "genre": [
         "Poggers"
       ],
+      "quote": "AHHH! THAT PINK SH*T!!!",
       "cost": "4",
       "variants": [
+        {
+          "id": "69142c56d75dae6f45aa409b",
+          "rarity": "Pon",
+          "artist": [
+            "棘ナツ"
+          ],
+          "imageId": "69142c56d75dae6f45aa4099",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69142c56d75dae6f45aa4099",
+          "cardPageUrl": "https://www.theoshivault.com/card/69142c56d75dae6f45aa409b",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-094__69142c56d75dae6f45aa4099.webp"
+        },
         {
           "id": "69142c56d75dae6f45aa409b",
           "rarity": "Pon",
@@ -3582,13 +3733,24 @@
       "color": [
         "Red"
       ],
-      "quote": "They have [BlockGame] for monkies.",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "They have [BlockGame] for monkies.",
       "cost": "1",
       "influence": "2",
       "variants": [
+        {
+          "id": "69142cf8d75dae6f45aa40a1",
+          "rarity": "Pon",
+          "artist": [
+            "碳水化物"
+          ],
+          "imageId": "69142cf7d75dae6f45aa409f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69142cf7d75dae6f45aa409f",
+          "cardPageUrl": "https://www.theoshivault.com/card/69142cf8d75dae6f45aa40a1",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-095__69142cf7d75dae6f45aa409f.webp"
+        },
         {
           "id": "69142cf8d75dae6f45aa40a1",
           "rarity": "Pon",
@@ -3614,13 +3776,24 @@
       "color": [
         "Red"
       ],
-      "quote": "[Petite Homie]",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "[Petite Homie]",
       "cost": "2",
       "influence": "4",
       "variants": [
+        {
+          "id": "69142dfed75dae6f45aa40a7",
+          "rarity": "Supa!",
+          "artist": [
+            "Phase Connect"
+          ],
+          "imageId": "69142dfed75dae6f45aa40a5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69142dfed75dae6f45aa40a5",
+          "cardPageUrl": "https://www.theoshivault.com/card/69142dfed75dae6f45aa40a7",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-096__69142dfed75dae6f45aa40a5.webp"
+        },
         {
           "id": "69142dfed75dae6f45aa40a7",
           "rarity": "Supa!",
@@ -3680,13 +3853,24 @@
       "color": [
         "Red"
       ],
-      "quote": "...getting food poisoning was not the plan.",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "...getting food poisoning was not the plan.",
       "cost": "5",
       "influence": "10",
       "variants": [
+        {
+          "id": "69142fc4d75dae6f45aa40b3",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "69142fc4d75dae6f45aa40b1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69142fc4d75dae6f45aa40b1",
+          "cardPageUrl": "https://www.theoshivault.com/card/69142fc4d75dae6f45aa40b3",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-098__69142fc4d75dae6f45aa40b1.webp"
+        },
         {
           "id": "69142fc4d75dae6f45aa40b3",
           "rarity": "Pon",
@@ -3843,13 +4027,24 @@
       "color": [
         "Purple"
       ],
-      "quote": "You should act like you just got a free advertisement.",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "You should act like you just got a free advertisement.",
       "cost": "1",
       "influence": "2",
       "variants": [
+        {
+          "id": "691435c84b8911202a3d523d",
+          "rarity": "Pon",
+          "artist": [
+            "オリヤ"
+          ],
+          "imageId": "691435c74b8911202a3d523b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691435c74b8911202a3d523b",
+          "cardPageUrl": "https://www.theoshivault.com/card/691435c84b8911202a3d523d",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-103__691435c74b8911202a3d523b.webp"
+        },
         {
           "id": "691435c84b8911202a3d523d",
           "rarity": "Pon",
@@ -3941,13 +4136,24 @@
       "color": [
         "Purple"
       ],
-      "quote": "I'm a contrarian and I'm gonna say your statement sucks massive...",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "I'm a contrarian and I'm gonna say your statement sucks massive...",
       "cost": "4",
       "influence": "5",
       "variants": [
+        {
+          "id": "691439073b0d76acd2a8e2fb",
+          "rarity": "Pon",
+          "artist": [
+            "EldaSolarStudio"
+          ],
+          "imageId": "691439063b0d76acd2a8e2f9",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691439063b0d76acd2a8e2f9",
+          "cardPageUrl": "https://www.theoshivault.com/card/691439073b0d76acd2a8e2fb",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-106__691439063b0d76acd2a8e2f9.webp"
+        },
         {
           "id": "691439073b0d76acd2a8e2fb",
           "rarity": "Pon",
@@ -4101,13 +4307,24 @@
       "color": [
         "Green"
       ],
-      "quote": "C-F-D C-F-V",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "C-F-D C-F-V",
       "cost": "2",
       "influence": "4",
       "variants": [
+        {
+          "id": "69143e89a0c96e0b2e2ac77a",
+          "rarity": "Pon",
+          "artist": [
+            "よすけ"
+          ],
+          "imageId": "69143e88a0c96e0b2e2ac778",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69143e88a0c96e0b2e2ac778",
+          "cardPageUrl": "https://www.theoshivault.com/card/69143e89a0c96e0b2e2ac77a",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-111__69143e88a0c96e0b2e2ac778.webp"
+        },
         {
           "id": "69143e89a0c96e0b2e2ac77a",
           "rarity": "Pon",
@@ -4133,13 +4350,24 @@
       "color": [
         "Green"
       ],
-      "quote": "Kind of surprising that people wants to marry people from Phase Connect.",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "Kind of surprising that people wants to marry people from Phase Connect.",
       "cost": "3",
       "influence": "4",
       "variants": [
+        {
+          "id": "691449f23f7796b3fc1777b1",
+          "rarity": "Pon",
+          "artist": [
+            "皿田"
+          ],
+          "imageId": "691449f23f7796b3fc1777af",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691449f23f7796b3fc1777af",
+          "cardPageUrl": "https://www.theoshivault.com/card/691449f23f7796b3fc1777b1",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-112__691449f23f7796b3fc1777af.webp"
+        },
         {
           "id": "691449f23f7796b3fc1777b1",
           "rarity": "Pon",
@@ -4167,13 +4395,24 @@
       "color": [
         "Green"
       ],
-      "quote": "My name is Jaxa.",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "My name is Jaxa.",
       "cost": "4",
       "influence": "7",
       "variants": [
+        {
+          "id": "69144adb3f7796b3fc1777b7",
+          "rarity": "Pon",
+          "artist": [
+            "よすけ"
+          ],
+          "imageId": "69144adb3f7796b3fc1777b5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69144adb3f7796b3fc1777b5",
+          "cardPageUrl": "https://www.theoshivault.com/card/69144adb3f7796b3fc1777b7",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-113__69144adb3f7796b3fc1777b5.webp"
+        },
         {
           "id": "69144adb3f7796b3fc1777b7",
           "rarity": "Pon",
@@ -4233,13 +4472,24 @@
       "color": [
         "Green"
       ],
-      "quote": "Flame Thrower!",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "Flame Thrower!",
       "cost": "7",
       "influence": "10",
       "variants": [
+        {
+          "id": "69144c713f7796b3fc1777c3",
+          "rarity": "Supa!",
+          "artist": [
+            "よすけ"
+          ],
+          "imageId": "69144c713f7796b3fc1777c1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69144c713f7796b3fc1777c1",
+          "cardPageUrl": "https://www.theoshivault.com/card/69144c713f7796b3fc1777c3",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-115__69144c713f7796b3fc1777c1.webp"
+        },
         {
           "id": "69144c713f7796b3fc1777c3",
           "rarity": "Supa!",
@@ -4297,12 +4547,23 @@
       "color": [
         "Green"
       ],
-      "quote": "That girl has a weird thing on her bike.",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "That girl has a weird thing on her bike.",
       "cost": "2",
       "variants": [
+        {
+          "id": "69144ea73f7796b3fc1777cf",
+          "rarity": "Pon",
+          "artist": [
+            "akaba"
+          ],
+          "imageId": "69144ea73f7796b3fc1777cd",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69144ea73f7796b3fc1777cd",
+          "cardPageUrl": "https://www.theoshivault.com/card/69144ea73f7796b3fc1777cf",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-117__69144ea73f7796b3fc1777cd.webp"
+        },
         {
           "id": "69144ea73f7796b3fc1777cf",
           "rarity": "Pon",
@@ -4329,12 +4590,23 @@
       "color": [
         "Green"
       ],
-      "quote": "I hope she breaks her [REDACTED].",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "I hope she breaks her [REDACTED].",
       "cost": "3",
       "variants": [
+        {
+          "id": "69144fd13f7796b3fc1777d5",
+          "rarity": "Supa!",
+          "artist": [
+            "うぶき"
+          ],
+          "imageId": "69144fd13f7796b3fc1777d3",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69144fd13f7796b3fc1777d3",
+          "cardPageUrl": "https://www.theoshivault.com/card/69144fd13f7796b3fc1777d5",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-118__69144fd13f7796b3fc1777d3.webp"
+        },
         {
           "id": "69144fd13f7796b3fc1777d5",
           "rarity": "Supa!",
@@ -4360,13 +4632,24 @@
       "color": [
         "Red"
       ],
-      "quote": "I hope you go to [BuildABunny].",
       "genre": [
         "Creatives"
       ],
+      "quote": "I hope you go to [BuildABunny].",
       "cost": "1",
       "influence": "3",
       "variants": [
+        {
+          "id": "6915532f2944d7546dc5e299",
+          "rarity": "Supa!",
+          "artist": [
+            "chiri_ap"
+          ],
+          "imageId": "6915532f2944d7546dc5e297",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6915532f2944d7546dc5e297",
+          "cardPageUrl": "https://www.theoshivault.com/card/6915532f2944d7546dc5e299",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-119__6915532f2944d7546dc5e297.webp"
+        },
         {
           "id": "6915532f2944d7546dc5e299",
           "rarity": "Supa!",
@@ -4470,13 +4753,24 @@
       "color": [
         "Red"
       ],
-      "quote": "She might not burn things down exactly but she will bring a disaster.",
       "genre": [
         "Creatives"
       ],
+      "quote": "She might not burn things down exactly but she will bring a disaster.",
       "cost": "5",
       "influence": "13",
       "variants": [
+        {
+          "id": "69158e1e0668fefa80af5f6a",
+          "rarity": "Supa!",
+          "artist": [
+            "Phase Connect"
+          ],
+          "imageId": "69158e1e0668fefa80af5f68",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69158e1e0668fefa80af5f68",
+          "cardPageUrl": "https://www.theoshivault.com/card/69158e1e0668fefa80af5f6a",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-122__69158e1e0668fefa80af5f68.webp"
+        },
         {
           "id": "69158e1e0668fefa80af5f6a",
           "rarity": "Supa!",
@@ -4574,12 +4868,23 @@
       "color": [
         "Red"
       ],
-      "quote": "You're always baby.",
       "genre": [
         "Creatives"
       ],
+      "quote": "You're always baby.",
       "cost": "2",
       "variants": [
+        {
+          "id": "691590a91afbd4e562b09815",
+          "rarity": "Pon",
+          "artist": [
+            "akaba"
+          ],
+          "imageId": "691590a91afbd4e562b09813",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691590a91afbd4e562b09813",
+          "cardPageUrl": "https://www.theoshivault.com/card/691590a91afbd4e562b09815",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-125__691590a91afbd4e562b09813.webp"
+        },
         {
           "id": "691590a91afbd4e562b09815",
           "rarity": "Pon",
@@ -4605,12 +4910,23 @@
       "color": [
         "Red"
       ],
-      "quote": "I'll be your sister.",
       "genre": [
         "Creatives"
       ],
+      "quote": "I'll be your sister.",
       "cost": "1",
       "variants": [
+        {
+          "id": "691591e1ad9945dfe73e07b2",
+          "rarity": "Pon",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "691591e1ad9945dfe73e07b0",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691591e1ad9945dfe73e07b0",
+          "cardPageUrl": "https://www.theoshivault.com/card/691591e1ad9945dfe73e07b2",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-126__691591e1ad9945dfe73e07b0.webp"
+        },
         {
           "id": "691591e1ad9945dfe73e07b2",
           "rarity": "Pon",
@@ -4770,10 +5086,10 @@
       "color": [
         "Purple"
       ],
-      "quote": "I eat like I'm a dog.",
       "genre": [
         "Creatives"
       ],
+      "quote": "I eat like I'm a dog.",
       "cost": "6",
       "influence": "9",
       "variants": [
@@ -4900,13 +5216,24 @@
       "color": [
         "Green"
       ],
-      "quote": "You can now punch every single generation.",
       "genre": [
         "Creatives"
       ],
+      "quote": "You can now punch every single generation.",
       "cost": "1",
       "influence": "2",
       "variants": [
+        {
+          "id": "69195ffc6d51e0af3feba98d",
+          "rarity": "Pon",
+          "artist": [
+            "momoninni"
+          ],
+          "imageId": "69195ffb6d51e0af3feba98b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69195ffb6d51e0af3feba98b",
+          "cardPageUrl": "https://www.theoshivault.com/card/69195ffc6d51e0af3feba98d",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-135__69195ffb6d51e0af3feba98b.webp"
+        },
         {
           "id": "69195ffc6d51e0af3feba98d",
           "rarity": "Pon",
@@ -5038,13 +5365,24 @@
       "color": [
         "Green"
       ],
-      "quote": "Welcome to Phase Connect.",
       "genre": [
         "Creatives"
       ],
+      "quote": "Welcome to Phase Connect.",
       "cost": "6",
       "influence": "8",
       "variants": [
+        {
+          "id": "69196cef41540acd1a283448",
+          "rarity": "Pon",
+          "artist": [
+            "watasi_ch3"
+          ],
+          "imageId": "69196cef41540acd1a283446",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69196cef41540acd1a283446",
+          "cardPageUrl": "https://www.theoshivault.com/card/69196cef41540acd1a283448",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-139__69196cef41540acd1a283446.webp"
+        },
         {
           "id": "69196cef41540acd1a283448",
           "rarity": "Pon",
@@ -5113,12 +5451,23 @@
       "color": [
         "Green"
       ],
-      "quote": "Can't believe our boss is on the stream.",
       "genre": [
         "Creatives"
       ],
+      "quote": "Can't believe our boss is on the stream.",
       "cost": "1",
       "variants": [
+        {
+          "id": "69196ee841540acd1a283454",
+          "rarity": "Supa!",
+          "artist": [
+            "Phase Connect"
+          ],
+          "imageId": "69196ee741540acd1a283452",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69196ee741540acd1a283452",
+          "cardPageUrl": "https://www.theoshivault.com/card/69196ee841540acd1a283454",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-141__69196ee741540acd1a283452.webp"
+        },
         {
           "id": "69196ee841540acd1a283454",
           "rarity": "Supa!",
@@ -5212,13 +5561,24 @@
       "color": [
         "Red"
       ],
-      "quote": "[527]",
       "genre": [
         "Experience"
       ],
+      "quote": "[527]",
       "cost": "3",
       "influence": "6",
       "variants": [
+        {
+          "id": "69197460016e59802bd5419f",
+          "rarity": "Pon",
+          "artist": [
+            "chiri_ap"
+          ],
+          "imageId": "6919745f016e59802bd5419d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6919745f016e59802bd5419d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69197460016e59802bd5419f",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-144__6919745f016e59802bd5419d.webp"
+        },
         {
           "id": "69197460016e59802bd5419f",
           "rarity": "Pon",
@@ -5247,13 +5607,24 @@
       "color": [
         "Red"
       ],
-      "quote": "A lot of blue bears are still produced sexually.",
       "genre": [
         "Experience"
       ],
+      "quote": "A lot of blue bears are still produced sexually.",
       "cost": "4",
       "influence": "8",
       "variants": [
+        {
+          "id": "69197586016e59802bd541a5",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "69197585016e59802bd541a3",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69197585016e59802bd541a3",
+          "cardPageUrl": "https://www.theoshivault.com/card/69197586016e59802bd541a5",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-145__69197585016e59802bd541a3.webp"
+        },
         {
           "id": "69197586016e59802bd541a5",
           "rarity": "Pon",
@@ -5279,13 +5650,24 @@
       "color": [
         "Red"
       ],
-      "quote": "They're putting nanotechnologies inside of the vaccines.",
       "genre": [
         "Experience"
       ],
+      "quote": "They're putting nanotechnologies inside of the vaccines.",
       "cost": "2",
       "influence": "4",
       "variants": [
+        {
+          "id": "691976d29932f01736614335",
+          "rarity": "Pon",
+          "artist": [
+            "chiri_ap"
+          ],
+          "imageId": "691976d19932f01736614333",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691976d19932f01736614333",
+          "cardPageUrl": "https://www.theoshivault.com/card/691976d29932f01736614335",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-146__691976d19932f01736614333.webp"
+        },
         {
           "id": "691976d29932f01736614335",
           "rarity": "Pon",
@@ -5313,13 +5695,24 @@
       "color": [
         "Red"
       ],
-      "quote": "[No Pancakes]",
       "genre": [
         "Experience"
       ],
+      "quote": "[No Pancakes]",
       "cost": "7",
       "influence": "10",
       "variants": [
+        {
+          "id": "6919786e9bca77d3f40ad51a",
+          "rarity": "Pon",
+          "artist": [
+            "いもーす"
+          ],
+          "imageId": "6919786d9bca77d3f40ad518",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6919786d9bca77d3f40ad518",
+          "cardPageUrl": "https://www.theoshivault.com/card/6919786e9bca77d3f40ad51a",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-147__6919786d9bca77d3f40ad518.webp"
+        },
         {
           "id": "6919786e9bca77d3f40ad51a",
           "rarity": "Pon",
@@ -5379,12 +5772,23 @@
       "color": [
         "Red"
       ],
-      "quote": "If somebody kneels, I'm gonna kneel down too so I can take your hand.",
       "genre": [
         "Experience"
       ],
+      "quote": "If somebody kneels, I'm gonna kneel down too so I can take your hand.",
       "cost": "1",
       "variants": [
+        {
+          "id": "69197bf6089990d6e0451eda",
+          "rarity": "Pon",
+          "artist": [
+            "すずま"
+          ],
+          "imageId": "69197bf6089990d6e0451ed8",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69197bf6089990d6e0451ed8",
+          "cardPageUrl": "https://www.theoshivault.com/card/69197bf6089990d6e0451eda",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-149__69197bf6089990d6e0451ed8.webp"
+        },
         {
           "id": "69197bf6089990d6e0451eda",
           "rarity": "Pon",
@@ -5494,6 +5898,17 @@
           "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69197eee089990d6e0451eea",
           "cardPageUrl": "https://www.theoshivault.com/card/69197eee089990d6e0451eec",
           "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-152__69197eee089990d6e0451eea.webp"
+        },
+        {
+          "id": "69197eee089990d6e0451eec",
+          "rarity": "Pon",
+          "artist": [
+            "_Luzzi"
+          ],
+          "imageId": "69197eee089990d6e0451eea",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69197eee089990d6e0451eea",
+          "cardPageUrl": "https://www.theoshivault.com/card/69197eee089990d6e0451eec",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-152__69197eee089990d6e0451eea.webp"
         }
       ]
     },
@@ -5573,13 +5988,24 @@
       "color": [
         "Purple"
       ],
-      "quote": "Raise both your hands at the same time.",
       "genre": [
         "Experience"
       ],
+      "quote": "Raise both your hands at the same time.",
       "cost": "2",
       "influence": "4",
       "variants": [
+        {
+          "id": "691982d5ae9026676794b63c",
+          "rarity": "Pon",
+          "artist": [
+            "えだつい"
+          ],
+          "imageId": "691982d5ae9026676794b63a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691982d5ae9026676794b63a",
+          "cardPageUrl": "https://www.theoshivault.com/card/691982d5ae9026676794b63c",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-155__691982d5ae9026676794b63a.webp"
+        },
         {
           "id": "691982d5ae9026676794b63c",
           "rarity": "Pon",
@@ -5638,12 +6064,23 @@
       "color": [
         "Purple"
       ],
-      "quote": "Hissssssssss",
       "genre": [
         "Experience"
       ],
+      "quote": "Hissssssssss",
       "cost": "2",
       "variants": [
+        {
+          "id": "691984d14987acb945c5764f",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "691984d04987acb945c5764d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691984d04987acb945c5764d",
+          "cardPageUrl": "https://www.theoshivault.com/card/691984d14987acb945c5764f",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-157__691984d04987acb945c5764d.webp"
+        },
         {
           "id": "691984d14987acb945c5764f",
           "rarity": "Pon",
@@ -5703,13 +6140,24 @@
       "color": [
         "Green"
       ],
-      "quote": "I'm getting light notes of grandma's musty chair.",
       "genre": [
         "Experience"
       ],
+      "quote": "I'm getting light notes of grandma's musty chair.",
       "cost": "1",
       "influence": "2",
       "variants": [
+        {
+          "id": "691986104987acb945c5765b",
+          "rarity": "Pon",
+          "artist": [
+            "西洋カルタ軒"
+          ],
+          "imageId": "691986104987acb945c57659",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691986104987acb945c57659",
+          "cardPageUrl": "https://www.theoshivault.com/card/691986104987acb945c5765b",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-159__691986104987acb945c57659.webp"
+        },
         {
           "id": "691986104987acb945c5765b",
           "rarity": "Pon",
@@ -5735,13 +6183,24 @@
       "color": [
         "Green"
       ],
-      "quote": "Need a whole new keyboard for a single spacebar.",
       "genre": [
         "Experience"
       ],
+      "quote": "Need a whole new keyboard for a single spacebar.",
       "cost": "2",
       "influence": "2",
       "variants": [
+        {
+          "id": "691987364987acb945c57661",
+          "rarity": "Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "691987364987acb945c5765f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691987364987acb945c5765f",
+          "cardPageUrl": "https://www.theoshivault.com/card/691987364987acb945c57661",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-160__691987364987acb945c5765f.webp"
+        },
         {
           "id": "691987364987acb945c57661",
           "rarity": "Supa!",
@@ -5769,13 +6228,24 @@
       "color": [
         "Green"
       ],
-      "quote": "I could find you a new daddy right now.",
       "genre": [
         "Experience"
       ],
+      "quote": "I could find you a new daddy right now.",
       "cost": "3",
       "influence": "4",
       "variants": [
+        {
+          "id": "691987ef4987acb945c57667",
+          "rarity": "Supa!",
+          "artist": [
+            "いもーす"
+          ],
+          "imageId": "691987ee4987acb945c57665",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691987ee4987acb945c57665",
+          "cardPageUrl": "https://www.theoshivault.com/card/691987ef4987acb945c57667",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-161__691987ee4987acb945c57665.webp"
+        },
         {
           "id": "691987ef4987acb945c57667",
           "rarity": "Supa!",
@@ -5801,13 +6271,24 @@
       "color": [
         "Green"
       ],
-      "quote": "[BIGGER]",
       "genre": [
         "Experience"
       ],
+      "quote": "[BIGGER]",
       "cost": "5",
       "influence": "8",
       "variants": [
+        {
+          "id": "691988a34987acb945c5766d",
+          "rarity": "Pon",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "691988a34987acb945c5766b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/691988a34987acb945c5766b",
+          "cardPageUrl": "https://www.theoshivault.com/card/691988a34987acb945c5766d",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-162__691988a34987acb945c5766b.webp"
+        },
         {
           "id": "691988a34987acb945c5766d",
           "rarity": "Pon",
@@ -5935,12 +6416,23 @@
       "color": [
         "Green"
       ],
-      "quote": "Nasa pretty beam!",
       "genre": [
         "Experience"
       ],
+      "quote": "Nasa pretty beam!",
       "cost": "4",
       "variants": [
+        {
+          "id": "69198d87e4f9e27e3b4afdb3",
+          "rarity": "Supa!",
+          "artist": [
+            "Lim Si Yim"
+          ],
+          "imageId": "69198d87e4f9e27e3b4afdb1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69198d87e4f9e27e3b4afdb1",
+          "cardPageUrl": "https://www.theoshivault.com/card/69198d87e4f9e27e3b4afdb3",
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP01-PHC-166__69198d87e4f9e27e3b4afdb1.webp"
+        },
         {
           "id": "69198d87e4f9e27e3b4afdb3",
           "rarity": "Supa!",
@@ -6260,7 +6752,9 @@
       "cardNumber": "OP02/HKS-026",
       "cardType": "Persona",
       "effect": "<b>While you have a face-up Premium Content card:</b> LineChu gains +2 [Influence].",
-      "keywords": [],
+      "keywords": [
+        "Premium Content"
+      ],
       "vtuber": [
         "LineChu"
       ],
@@ -6294,7 +6788,8 @@
       "cardType": "Upgrade",
       "effect": "<b>While you have a face-up Premium Content card:</b> LineChu gains +2 [Influence].\r\nYour <b>Premium Content</b> cards on LineChu's <b>Platform</b> can't be deleted by opposing effects.\r\n[Discard] Move your Persona to this <b>Platform</b>.\r\n<i>Use only during a clash.</i>",
       "keywords": [
-        "Discard"
+        "Discard",
+        "Premium Content"
       ],
       "vtuber": [
         "LineChu"
@@ -6302,10 +6797,10 @@
       "color": [
         "Purple"
       ],
-      "nickname": "The Bottom Line",
       "genre": [
         "Experience"
       ],
+      "nickname": "The Bottom Line",
       "cost": "3",
       "bits": "4",
       "influence": "5",
@@ -6329,17 +6824,19 @@
       "cardNumber": "OP02/HKS-029",
       "cardType": "Content",
       "effect": "<b>LineChu's deck only.</b>\r\n<hr />\r\n<b>When Played:</b> You may flip a face-up <b>Premium Content</b> card on this <b>Platform</b> face-down.",
-      "keywords": [],
+      "keywords": [
+        "Premium Content"
+      ],
       "vtuber": [
         "LineChu"
       ],
       "color": [
         "Purple"
       ],
-      "quote": "I don't know if I feel as special...",
       "genre": [
         "Zatsudan"
       ],
+      "quote": "I don't know if I feel as special...",
       "cost": "3",
       "influence": "5",
       "variants": [
@@ -6704,17 +7201,19 @@
       "cardNumber": "OP02/HKS-022",
       "cardType": "Upgrade",
       "effect": "Play with the top card of your deck revealed. This card gains [Influence] equal to the cost of the revealed card.\r\n<b>When Played:</b> Look at the top 3 cards of your deck and put them back on the top of your deck in any order.\r\n[Discard] Your <b>Persona</b> gains +2 [Influence] this clash.",
-      "keywords": [],
+      "keywords": [
+        "Discard"
+      ],
       "vtuber": [
         "La Avispa Nectarina"
       ],
       "color": [
         "Red"
       ],
-      "nickname": "Sweaty Tomboy",
       "genre": [
         "Experience"
       ],
+      "nickname": "Sweaty Tomboy",
       "cost": "3",
       "bits": "5",
       "influence": "0",
@@ -6829,6 +7328,4208 @@
           "cardPageUrl": "https://www.theoshivault.com/card/69931756cc4af7b467545855",
           "limit": 3,
           "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-025__69931756cc4af7b467545853.webp"
+        }
+      ]
+    },
+    {
+      "name": "Eden",
+      "cardNumber": "OP02/HKS-003",
+      "cardType": "Upgrade",
+      "effect": "Your <b>Content</b> cards with [4 Cost] or less on this <b>Platform</b> gain +3 [Influence] .\r\n<b>When Played:</b> Draw 1 card for each <b>Content</b> card you have on this <b>Platform.</b>\r\n[Discard] Your Persona gains +2 [Influence] this clash.",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "nickname": "Fluffy Crystal Dragon",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "6",
+      "bits": "5",
+      "influence": "7",
+      "variants": [
+        {
+          "id": "69dca5c201ffbd6734757f07",
+          "rarity": "Light Blue Supa!",
+          "artist": [
+            "enepuni"
+          ],
+          "imageId": "69dca5c101ffbd6734757f05",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dca5c101ffbd6734757f05",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dca5c201ffbd6734757f07",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-003__69dca5c101ffbd6734757f05.webp"
+        }
+      ]
+    },
+    {
+      "name": "Euclase Frost",
+      "cardNumber": "OP02/HKS-005",
+      "cardType": "Action",
+      "effect": "<b>Eden's deck only.</b>\r\n<hr />\r\nMove any number of your <b>Content</b> cards with [4 Cost] or less from this <b>Platform</b> to other <b>Platforms.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I froze them all and I fled.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69dca68c23c61778a9ce5732",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "XrayDreads"
+          ],
+          "imageId": "69dca68c23c61778a9ce5730",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dca68c23c61778a9ce5730",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dca68c23c61778a9ce5732",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-005__69dca68c23c61778a9ce5730.webp"
+        }
+      ]
+    },
+    {
+      "name": "Captain Camille",
+      "cardNumber": "OP02/HKS-008",
+      "cardType": "Upgrade",
+      "effect": "<b>When Played:</b> You may delete 1 opposing <b>Content</b> card on this <b>Platform</b> with [4 Cost] or less.\r\n<b>While you are [Dominating] 1 or more Platforms:</b> Captain Camille gains +4 [Influence] .\r\n[Discard] Move your Persona to this <b>Platform.</b> <i>Use only during a clash.</i>",
+      "keywords": [
+        "Discard",
+        "Dominating"
+      ],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "genre": [
+        "Poggers"
+      ],
+      "nickname": "Retired Captain",
+      "cost": "7",
+      "bits": "5",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dca78970e286ebae486c23",
+          "rarity": "Light Blue Supa!",
+          "artist": [
+            "nana_illust"
+          ],
+          "imageId": "69dca78970e286ebae486c21",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dca78970e286ebae486c21",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dca78970e286ebae486c23",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-008__69dca78970e286ebae486c21.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bonus Three Inches",
+      "cardNumber": "OP02/HKS-014",
+      "cardType": "Action",
+      "effect": "<b>Porcelain Maid's deck only.</b>\r\n<hr />\r\n<i>Play Only during a clash.</i>\r\nIf you have at least 1 <b>Content</b> card on every <b>Platform</b>, you win this clash.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Follow Porcelain Maid.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "5",
+      "variants": [
+        {
+          "id": "69dd3ec6754bf2ed9cee1a1d",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Amyathepuff"
+          ],
+          "imageId": "69dd3ec6754bf2ed9cee1a1b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd3ec6754bf2ed9cee1a1b",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd3ec6754bf2ed9cee1a1d",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-014__69dd3ec6754bf2ed9cee1a1b.webp"
+        }
+      ]
+    },
+    {
+      "name": "Raelice",
+      "cardNumber": "OP02/HKS-018",
+      "cardType": "Upgrade",
+      "effect": "<b>When Played:</b> You may play 1 <b>Content</b> card from your Trash on a <b>Platform</b> where you have no <b>Content</b> cards, reducing its cost by [7 Cost] .\r\n[Clash Reward] You may discard the top 2 cards of your deck.\r\n[Discard] Gain 1 [Bit] .",
+      "keywords": [
+        "Clash Reward",
+        "Discard"
+      ],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Green"
+      ],
+      "nickname": "Lore Cat",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "7",
+      "bits": "5",
+      "influence": "7",
+      "variants": [
+        {
+          "id": "69dd3fc780f548a4c6180727",
+          "rarity": "Light Blue Supa!",
+          "artist": [
+            "cinamoonmoon"
+          ],
+          "imageId": "69dd3fc780f548a4c6180725",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd3fc780f548a4c6180725",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd3fc780f548a4c6180727",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-018__69dd3fc780f548a4c6180725.webp"
+        }
+      ]
+    },
+    {
+      "name": "La Avispa Nectarina",
+      "cardNumber": "OP02/HKS-023",
+      "cardType": "Upgrade",
+      "effect": "Play with the top card of your deck revealed. This card gains [Influence] equal to the cost of the revealed card.\r\n<b>When Played:</b> Look at the top 3 cards of your deck and put them back on top of your deck in any order. Then, you may draw a card.",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "nickname": "Timeline B",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "7",
+      "bits": "7",
+      "influence": "0",
+      "variants": [
+        {
+          "id": "69dd408f5bfb6a136873d90c",
+          "rarity": "Light Blue Supa!",
+          "artist": [
+            "anomarasu"
+          ],
+          "imageId": "69dd408e5bfb6a136873d90a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd408e5bfb6a136873d90a",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd408f5bfb6a136873d90c",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-023__69dd408e5bfb6a136873d90a.webp"
+        }
+      ]
+    },
+    {
+      "name": "LineChu",
+      "cardNumber": "OP02/HKS-028",
+      "cardType": "Upgrade",
+      "effect": "<b>While you have a face-up Premium Content card:</b> Linechu gains +4 [Influence] .\r\nYour <b>Premium Content</b> cards can't be deleted by opposing effects.\r\n[Discard] Move your Persona to this <b>Platform.</b> <i>Use only during a clash.</i>",
+      "keywords": [
+        "Discard",
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "genre": [
+        "Experience"
+      ],
+      "nickname": "Femboy Princess",
+      "cost": "7",
+      "bits": "6",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd41655bfb6a136873d912",
+          "rarity": "Light Blue Supa!",
+          "artist": [
+            "ClozyOzy"
+          ],
+          "imageId": "69dd41655bfb6a136873d910",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd41655bfb6a136873d910",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd41655bfb6a136873d912",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-028__69dd41655bfb6a136873d910.webp"
+        }
+      ]
+    },
+    {
+      "name": "Find the Bepis",
+      "cardNumber": "OP02/HKS-030",
+      "cardType": "Action",
+      "effect": "<b>LineChu's deck only.</b>\r\n<hr />\r\nPlay only during the <b>Content</b> Phase.\r\nSearch your deck for a <b>Premium Content</b> card and play it face-down for free. Then, shuffle your deck.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Green"
+      ],
+      "genre": [
+        "Experience"
+      ],
+      "quote": "I'm your biggest fan.",
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69dd422d5bfb6a136873d918",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Natalie Ong",
+            "WaHa"
+          ],
+          "imageId": "69dd422d5bfb6a136873d916",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd422d5bfb6a136873d916",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd422d5bfb6a136873d918",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-030__69dd422d5bfb6a136873d916.webp"
+        }
+      ]
+    },
+    {
+      "name": "Convention Circuit",
+      "cardNumber": "OP02/HKS-035",
+      "cardType": "Platform",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "subscriberCount": "200000",
+      "popularityThreshold": "1",
+      "tags": [
+        "Independent",
+        "Networking"
+      ],
+      "variants": [
+        {
+          "id": "69dd43cbaa059d08766f4142",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd43cbaa059d08766f4140",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd43cbaa059d08766f4140",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd43cbaa059d08766f4142",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-035__69dd43cbaa059d08766f4140.webp"
+        }
+      ]
+    },
+    {
+      "name": "CollabCast",
+      "cardNumber": "OP02/HKS-036",
+      "cardType": "Platform",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "subscriberCount": "300000",
+      "popularityThreshold": "2",
+      "tags": [
+        "Independent",
+        "Podcasting"
+      ],
+      "variants": [
+        {
+          "id": "69dd4418aa059d08766f4148",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4418aa059d08766f4146",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4418aa059d08766f4146",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4418aa059d08766f4148",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-036__69dd4418aa059d08766f4146.webp"
+        }
+      ]
+    },
+    {
+      "name": "Quickipedia",
+      "cardNumber": "OP02/HKS-037",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] If you have less Subscribers than your opponents, gain 2 [Bit] .",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "subscriberCount": "300000",
+      "popularityThreshold": "2",
+      "tags": [
+        "Networking"
+      ],
+      "variants": [
+        {
+          "id": "69dd447daa059d08766f414e",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd447daa059d08766f414c",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd447daa059d08766f414c",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd447daa059d08766f414e",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-037__69dd447daa059d08766f414c.webp"
+        }
+      ]
+    },
+    {
+      "name": "Webflip",
+      "cardNumber": "OP02/HKS-038",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] You may remove 1 opposing Popularity from another <b>Platform.</b>",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "subscriberCount": "300000",
+      "popularityThreshold": "2",
+      "tags": [
+        "Video"
+      ],
+      "variants": [
+        {
+          "id": "69dd44dcaa059d08766f4154",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd44dbaa059d08766f4152",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd44dbaa059d08766f4152",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd44dcaa059d08766f4154",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-038__69dd44dbaa059d08766f4152.webp"
+        }
+      ]
+    },
+    {
+      "name": "Goblet",
+      "cardNumber": "OP02/HKS-039",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] Each opponent discards 1 card from their hand.",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [],
+      "subscriberCount": "300000",
+      "popularityThreshold": "2",
+      "tags": [
+        "Image Sharing"
+      ],
+      "variants": [
+        {
+          "id": "69dd4526aa059d08766f415a",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4526aa059d08766f4158",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4526aa059d08766f4158",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4526aa059d08766f415a",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-039__69dd4526aa059d08766f4158.webp"
+        }
+      ]
+    },
+    {
+      "name": "String",
+      "cardNumber": "OP02/HKS-040",
+      "cardType": "Platform",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Independent",
+        "Image Sharing"
+      ],
+      "variants": [
+        {
+          "id": "69dd4558aa059d08766f4160",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4558aa059d08766f415e",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4558aa059d08766f415e",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4558aa059d08766f4160",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-040__69dd4558aa059d08766f415e.webp"
+        }
+      ]
+    },
+    {
+      "name": "Festive",
+      "cardNumber": "OP02/HKS-041",
+      "cardType": "Platform",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "variants": [
+        {
+          "id": "69dd4585aa059d08766f4166",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4585aa059d08766f4164",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4585aa059d08766f4164",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4585aa059d08766f4166",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-041__69dd4585aa059d08766f4164.webp"
+        }
+      ]
+    },
+    {
+      "name": "Scuff Pod",
+      "cardNumber": "OP02/HKS-042",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] Each opponent loses 1 [Bit] .",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Podcasting"
+      ],
+      "variants": [
+        {
+          "id": "69dd45d1aa059d08766f416c",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd45d1aa059d08766f416a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd45d1aa059d08766f416a",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd45d1aa059d08766f416c",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-042__69dd45d1aa059d08766f416a.webp"
+        }
+      ]
+    },
+    {
+      "name": "Supreme Planet Lungs",
+      "cardNumber": "OP02/HKS-043",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] Gain 1 [Bit] for each <b>Content</b> card you have on this <b>Platform.</b>",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Streaming"
+      ],
+      "variants": [
+        {
+          "id": "69dd465eaa059d08766f417e",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd465eaa059d08766f417c",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd465eaa059d08766f417c",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd465eaa059d08766f417e",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-043__69dd465eaa059d08766f417c.webp"
+        }
+      ]
+    },
+    {
+      "name": "Blue Butterfly",
+      "cardNumber": "OP02/HKS-044",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] You gain +3 [Influence] during the next clash this round.",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Networking"
+      ],
+      "variants": [
+        {
+          "id": "69dd46b6aa059d08766f4183",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd46b6aa059d08766f4181",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd46b6aa059d08766f4181",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd46b6aa059d08766f4183",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-044__69dd46b6aa059d08766f4181.webp"
+        }
+      ]
+    },
+    {
+      "name": "Y",
+      "cardNumber": "OP02/HKS-045",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] You may spend 3 [Bit] to gain 1 Popularity on this <b>Platform.</b>",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Networking"
+      ],
+      "variants": [
+        {
+          "id": "69dd472caa059d08766f4188",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd472caa059d08766f4186",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd472caa059d08766f4186",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd472caa059d08766f4188",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-045__69dd472caa059d08766f4186.webp"
+        }
+      ]
+    },
+    {
+      "name": "U-TOOB",
+      "cardNumber": "OP02/HKS-046",
+      "cardType": "Platform",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "subscriberCount": "500000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Independent",
+        "Video"
+      ],
+      "variants": [
+        {
+          "id": "69dd4765aa059d08766f418d",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4765aa059d08766f418b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4765aa059d08766f418b",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4765aa059d08766f418d",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-046__69dd4765aa059d08766f418b.webp"
+        }
+      ]
+    },
+    {
+      "name": "MediaFlame",
+      "cardNumber": "OP02/HKS-047",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] You may return a <b>Content</b> card with [2 Cost] or less in play to its owner's hand.",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "subscriberCount": "500000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Image Sharing"
+      ],
+      "variants": [
+        {
+          "id": "69dd47ceaa059d08766f4192",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd47ceaa059d08766f4190",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd47ceaa059d08766f4190",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd47ceaa059d08766f4192",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-047__69dd47ceaa059d08766f4190.webp"
+        }
+      ]
+    },
+    {
+      "name": "Blotify",
+      "cardNumber": "OP02/HKS-048",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] You may discard the top card of any player's deck.",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [],
+      "subscriberCount": "500000",
+      "popularityThreshold": "3",
+      "tags": [
+        "Podcasting"
+      ],
+      "variants": [
+        {
+          "id": "69dd4834aa059d08766f4197",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4833aa059d08766f4195",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4833aa059d08766f4195",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4834aa059d08766f4197",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-048__69dd4833aa059d08766f4195.webp"
+        }
+      ]
+    },
+    {
+      "name": "U-JORTS",
+      "cardNumber": "OP02/HKS-049",
+      "cardType": "Platform",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [],
+      "subscriberCount": "600000",
+      "popularityThreshold": "4",
+      "tags": [
+        "Independent",
+        "Streaming"
+      ],
+      "variants": [
+        {
+          "id": "69dd486caa059d08766f419c",
+          "rarity": "Pon",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd486caa059d08766f419a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd486caa059d08766f419a",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd486caa059d08766f419c",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-049__69dd486caa059d08766f419a.webp"
+        }
+      ]
+    },
+    {
+      "name": "CopyStrike",
+      "cardNumber": "OP02/HKS-050",
+      "cardType": "Platform",
+      "effect": "[Clash Reward] Delete all of your <b>Content</b> cards on this <b>Platform.</b>",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [],
+      "subscriberCount": "600000",
+      "popularityThreshold": "4",
+      "tags": [
+        "Streaming"
+      ],
+      "variants": [
+        {
+          "id": "69dd48bdaa059d08766f41a1",
+          "rarity": "Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd48bdaa059d08766f419f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd48bdaa059d08766f419f",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd48bdaa059d08766f41a1",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-050__69dd48bdaa059d08766f419f.webp"
+        }
+      ]
+    },
+    {
+      "name": "Garden of Euclase Castle",
+      "cardNumber": "OP02/HKS-051",
+      "cardType": "Platform",
+      "effect": "<b>Eden's deck only.</b>\r\n<b>While you are [Dominating] this Platform:</b> Your Persona gains +5 [Influence] .",
+      "keywords": [
+        "Dominating"
+      ],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "variants": [
+        {
+          "id": "69dd496aaa059d08766f41a6",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "XrayDreads"
+          ],
+          "imageId": "69dd4969aa059d08766f41a4",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4969aa059d08766f41a4",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd496aaa059d08766f41a6",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-051__69dd4969aa059d08766f41a4.webp"
+        }
+      ]
+    },
+    {
+      "name": "B.B. Nightingale",
+      "cardNumber": "OP02/HKS-052",
+      "cardType": "Platform",
+      "effect": "When an opposing <b>Content</b> card leaves this <b>Platform</b> gain 1 [Bit] .",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [],
+      "variants": [
+        {
+          "id": "69dd4dc8c06ef13bd1c210c0",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4dc8c06ef13bd1c210be",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4dc8c06ef13bd1c210be",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4dc8c06ef13bd1c210c0",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-052__69dd4dc8c06ef13bd1c210be.webp"
+        }
+      ]
+    },
+    {
+      "name": "Porcelain Parlor",
+      "cardNumber": "OP02/HKS-053",
+      "cardType": "Platform",
+      "effect": "<b>Porcelain Maid's deck only.</b>\r\n<b>The first time you play a Content card on this Platform:</b> Move it to another <b>Plaform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [],
+      "variants": [
+        {
+          "id": "69dd4ebac06ef13bd1c210c6",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd4ebac06ef13bd1c210c4",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd4ebac06ef13bd1c210c4",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd4ebac06ef13bd1c210c6",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-053__69dd4ebac06ef13bd1c210c4.webp"
+        }
+      ]
+    },
+    {
+      "name": "Infinite Library",
+      "cardNumber": "OP02/HKS-054",
+      "cardType": "Platform",
+      "effect": "<b>Raelice's deck only.</b>\r\n<b>When this Platform is captured:</b> Discard the top 4 cards of each player's deck.",
+      "keywords": [],
+      "vtuber": [
+        "Raelice"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [],
+      "variants": [
+        {
+          "id": "69dd53803fbeab0f6f4ecabe",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "UwUMedia"
+          ],
+          "imageId": "69dd53803fbeab0f6f4ecabc",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd53803fbeab0f6f4ecabc",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd53803fbeab0f6f4ecabe",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-054__69dd53803fbeab0f6f4ecabc.webp"
+        }
+      ]
+    },
+    {
+      "name": "The Wasp Bunker",
+      "cardNumber": "OP02/HKS-055",
+      "cardType": "Platform",
+      "effect": "<b>La Avispa Nectarina's deck only.</b>\r\n<b>At the start of each clash at this Platform:</b> Each player looks at the top of their deck, then they may discard it.",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "tags": [],
+      "variants": [
+        {
+          "id": "69dd54d13fbeab0f6f4ecac4",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Magpie_Feather"
+          ],
+          "imageId": "69dd54d13fbeab0f6f4ecac2",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd54d13fbeab0f6f4ecac2",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd54d13fbeab0f6f4ecac4",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-055__69dd54d13fbeab0f6f4ecac2.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bepis Pad",
+      "cardNumber": "OP02/HKS-056",
+      "cardType": "Platform",
+      "effect": "<b>LineChu's deck only.</b>\r\nThe first <b>Premium Content</b> card you play on this <b>Platform</b> each round is free.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "subscriberCount": "400000",
+      "popularityThreshold": "3",
+      "variants": [
+        {
+          "id": "69dd58ab47d5fbd24b028bb1",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Kream_VT"
+          ],
+          "imageId": "69dd58ab47d5fbd24b028baf",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd58ab47d5fbd24b028baf",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd58ab47d5fbd24b028bb1",
+          "limit": 1,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-056__69dd58ab47d5fbd24b028baf.webp"
+        }
+      ]
+    },
+    {
+      "name": "Parasocial Sunday",
+      "cardNumber": "OP02/HKS-057",
+      "cardType": "Content",
+      "effect": "<b>When you flip a Premium Content card face-up:</b> This card gain +3 [Influence] this round.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "genre": [
+        "Poggers"
+      ],
+      "quote": "She could if she calls me!",
+      "cost": "1",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69dd593147d5fbd24b028bb7",
+          "rarity": "Pon",
+          "artist": [
+            "hemmmlock"
+          ],
+          "imageId": "69dd593147d5fbd24b028bb5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd593147d5fbd24b028bb5",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd593147d5fbd24b028bb7",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-057__69dd593147d5fbd24b028bb5.webp"
+        }
+      ]
+    },
+    {
+      "name": "Wisdom of the Day",
+      "cardNumber": "OP02/HKS-058",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent played 1 or more <b>Content</b> cards on this <b>Platform</b> this round.\r\n<b>When Flipped:</b> You may play a <b>Content</b> card with [2 Cost] or less on this <b>Platform</b> for free.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "You can swim in lava, but only once.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "2",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69dd5a13c5a73637e5fb9d94",
+          "rarity": "Supa!",
+          "artist": [
+            "Unco_i26"
+          ],
+          "imageId": "69dd5a13c5a73637e5fb9d92",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5a13c5a73637e5fb9d92",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5a13c5a73637e5fb9d94",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-058__69dd5a13c5a73637e5fb9d92.webp"
+        }
+      ]
+    },
+    {
+      "name": "Toilet Swimmer",
+      "cardNumber": "OP02/HKS-060",
+      "cardType": "Content",
+      "effect": "This card loses -1 [Influence] for each card in your opponents' hands.",
+      "keywords": [],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Chat says she fell in the toilet.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "3",
+      "influence": "11",
+      "variants": [
+        {
+          "id": "69dd5a96c5a73637e5fb9d9a",
+          "rarity": "Pon",
+          "artist": [
+            "Naiichie"
+          ],
+          "imageId": "69dd5a96c5a73637e5fb9d98",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5a96c5a73637e5fb9d98",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5a96c5a73637e5fb9d9a",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-060__69dd5a96c5a73637e5fb9d98.webp"
+        }
+      ]
+    },
+    {
+      "name": "Tomboy Abs",
+      "cardNumber": "OP02/HKS-061",
+      "cardType": "Content",
+      "effect": "<b>While you are the First Player:</b>\r\nThis card gains +10 [Influence] .",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Made with Real Dehydrated Tomboy Sweat!",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "6",
+      "influence": "9",
+      "variants": [
+        {
+          "id": "69dd5b2fc5a73637e5fb9da0",
+          "rarity": "Pon",
+          "artist": [
+            "あも井"
+          ],
+          "imageId": "69dd5b2fc5a73637e5fb9d9e",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5b2fc5a73637e5fb9d9e",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5b2fc5a73637e5fb9da0",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-061__69dd5b2fc5a73637e5fb9d9e.webp"
+        }
+      ]
+    },
+    {
+      "name": "Friendship Tax",
+      "cardNumber": "OP02/HKS-062",
+      "cardType": "Content",
+      "effect": "[Activate] If you have a face-up <b>Premium Content</b> card on this <b>Platform,</b> gain 1 [Popularity] on your Persona's <b>Platform.</b>",
+      "keywords": [
+        "Activate",
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Pay your taxes or I'll cry!",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "9",
+      "influence": "23",
+      "variants": [
+        {
+          "id": "69dd5bdec5a73637e5fb9da6",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Unco_i26"
+          ],
+          "imageId": "69dd5bdec5a73637e5fb9da4",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5bdec5a73637e5fb9da4",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5bdec5a73637e5fb9da6",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-062__69dd5bdec5a73637e5fb9da4.webp"
+        }
+      ]
+    },
+    {
+      "name": "Unique Laughing Sounds",
+      "cardNumber": "OP02/HKS-063",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nYour Persona gains +3 [Influence] this clash for each <b>Content</b> card you have in play.",
+      "keywords": [],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "[Seagull Laugh]",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69dd5d9e3378d802267f3d92",
+          "rarity": "Pon",
+          "artist": [
+            "碳水化物"
+          ],
+          "imageId": "69dd5d9e3378d802267f3d90",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5d9e3378d802267f3d90",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5d9e3378d802267f3d92",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-063__69dd5d9e3378d802267f3d90.webp"
+        }
+      ]
+    },
+    {
+      "name": "Blobin",
+      "cardNumber": "OP02/HKS-065",
+      "cardType": "Cameo",
+      "effect": "[Discard] Your Persona gains +2 [Influence] this clash.",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Crystal Crackheads.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "6",
+      "bits": "0",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd5e023378d802267f3d98",
+          "rarity": "Pon",
+          "artist": [
+            "MelonbreadFBP"
+          ],
+          "imageId": "69dd5e013378d802267f3d96",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5e013378d802267f3d96",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5e023378d802267f3d98",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-065__69dd5e013378d802267f3d96.webp"
+        }
+      ]
+    },
+    {
+      "name": "Chat Control",
+      "cardNumber": "OP02/HKS-066",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent is [Dominating] this <b>Platform.</b>\r\n<b>When Flipped:</b> Delete 1 opposing <b>Content</b> card on this <b>Platform.</b>",
+      "keywords": [
+        "Dominating",
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "genre": [
+        "Poggers"
+      ],
+      "quote": "Welcome to my flower shop!... We only sell bread.",
+      "cost": "2",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69dd5f38f11fa00a6348f43f",
+          "rarity": "Pon",
+          "artist": [
+            "OdoMame"
+          ],
+          "imageId": "69dd5f37f11fa00a6348f43d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd5f37f11fa00a6348f43d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd5f38f11fa00a6348f43f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-066__69dd5f37f11fa00a6348f43d.webp"
+        }
+      ]
+    },
+    {
+      "name": "Joystick User",
+      "cardNumber": "OP02/HKS-067",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> If your opponent has more [Popularity] than you on this <b>Platform,</b> gain 1 [Popularity] on this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I Happen to be a joystick enjoyer.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "3",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69dd601865da2dd71f486168",
+          "rarity": "Pon",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69dd601765da2dd71f486166",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd601765da2dd71f486166",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd601865da2dd71f486168",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-067__69dd601765da2dd71f486166.webp"
+        }
+      ]
+    },
+    {
+      "name": "Pro Gamer",
+      "cardNumber": "OP02/HKS-068",
+      "cardType": "Content",
+      "effect": "Your other <b>Content</b> cards on this <b>Platform</b> can't be deleted by opposing effects.",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Guys, don't worry! I've got this!",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "4",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd618f0e0738535b9e4270",
+          "rarity": "Supa!",
+          "artist": [
+            "yanpans"
+          ],
+          "imageId": "69dd618f0e0738535b9e426e",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd618f0e0738535b9e426e",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd618f0e0738535b9e4270",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-068__69dd618f0e0738535b9e426e.webp"
+        }
+      ]
+    },
+    {
+      "name": "Knock Knock",
+      "cardNumber": "OP02/HKS-069",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> You may move 1 of your <b>Content</b> cards to this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I wanna knock on you.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "5",
+      "influence": "8",
+      "variants": [
+        {
+          "id": "69dd62010e0738535b9e4276",
+          "rarity": "Pon",
+          "artist": [
+            "えだつい"
+          ],
+          "imageId": "69dd62010e0738535b9e4274",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd62010e0738535b9e4274",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd62010e0738535b9e4276",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-069__69dd62010e0738535b9e4274.webp"
+        }
+      ]
+    },
+    {
+      "name": "Kiss, Marry, Kill",
+      "cardNumber": "OP02/HKS-070",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Your opponent chooses 1 of their <b>Content</b> cards on this <b>Platform,</b> Delete it.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "The biggest smooch I've ever given in my entire life.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "6",
+      "influence": "8",
+      "variants": [
+        {
+          "id": "69dd628d0e0738535b9e427c",
+          "rarity": "Pon",
+          "artist": [
+            "えだつい"
+          ],
+          "imageId": "69dd628d0e0738535b9e427a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd628d0e0738535b9e427a",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd628d0e0738535b9e427c",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-070__69dd628d0e0738535b9e427a.webp"
+        }
+      ]
+    },
+    {
+      "name": "Children's Game",
+      "cardNumber": "OP02/HKS-071",
+      "cardType": "Content",
+      "effect": "<b>When an opponent gains a [Popularity] on a Platform:</b> Gain 1 [Popularity] at this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Most Humble VTuber.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "8",
+      "influence": "15",
+      "variants": [
+        {
+          "id": "69dd6323d4b88dc4d7780163",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "yanpans"
+          ],
+          "imageId": "69dd6323d4b88dc4d7780161",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6323d4b88dc4d7780161",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd6323d4b88dc4d7780163",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-071__69dd6323d4b88dc4d7780161.webp"
+        }
+      ]
+    },
+    {
+      "name": "Gacha Pull",
+      "cardNumber": "OP02/HKS-072",
+      "cardType": "Action",
+      "effect": "Delete 1 <b>Content</b> card. Its controller reveals cards from the top of their deck until they reveal a <b>Content</b> card and plays it at the same <b>Platform.</b> Then, they shuffle all other revealed cards into their deck.",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I want the ugly one!!!",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "4",
+      "variants": [
+        {
+          "id": "69dd63c5d4b88dc4d7780169",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "yanpans"
+          ],
+          "imageId": "69dd63c5d4b88dc4d7780167",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd63c5d4b88dc4d7780167",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd63c5d4b88dc4d7780169",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-072__69dd63c5d4b88dc4d7780167.webp"
+        }
+      ]
+    },
+    {
+      "name": "Nose Pull",
+      "cardNumber": "OP02/HKS-073",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nDelete 1 opposing <b>Content</b> card or Cameo card on this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Why's that a thing?",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "6",
+      "variants": [
+        {
+          "id": "69dd6430d4b88dc4d778016f",
+          "rarity": "Pon",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69dd6430d4b88dc4d778016d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6430d4b88dc4d778016d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd6430d4b88dc4d778016f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-073__69dd6430d4b88dc4d778016d.webp"
+        }
+      ]
+    },
+    {
+      "name": "CeriYun",
+      "cardNumber": "OP02/HKS-074",
+      "cardType": "Cameo",
+      "effect": "<b>While you are [Dominating] this Platform:</b> Your Persona gains +2 [Influence] .\r\n[Discard] Move your Persona to this <b>Platform.</b> <i>Use only during a clash.</i>",
+      "keywords": [
+        "Discard",
+        "Dominating"
+      ],
+      "vtuber": [
+        "CeriYun"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Even the brightest flame needs her Ashlings by her side.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "3",
+      "bits": "1",
+      "influence": "0",
+      "variants": [
+        {
+          "id": "69dd64dbd4b88dc4d7780175",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "ElazuArt"
+          ],
+          "imageId": "69dd64dad4b88dc4d7780173",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd64dad4b88dc4d7780173",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd64dbd4b88dc4d7780175",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-074__69dd64dad4b88dc4d7780173.webp"
+        }
+      ]
+    },
+    {
+      "name": "Rampant Narcissism",
+      "cardNumber": "OP02/HKS-075",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> You may play another [1 Cost] <b>Content</b> card on this <b>Platform</b> for free.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "How did you know I was my own fan?",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "1",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69dd6615d4b88dc4d7780199",
+          "rarity": "Pon",
+          "artist": [
+            "BumblebeePudding",
+            "Mayhemorii"
+          ],
+          "imageId": "69dd6615d4b88dc4d7780197",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6615d4b88dc4d7780197",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd6615d4b88dc4d7780199",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-075__69dd6615d4b88dc4d7780197.webp"
+        }
+      ]
+    },
+    {
+      "name": "Child Support",
+      "cardNumber": "OP02/HKS-076",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent has more cards in their hand than you.\r\n<b>When Flipped:</b> Each opponent discards 2 cards from their hand.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "My Wife left me... I miss my Wife.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "2",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69dd66a5d4b88dc4d778019f",
+          "rarity": "Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd66a5d4b88dc4d778019d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd66a5d4b88dc4d778019d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd66a5d4b88dc4d778019f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-076__69dd66a5d4b88dc4d778019d.webp"
+        }
+      ]
+    },
+    {
+      "name": "Trash Talk",
+      "cardNumber": "OP02/HKS-077",
+      "cardType": "Content",
+      "effect": "<b>While clashing at this Platform:</b> Action cards cost your opponents [2 Cost] more to play.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Call me a mean word!",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "3",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd6706d4b88dc4d77801a5",
+          "rarity": "Pon",
+          "artist": [
+            "らぬき"
+          ],
+          "imageId": "69dd6705d4b88dc4d77801a3",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6705d4b88dc4d77801a3",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd6706d4b88dc4d77801a5",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-077__69dd6705d4b88dc4d77801a3.webp"
+        }
+      ]
+    },
+    {
+      "name": "Retro Games",
+      "cardNumber": "OP02/HKS-078",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Play a <b>Content</b> card with [2 Cost] or less on this <b>Platform</b> for free.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "The aesthetic fits beautifully.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "4",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd677ad4b88dc4d77801ab",
+          "rarity": "Pon",
+          "artist": [
+            "芋園缶"
+          ],
+          "imageId": "69dd6779d4b88dc4d77801a9",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6779d4b88dc4d77801a9",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd677ad4b88dc4d77801ab",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-078__69dd6779d4b88dc4d77801a9.webp"
+        }
+      ]
+    },
+    {
+      "name": "Sigma Alpha Dominant",
+      "cardNumber": "OP02/HKS-079",
+      "cardType": "Content",
+      "effect": "This card costs [1 Cost] less to play for each <b>Content</b> card you have in play.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Ignore the fact that I can go big and small.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "5",
+      "influence": "7",
+      "variants": [
+        {
+          "id": "69dd68a89dabace7158cef8a",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd68a89dabace7158cef88",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd68a89dabace7158cef88",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd68a89dabace7158cef8a",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-079__69dd68a89dabace7158cef88.webp"
+        }
+      ]
+    },
+    {
+      "name": "NPC Carry",
+      "cardNumber": "OP02/HKS-080",
+      "cardType": "Content",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Could you shoot your friend for me real quick?",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "7",
+      "influence": "17",
+      "variants": [
+        {
+          "id": "69dd68f79dabace7158cef90",
+          "rarity": "Pon",
+          "artist": [
+            "Mr_Carl_Karlson"
+          ],
+          "imageId": "69dd68f79dabace7158cef8e",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd68f79dabace7158cef8e",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd68f79dabace7158cef90",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-080__69dd68f79dabace7158cef8e.webp"
+        }
+      ]
+    },
+    {
+      "name": "Soulslike Notes",
+      "cardNumber": "OP02/HKS-081",
+      "cardType": "Action",
+      "effect": "Draw cards until you have 3 cards in your hand.",
+      "keywords": [],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Amazing Chest Ahead.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69dd6992d4fd275b5ba5cdcf",
+          "rarity": "Supa!",
+          "artist": [
+            "いもーす"
+          ],
+          "imageId": "69dd6992d4fd275b5ba5cdcd",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6992d4fd275b5ba5cdcd",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd6992d4fd275b5ba5cdcf",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-081__69dd6992d4fd275b5ba5cdcd.webp"
+        }
+      ]
+    },
+    {
+      "name": "Ash Blasting",
+      "cardNumber": "OP02/HKS-082",
+      "cardType": "Action",
+      "effect": "Look at an opponent's hand and discards 1 card from it.",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I should be able to set this on fire safely!",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "3",
+      "variants": [
+        {
+          "id": "69dd6a88d4fd275b5ba5cdd5",
+          "rarity": "Supa!",
+          "artist": [
+            "Karasoba"
+          ],
+          "imageId": "69dd6a88d4fd275b5ba5cdd3",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd6a88d4fd275b5ba5cdd3",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd6a88d4fd275b5ba5cdd5",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-082__69dd6a88d4fd275b5ba5cdd3.webp"
+        }
+      ]
+    },
+    {
+      "name": "Blockheads",
+      "cardNumber": "OP02/HKS-083",
+      "cardType": "Cameo",
+      "effect": "<b>When Played:</b> Each opponent discards 1 card from their hand.\r\n[Discard] Gain 1 [Bit] .",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "If Joel likes annoying things, does that mean we're annoying?",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "3",
+      "bits": "1",
+      "influence": "0",
+      "variants": [
+        {
+          "id": "69dd736c94a253049b1dff26",
+          "rarity": "Supa!",
+          "artist": [
+            "WHosBQ"
+          ],
+          "imageId": "69dd736c94a253049b1dff24",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd736c94a253049b1dff24",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd736c94a253049b1dff26",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-083__69dd736c94a253049b1dff24.webp"
+        }
+      ]
+    },
+    {
+      "name": "Love the Nub",
+      "cardNumber": "OP02/HKS-084",
+      "cardType": "Content",
+      "effect": "<b>While you have a face-up Premium Content card on this Platform:</b> This card gains +3 [Influence] .",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Why is that [earbud] in a dress?",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "3",
+      "influence": "7",
+      "variants": [
+        {
+          "id": "69dd73f494a253049b1dff2c",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "69dd73f494a253049b1dff2a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd73f494a253049b1dff2a",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd73f494a253049b1dff2c",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-084__69dd73f494a253049b1dff2a.webp"
+        }
+      ]
+    },
+    {
+      "name": "CUSTODY BATTLE",
+      "cardNumber": "OP02/HKS-085",
+      "cardType": "Content",
+      "effect": "[Activate] Choose 1 <b>Content</b> card on an adjacent <b>Platform</b> to gain +3 [Influence] this round.",
+      "keywords": [
+        "Activate"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "She took the PSP in the Divorce, but left behind Chat...",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "3",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dd74de94a253049b1dff32",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd74dd94a253049b1dff30",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd74dd94a253049b1dff30",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd74de94a253049b1dff32",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-085__69dd74dd94a253049b1dff30.webp"
+        }
+      ]
+    },
+    {
+      "name": "How's Your Mom?",
+      "cardNumber": "OP02/HKS-086",
+      "cardType": "Content",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I just like mature women.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "3",
+      "influence": "8",
+      "variants": [
+        {
+          "id": "69dd751894a253049b1dff38",
+          "rarity": "Pon",
+          "artist": [
+            "すずま"
+          ],
+          "imageId": "69dd751894a253049b1dff36",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd751894a253049b1dff36",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd751894a253049b1dff38",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-086__69dd751894a253049b1dff36.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bathing Suit Outfit",
+      "cardNumber": "OP02/HKS-087",
+      "cardType": "Content",
+      "effect": "<b>When you win a clash at another Platform:</b> You may gain the [Popularity] on this <b>Platform</b> instead.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "This was NOT my idea for clothes... It was a sub goal.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "4",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dd759094a253049b1dff3e",
+          "rarity": "Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd759094a253049b1dff3c",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd759094a253049b1dff3c",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd759094a253049b1dff3e",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-087__69dd759094a253049b1dff3c.webp"
+        }
+      ]
+    },
+    {
+      "name": "VTuber HR",
+      "cardNumber": "OP02/HKS-088",
+      "cardType": "Content",
+      "effect": "<b>When you move your persona to this Platform:</b> You may move this card to another <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I need to rub that nub.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "6",
+      "influence": "11",
+      "variants": [
+        {
+          "id": "69dd75fe94a253049b1dff44",
+          "rarity": "Pon",
+          "artist": [
+            "ゆひゃん"
+          ],
+          "imageId": "69dd75fe94a253049b1dff42",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd75fe94a253049b1dff42",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd75fe94a253049b1dff44",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-088__69dd75fe94a253049b1dff42.webp"
+        }
+      ]
+    },
+    {
+      "name": "Casual Misongyny",
+      "cardNumber": "OP02/HKS-089",
+      "cardType": "Content",
+      "effect": "<b>While you have 1 or more Content cards on every Platform:</b> This card gains +10 [Influence] .",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "All women have hot girl IBS.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "7",
+      "influence": "16",
+      "variants": [
+        {
+          "id": "69dd766c94a253049b1dff4a",
+          "rarity": "Pon",
+          "artist": [
+            "BumblebeePudding",
+            "Mayhemorii"
+          ],
+          "imageId": "69dd766b94a253049b1dff48",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd766b94a253049b1dff48",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd766c94a253049b1dff4a",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-089__69dd766b94a253049b1dff48.webp"
+        }
+      ]
+    },
+    {
+      "name": "Sniffa",
+      "cardNumber": "OP02/HKS-090",
+      "cardType": "Action",
+      "effect": "You may play <b>Content</b> cards on any <b>Platform</b> this round.",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "She stinks, but she stinks kinda good.",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69dd76cc94a253049b1dff50",
+          "rarity": "Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd76cc94a253049b1dff4e",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd76cc94a253049b1dff4e",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd76cc94a253049b1dff50",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-090__69dd76cc94a253049b1dff4e.webp"
+        }
+      ]
+    },
+    {
+      "name": "Add Reverb",
+      "cardNumber": "OP02/HKS-092",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nPlay a <b>Content</b> card with [5 Cost] or less on this <b>Platform</b>(even if your Persona is not on this <b>Platform</b>) for free.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Zoomer Humor Test",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "4",
+      "variants": [
+        {
+          "id": "69dd775c94a253049b1dff56",
+          "rarity": "Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd775c94a253049b1dff54",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd775c94a253049b1dff54",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd775c94a253049b1dff56",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-092__69dd775c94a253049b1dff54.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bellyr Adsala",
+      "cardNumber": "OP02/HKS-093",
+      "cardType": "Cameo",
+      "effect": "Your Persona gains +2 [Influence] for each <b>Platform</b> where you have 1 or more <b>Content</b> cards.\r\n[Discard] Your Persona gains +2 [Influence] this clash.",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Bellyr Adsala"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Run, and I'll beat you with my chloroform bat.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "3",
+      "bits": "0",
+      "influence": "0",
+      "variants": [
+        {
+          "id": "69dd77f494a253049b1dff5c",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69dd77f494a253049b1dff5a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd77f494a253049b1dff5a",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd77f494a253049b1dff5c",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-093__69dd77f494a253049b1dff5a.webp"
+        }
+      ]
+    },
+    {
+      "name": "Robot Vacuum",
+      "cardNumber": "OP02/HKS-094",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> You may move another 1 of your <b>Content</b> cards from this <b>Platform</b> to another <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Edenia Euclase"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I named him Ricardo.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "1",
+      "influence": "2",
+      "variants": [
+        {
+          "id": "69dd789b94a253049b1dff62",
+          "rarity": "Pon",
+          "artist": [
+            "稲咲"
+          ],
+          "imageId": "69dd789b94a253049b1dff60",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd789b94a253049b1dff60",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd789b94a253049b1dff62",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-094__69dd789b94a253049b1dff60.webp"
+        }
+      ]
+    },
+    {
+      "name": "Tier List",
+      "cardNumber": "OP02/HKS-095",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent's Persona is on another <b>Platform.</b>\r\n<b>When Flipped:</b> You may move 1 of your <b>Content</b> cards from this <b>Platform</b> to another <b>Platform.</b>",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Vodka is the empty piece of paper.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "2",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dd9b51d40d60059f6bba8e",
+          "rarity": "Pon",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69dd9b51d40d60059f6bba8c",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9b51d40d60059f6bba8c",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9b51d40d60059f6bba8e",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-095__69dd9b51d40d60059f6bba8c.webp"
+        }
+      ]
+    },
+    {
+      "name": "Against TOS",
+      "cardNumber": "OP02/HKS-096",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> You have less Subscribers than an opponent.\r\n<b>When Flipped:</b> Your opponents can't play <b>Content</b> cards on this <b>Platform</b> this round.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I'm not manspreading.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "2",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd9bf6d40d60059f6bba94",
+          "rarity": "Supa!",
+          "artist": [
+            "Natalie Ong",
+            "WaHa"
+          ],
+          "imageId": "69dd9bf6d40d60059f6bba92",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9bf6d40d60059f6bba92",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9bf6d40d60059f6bba94",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-096__69dd9bf6d40d60059f6bba92.webp"
+        }
+      ]
+    },
+    {
+      "name": "Mods, Ban Them",
+      "cardNumber": "OP02/HKS-097",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Choose 1 opposing [Popularity] on this <b>Platform.</b> Its controller moves it to another <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "On it Boss! Throwing them in the Hydraulic Press!",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "4",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69dd9cbfd40d60059f6bba9a",
+          "rarity": "Pon",
+          "artist": [
+            "ゆひゃん"
+          ],
+          "imageId": "69dd9cbfd40d60059f6bba98",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9cbfd40d60059f6bba98",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9cbfd40d60059f6bba9a",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-097__69dd9cbfd40d60059f6bba98.webp"
+        }
+      ]
+    },
+    {
+      "name": "Vine Boom",
+      "cardNumber": "OP02/HKS-098",
+      "cardType": "Content",
+      "effect": "[Clash Reward] Delete all <b>Content</b> cards on this <b>Platform</b> with 6 [Influence] or less.",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "You're gonna destroy my computer!",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "5",
+      "influence": "7",
+      "variants": [
+        {
+          "id": "69dd9d3bd40d60059f6bbaa0",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "西田実鳥"
+          ],
+          "imageId": "69dd9d3bd40d60059f6bba9e",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9d3bd40d60059f6bba9e",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9d3bd40d60059f6bbaa0",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-098__69dd9d3bd40d60059f6bba9e.webp"
+        }
+      ]
+    },
+    {
+      "name": "Mandatory Ball Crushing",
+      "cardNumber": "OP02/HKS-099",
+      "cardType": "Content",
+      "effect": "<b>When you flip a Premium Content card on this Platform face-up:</b> You may exhaust this. If you do, delete 1 opposing <b>Content</b> card.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I'm not mean to people I just do it for money.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "8",
+      "influence": "17",
+      "variants": [
+        {
+          "id": "69dd9dd9d40d60059f6bbaa6",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Pumpkinnnyy"
+          ],
+          "imageId": "69dd9dd9d40d60059f6bbaa4",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9dd9d40d60059f6bbaa4",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9dd9d40d60059f6bbaa6",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-099__69dd9dd9d40d60059f6bbaa4.webp"
+        }
+      ]
+    },
+    {
+      "name": "Cage Chat",
+      "cardNumber": "OP02/HKS-100",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\n1 <b>Content</b> card loses -4 [Influence] this clash. Then, if it has 0 [Influence] , delete it.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Chat likes the cage.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69dd9e6fd40d60059f6bbaac",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dd9e6fd40d60059f6bbaaa",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9e6fd40d60059f6bbaaa",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9e6fd40d60059f6bbaac",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-100__69dd9e6fd40d60059f6bbaaa.webp"
+        }
+      ]
+    },
+    {
+      "name": "Accidental Flash",
+      "cardNumber": "OP02/HKS-101",
+      "cardType": "Action",
+      "effect": "Move up to 2 opposing [Popularity] on this <b>Platform</b> to up to 2 other <b>Platforms.</b>",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Do they bounce?",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "5",
+      "variants": [
+        {
+          "id": "69dd9eeed40d60059f6bbab2",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "西田実鳥"
+          ],
+          "imageId": "69dd9eeed40d60059f6bbab0",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9eeed40d60059f6bbab0",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9eeed40d60059f6bbab2",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-101__69dd9eeed40d60059f6bbab0.webp"
+        }
+      ]
+    },
+    {
+      "name": "Minky(e)",
+      "cardNumber": "OP02/HKS-102",
+      "cardType": "Cameo",
+      "effect": "<b>When Played:</b> You may move your Persona to another <b>Platform.</b>\r\n[Discard] Move your Persona to this <b>Platform.</b> <i>Use only during a clash.</i>",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Minkye"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "There's only Minkye.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "5",
+      "bits": "0",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69dd9f9bd40d60059f6bbab8",
+          "rarity": "Supa!",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "69dd9f9ad40d60059f6bbab6",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dd9f9ad40d60059f6bbab6",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dd9f9bd40d60059f6bbab8",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-102__69dd9f9ad40d60059f6bbab6.webp"
+        }
+      ]
+    },
+    {
+      "name": "Blackheads Big Adventure!",
+      "cardNumber": "OP02/HKS-103",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Gain 1 [Bit] for each other <b>Platform</b> where you have 1 or more <b>Content</b> cards.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "It's made out of cardboard and love.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "1",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69dda01fd40d60059f6bbabe",
+          "rarity": "Pon",
+          "artist": [
+            "Annalise Austenne"
+          ],
+          "imageId": "69dda01fd40d60059f6bbabc",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda01fd40d60059f6bbabc",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda01fd40d60059f6bbabe",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-103__69dda01fd40d60059f6bbabc.webp"
+        }
+      ]
+    },
+    {
+      "name": "Short Attention Span",
+      "cardNumber": "OP02/HKS-104",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> You have no cards in your hand.\r\n<b>When Flipped:</b> Draw 2 cards.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Look!! Keys! Keys!!",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "2",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69dda093d40d60059f6bbac4",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dda093d40d60059f6bbac2",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda093d40d60059f6bbac2",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda093d40d60059f6bbac4",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-104__69dda093d40d60059f6bbac2.webp"
+        }
+      ]
+    },
+    {
+      "name": "Wardrobe Malfunction",
+      "cardNumber": "OP02/HKS-105",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> You have more [Influence] than an opponent at this <b>Platform.</b>\r\n<b>When Flipped:</b> If this was flipped during a clash at this <b>Platform,</b> opponents can't Action cards this clash.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Give me a second, let me unzip.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "2",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dda1571893397d686b4a5e",
+          "rarity": "Supa!",
+          "artist": [
+            "Agony_Ina"
+          ],
+          "imageId": "69dda1561893397d686b4a5c",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda1561893397d686b4a5c",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda1571893397d686b4a5e",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-105__69dda1561893397d686b4a5c.webp"
+        }
+      ]
+    },
+    {
+      "name": "Sock Puppet Stream",
+      "cardNumber": "OP02/HKS-106",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Gain 1 [Bit] and draw 1 card.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Wanna hold mouths?",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "4",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dda1ab1893397d686b4a64",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "69dda1ab1893397d686b4a62",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda1ab1893397d686b4a62",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda1ab1893397d686b4a64",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-106__69dda1ab1893397d686b4a62.webp"
+        }
+      ]
+    },
+    {
+      "name": "MILC",
+      "cardNumber": "OP02/HKS-107",
+      "cardType": "Content",
+      "effect": "<b>Content</b> cards cost you [1 Cost] less to play on other <b>Platforms.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Man, I love Chat.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "3",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dda20f85cdbd0a24242e95",
+          "rarity": "Pon",
+          "artist": [
+            "AnarchyAtlas"
+          ],
+          "imageId": "69dda20f85cdbd0a24242e93",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda20f85cdbd0a24242e93",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda20f85cdbd0a24242e95",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-107__69dda20f85cdbd0a24242e93.webp"
+        }
+      ]
+    },
+    {
+      "name": "No Survival Instinct",
+      "cardNumber": "OP02/HKS-108",
+      "cardType": "Content",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Cuteness Aggression is telling me to eat you guys...",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "6",
+      "influence": "13",
+      "variants": [
+        {
+          "id": "69dda25585cdbd0a24242e9b",
+          "rarity": "Pon",
+          "artist": [
+            "NikkiArtz"
+          ],
+          "imageId": "69dda25485cdbd0a24242e99",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda25485cdbd0a24242e99",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda25585cdbd0a24242e9b",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-108__69dda25485cdbd0a24242e99.webp"
+        }
+      ]
+    },
+    {
+      "name": "WHO ARE YOU?",
+      "cardNumber": "OP02/HKS-109",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> You may play 1 <b>Content</b> card with [6 Cost] or less onto another <b>Platform</b> for free.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Hi, I'm Joel!",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "9",
+      "influence": "15",
+      "variants": [
+        {
+          "id": "69dda2c585cdbd0a24242ea1",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dda2c585cdbd0a24242e9f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda2c585cdbd0a24242e9f",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda2c585cdbd0a24242ea1",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-109__69dda2c585cdbd0a24242e9f.webp"
+        }
+      ]
+    },
+    {
+      "name": "Permission to Swear",
+      "cardNumber": "OP02/HKS-110",
+      "cardType": "Action",
+      "effect": "Flip 1 face-down <b>Premium Content</b> card face-up.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I wanna swear.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "1",
+      "variants": [
+        {
+          "id": "69dda33f85cdbd0a24242ea7",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dda33f85cdbd0a24242ea5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda33f85cdbd0a24242ea5",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda33f85cdbd0a24242ea7",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-110__69dda33f85cdbd0a24242ea5.webp"
+        }
+      ]
+    },
+    {
+      "name": "Alter Ego",
+      "cardNumber": "OP02/HKS-111",
+      "cardType": "Cameo",
+      "effect": "[Discard] Gain 1 [Bit] .",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "She's more popular than I am.",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "6",
+      "bits": "3",
+      "influence": "0",
+      "variants": [
+        {
+          "id": "69dda39085cdbd0a24242ead",
+          "rarity": "Pon",
+          "artist": [
+            "マノ居"
+          ],
+          "imageId": "69dda39085cdbd0a24242eab",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda39085cdbd0a24242eab",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda39085cdbd0a24242ead",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-111__69dda39085cdbd0a24242eab.webp"
+        }
+      ]
+    },
+    {
+      "name": "Spray Streamer",
+      "cardNumber": "OP02/HKS-113",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent played a <b>Content</b> card on this <b>Platform</b> this round.\r\n<b>When Flipped:</b> Set an opposing <b>Content</b> card's [Influence] to 0 this round.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Bee-Gone Spray. It's definitely for bees... probably.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "2",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dda47485cdbd0a24242eb3",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dda47485cdbd0a24242eb1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda47485cdbd0a24242eb1",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda47485cdbd0a24242eb3",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-113__69dda47485cdbd0a24242eb1.webp"
+        }
+      ]
+    },
+    {
+      "name": "Sudden Stream Scuff",
+      "cardNumber": "OP02/HKS-114",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent is [Dominating] this <b>Platform.</b>\r\n<b>When Flipped:</b> This card gains +10 [Influence] this round.",
+      "keywords": [
+        "Dominating",
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I just tested this...",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "2",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69dda627eb1b4d2b3f7f5a73",
+          "rarity": "Pon",
+          "artist": [
+            "Unknown Artist"
+          ],
+          "imageId": "69dda626eb1b4d2b3f7f5a71",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda626eb1b4d2b3f7f5a71",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda627eb1b4d2b3f7f5a73",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-114__69dda626eb1b4d2b3f7f5a71.webp"
+        }
+      ]
+    },
+    {
+      "name": "ARF ARF",
+      "cardNumber": "OP02/HKS-118",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nChoose 1 of your <b>Content</b> cards to gain +1 [Influence] this clash for each card in your Trash.",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I hate you. But I love you. But I hate you.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "3",
+      "variants": [
+        {
+          "id": "69dda6a7eb1b4d2b3f7f5a79",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69dda6a7eb1b4d2b3f7f5a77",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda6a7eb1b4d2b3f7f5a77",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda6a7eb1b4d2b3f7f5a79",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-118__69dda6a7eb1b4d2b3f7f5a77.webp"
+        }
+      ]
+    },
+    {
+      "name": "Identity Theft",
+      "cardNumber": "OP02/HKS-119",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nGive your Persona \"[Clash Reward] Steal 1 [Popularity] on this <b>Platform</b>\" this clash.",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I'm not a bee, I just so happen to like hexagons.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "5",
+      "variants": [
+        {
+          "id": "69dda763eb1b4d2b3f7f5a7f",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "みそじ"
+          ],
+          "imageId": "69dda762eb1b4d2b3f7f5a7d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda762eb1b4d2b3f7f5a7d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda763eb1b4d2b3f7f5a7f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-119__69dda762eb1b4d2b3f7f5a7d.webp"
+        }
+      ]
+    },
+    {
+      "name": "Grubbies",
+      "cardNumber": "OP02/HKS-120",
+      "cardType": "Cameo",
+      "effect": "Opposing <b>Content</b> cards on this <b>Platform</b> lose -3 [Influence] .\r\n[Discard] Your Persona gains +2 [Influence] this clash.",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "G.R.U.B.S are expendable broadcasting units... or food.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "5",
+      "bits": "1",
+      "influence": "0",
+      "variants": [
+        {
+          "id": "69dda7f4eb1b4d2b3f7f5a85",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "IaineiKaros"
+          ],
+          "imageId": "69dda7f4eb1b4d2b3f7f5a83",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69dda7f4eb1b4d2b3f7f5a83",
+          "cardPageUrl": "https://www.theoshivault.com/card/69dda7f4eb1b4d2b3f7f5a85",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-120__69dda7f4eb1b4d2b3f7f5a83.webp"
+        }
+      ]
+    },
+    {
+      "name": "Brain Rot",
+      "cardNumber": "OP02/HKS-123",
+      "cardType": "Content",
+      "effect": "Each player may only play 1 <b>Content</b> card per round on this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "No idea what is happening but it's just chaos.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "5",
+      "influence": "8",
+      "variants": [
+        {
+          "id": "69ddab18abec9f531087a683",
+          "rarity": "Supa!",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69ddab18abec9f531087a681",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddab18abec9f531087a681",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddab18abec9f531087a683",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-123__69ddab18abec9f531087a681.webp"
+        }
+      ]
+    },
+    {
+      "name": "Nail Painting",
+      "cardNumber": "OP02/HKS-124",
+      "cardType": "Content",
+      "effect": "Your opponents can't play <b>Content</b> cards on this <b>Platform</b> with [2 Cost] or less.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I was told you were painting toenails.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "6",
+      "influence": "11",
+      "variants": [
+        {
+          "id": "69ddad7503ea0252c34d1cd1",
+          "rarity": "Supa!",
+          "artist": [
+            "銅貨"
+          ],
+          "imageId": "69ddad7503ea0252c34d1ccf",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddad7503ea0252c34d1ccf",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddad7503ea0252c34d1cd1",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-124__69ddad7503ea0252c34d1ccf.webp"
+        }
+      ]
+    },
+    {
+      "name": "Touch Grass",
+      "cardNumber": "OP02/HKS-125",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Each player chooses 1 <b>Content</b> card on this <b>Platform.</b> Delete all other <b>Content</b> cards on this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Grass... Grass... Bark... Bark...",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "7",
+      "influence": "11",
+      "variants": [
+        {
+          "id": "69ddadf503ea0252c34d1cd7",
+          "rarity": "Supa!",
+          "artist": [
+            "MellowMabel"
+          ],
+          "imageId": "69ddadf403ea0252c34d1cd5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddadf403ea0252c34d1cd5",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddadf503ea0252c34d1cd7",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-125__69ddadf403ea0252c34d1cd5.webp"
+        }
+      ]
+    },
+    {
+      "name": "Aggressive Bite",
+      "cardNumber": "OP02/HKS-127",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nChoose an opposing <b>Content</b> card on this <b>Platform</b> to lose -5 [Influence] this clash.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "I'm a rabid catboy!",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "1",
+      "variants": [
+        {
+          "id": "69ddae6c03ea0252c34d1cdd",
+          "rarity": "Pon",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69ddae6c03ea0252c34d1cdb",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddae6c03ea0252c34d1cdb",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddae6c03ea0252c34d1cdd",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-127__69ddae6c03ea0252c34d1cdb.webp"
+        }
+      ]
+    },
+    {
+      "name": "No Prep, No Problem",
+      "cardNumber": "OP02/HKS-128",
+      "cardType": "Action",
+      "effect": "Move 1 <b>Content</b> card from a <b>Platform<//b> that has 2 or more <b>Content</b> cards to another <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Had this idea 10 minutes ago.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69ddaef503ea0252c34d1ce3",
+          "rarity": "Supa!",
+          "artist": [
+            "Suotti"
+          ],
+          "imageId": "69ddaef503ea0252c34d1ce1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddaef503ea0252c34d1ce1",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddaef503ea0252c34d1ce3",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-128__69ddaef503ea0252c34d1ce1.webp"
+        }
+      ]
+    },
+    {
+      "name": "D.A.I.S.Y.",
+      "cardNumber": "OP02/HKS-129",
+      "cardType": "Cameo",
+      "effect": "[Discard] Move your Persona to this <b>Platform.</b> <i>Use only during a clash.</i>",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "(aDorable Airship Improvement System)",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "7",
+      "bits": "2",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69ddaf6603ea0252c34d1ce9",
+          "rarity": "Pon",
+          "artist": [
+            "nana_illust"
+          ],
+          "imageId": "69ddaf6603ea0252c34d1ce7",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddaf6603ea0252c34d1ce7",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddaf6603ea0252c34d1ce9",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-129__69ddaf6603ea0252c34d1ce7.webp"
+        }
+      ]
+    },
+    {
+      "name": "Community Art",
+      "cardNumber": "OP02/HKS-130",
+      "cardType": "Content",
+      "effect": "<b>At the start of a clash at this Platform:</b> If you have a face-up <b>Premium Content</b> card this <b>Platform,</b> gain 1 [Bit] .",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "We're in this together!!",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "1",
+      "influence": "2",
+      "variants": [
+        {
+          "id": "69ddafdd03ea0252c34d1cef",
+          "rarity": "Pon",
+          "artist": [
+            "Mugguuuu"
+          ],
+          "imageId": "69ddafdd03ea0252c34d1ced",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddafdd03ea0252c34d1ced",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddafdd03ea0252c34d1cef",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-130__69ddafdd03ea0252c34d1ced.webp"
+        }
+      ]
+    },
+    {
+      "name": "Marketable Plushie",
+      "cardNumber": "OP02/HKS-131",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> Your Opponent has 2 or more [Popularity] on this <b>Platform</b>\r\n<b>When Flipped:</b> Gain 4 [Bit] .",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "A new step dad for you daddy issues people.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "2",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69ddb07503ea0252c34d1cf5",
+          "rarity": "Pon",
+          "artist": [
+            "BumblebeePudding",
+            "Mayhemorii"
+          ],
+          "imageId": "69ddb07503ea0252c34d1cf3",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb07503ea0252c34d1cf3",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb07503ea0252c34d1cf5",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-131__69ddb07503ea0252c34d1cf3.webp"
+        }
+      ]
+    },
+    {
+      "name": "Powerpoint Presentation",
+      "cardNumber": "OP02/HKS-132",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> Your opponent played an Action card this clash.\r\n<b>When Flipped:</b> You may play an Action card from your Trash, reducing its cost by [3 Cost] . Then, put it on the bottom of your deck.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Most Humble VTuber.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "2",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69ddb11603ea0252c34d1cfb",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Amphrey"
+          ],
+          "imageId": "69ddb11503ea0252c34d1cf9",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb11503ea0252c34d1cf9",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb11603ea0252c34d1cfb",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-132__69ddb11503ea0252c34d1cf9.webp"
+        }
+      ]
+    },
+    {
+      "name": "Exposure Therapy",
+      "cardNumber": "OP02/HKS-133",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Discard the top card of any player's deck.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "If you are scared of something, draw it attractive.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "3",
+      "influence": "7",
+      "variants": [
+        {
+          "id": "69ddb17a03ea0252c34d1d01",
+          "rarity": "Pon",
+          "artist": [
+            "モリアオモリ"
+          ],
+          "imageId": "69ddb17a03ea0252c34d1cff",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb17a03ea0252c34d1cff",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb17a03ea0252c34d1d01",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-133__69ddb17a03ea0252c34d1cff.webp"
+        }
+      ]
+    },
+    {
+      "name": "Fashionista",
+      "cardNumber": "OP02/HKS-134",
+      "cardType": "Content",
+      "effect": "<b>When Played: Content</b> cards cost your opponents [3 Cost] more to play this round.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "You found that in my closet?",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "7",
+      "influence": "13",
+      "variants": [
+        {
+          "id": "69ddb1e503ea0252c34d1d07",
+          "rarity": "Supa!",
+          "artist": [
+            "BumblebeePudding",
+            "Mayhemorii"
+          ],
+          "imageId": "69ddb1e503ea0252c34d1d05",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb1e503ea0252c34d1d05",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb1e503ea0252c34d1d07",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-134__69ddb1e503ea0252c34d1d05.webp"
+        }
+      ]
+    },
+    {
+      "name": "Press Conference",
+      "cardNumber": "OP02/HKS-135",
+      "cardType": "Content",
+      "effect": "<b>You may play this card from your Trash.</b>\r\n<hr />\r\n<b>If this card would be deleted:</b> put it on the bottom of your deck instead.",
+      "keywords": [],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I am in fact announcing something.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "9",
+      "influence": "22",
+      "variants": [
+        {
+          "id": "69ddb2bf03ea0252c34d1d0d",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Amphrey"
+          ],
+          "imageId": "69ddb2be03ea0252c34d1d0b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb2be03ea0252c34d1d0b",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb2bf03ea0252c34d1d0d",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-135__69ddb2be03ea0252c34d1d0b.webp"
+        }
+      ]
+    },
+    {
+      "name": "Hydraulic Press",
+      "cardNumber": "OP02/HKS-136",
+      "cardType": "Action",
+      "effect": "<b>To play this card, you must delete 1 of your face-up Premium Content cards.</b>\r\n<hr />\r\nGain 2 [Bit] .",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "The_Child_Gets_Crushed.mp4",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "0",
+      "variants": [
+        {
+          "id": "69ddb33303ea0252c34d1d13",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69ddb33303ea0252c34d1d11",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb33303ea0252c34d1d11",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb33303ea0252c34d1d13",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-136__69ddb33303ea0252c34d1d11.webp"
+        }
+      ]
+    },
+    {
+      "name": "VTuberSenpai",
+      "cardNumber": "OP02/HKS-138",
+      "cardType": "Cameo",
+      "effect": "<b>While you have fewer Content cards on this Platform than an opponent:</b> Your Persona gains +3 [Influence] .\r\n[Discard] Gain 1 [Bit] .",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "VtuberSenpai"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I will protect my students at all costs.",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "4",
+      "bits": "0",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69ddb3bf03ea0252c34d1d19",
+          "rarity": "Supa!",
+          "artist": [
+            "StarlightAkari"
+          ],
+          "imageId": "69ddb3bf03ea0252c34d1d17",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb3bf03ea0252c34d1d17",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb3bf03ea0252c34d1d19",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-138__69ddb3bf03ea0252c34d1d17.webp"
+        }
+      ]
+    },
+    {
+      "name": "Queen Status",
+      "cardNumber": "OP02/HKS-139",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> If your opponent's Persona is on this <b>Platform,</b> this card gains +3 [Influence] this round.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Am I mentally ill?",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "1",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69ddb44403ea0252c34d1d1f",
+          "rarity": "Pon",
+          "artist": [
+            "すずま"
+          ],
+          "imageId": "69ddb44403ea0252c34d1d1d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb44403ea0252c34d1d1d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb44403ea0252c34d1d1f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-139__69ddb44403ea0252c34d1d1d.webp"
+        }
+      ]
+    },
+    {
+      "name": "Show Feet",
+      "cardNumber": "OP02/HKS-140",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> You flipped another <b>Content</b> card this round.\r\n<b>When Flipped:</b> Your Persona gains +5 [Influence] this round.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I'm gonna show my feet on the front page-",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69ddb54303ea0252c34d1d3b",
+          "rarity": "Pon",
+          "artist": [
+            "木庭"
+          ],
+          "imageId": "69ddb54303ea0252c34d1d39",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb54303ea0252c34d1d39",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb54303ea0252c34d1d3b",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-140__69ddb54303ea0252c34d1d39.webp"
+        }
+      ]
+    },
+    {
+      "name": "Boy Failure",
+      "cardNumber": "OP02/HKS-142",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Return another 1 of your <b>Content</b> cards on this <b>Platform</b> to its owner's hand. Otherwise, delete this card.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I fell into the ditch directly backwards.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "3",
+      "influence": "10",
+      "variants": [
+        {
+          "id": "69ddb5df03ea0252c34d1d41",
+          "rarity": "Pon",
+          "artist": [
+            "木庭"
+          ],
+          "imageId": "69ddb5de03ea0252c34d1d3f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb5de03ea0252c34d1d3f",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb5df03ea0252c34d1d41",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-142__69ddb5de03ea0252c34d1d3f.webp"
+        }
+      ]
+    },
+    {
+      "name": "Good Boy",
+      "cardNumber": "OP02/HKS-143",
+      "cardType": "Content",
+      "effect": "<b>While you have 5 or more cards in your hand:</b> This card gains +5 [Influence] .",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "God is with me.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "5",
+      "influence": "10",
+      "variants": [
+        {
+          "id": "69ddb63803ea0252c34d1d47",
+          "rarity": "Pon",
+          "artist": [
+            "madoka"
+          ],
+          "imageId": "69ddb63803ea0252c34d1d45",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb63803ea0252c34d1d45",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb63803ea0252c34d1d47",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-143__69ddb63803ea0252c34d1d45.webp"
+        }
+      ]
+    },
+    {
+      "name": "So Baby",
+      "cardNumber": "OP02/HKS-144",
+      "cardType": "Content",
+      "effect": "This card can be played during the <b>Platform</b> Phase. (You must play it on your Persona's <b>Platform.</b>)",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Baby's first manslaughter.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "5",
+      "influence": "9",
+      "variants": [
+        {
+          "id": "69ddb6cf03ea0252c34d1d4d",
+          "rarity": "Pon",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69ddb6cf03ea0252c34d1d4b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb6cf03ea0252c34d1d4b",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb6cf03ea0252c34d1d4d",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-144__69ddb6cf03ea0252c34d1d4b.webp"
+        }
+      ]
+    },
+    {
+      "name": "Meow",
+      "cardNumber": "OP02/HKS-145",
+      "cardType": "Content",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "Rate my meowing/barking!",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "7",
+      "influence": "18",
+      "variants": [
+        {
+          "id": "69ddb70803ea0252c34d1d53",
+          "rarity": "Pon",
+          "artist": [
+            "銅貨"
+          ],
+          "imageId": "69ddb70803ea0252c34d1d51",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb70803ea0252c34d1d51",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb70803ea0252c34d1d53",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-145__69ddb70803ea0252c34d1d51.webp"
+        }
+      ]
+    },
+    {
+      "name": "Take a Shot",
+      "cardNumber": "OP02/HKS-146",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nChoose 1 of your <b>Content</b> cards to gain +6 [Influence] this clash. If it is a face-up <b>Premium Content</b> card, also draw 1 card.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "[Drink #3]",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69ddb7b403ea0252c34d1d59",
+          "rarity": "Pon",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69ddb7b403ea0252c34d1d57",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb7b403ea0252c34d1d57",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb7b403ea0252c34d1d59",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-146__69ddb7b403ea0252c34d1d57.webp"
+        }
+      ]
+    },
+    {
+      "name": "Intended Flash",
+      "cardNumber": "OP02/HKS-147",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nYour Persona gains +5 [Influence] and an additional +1 [Influence] for each card in your opponents' hands this clash.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "I definitely flashed some people.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69ddb82603ea0252c34d1d5f",
+          "rarity": "Pon",
+          "artist": [
+            "madoka"
+          ],
+          "imageId": "69ddb82603ea0252c34d1d5d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb82603ea0252c34d1d5d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb82603ea0252c34d1d5f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-147__69ddb82603ea0252c34d1d5d.webp"
+        }
+      ]
+    },
+    {
+      "name": "Captain Chia",
+      "cardNumber": "OP02/HKS-148",
+      "cardType": "Cameo",
+      "effect": "This card gains +2 [Influence] for each opposing [Popularity] on this <b>Platform.</b>\r\n[Discard] Your Persona gains +2 [Influence] this clash.",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Captain Chia"
+      ],
+      "color": [
+        "Red"
+      ],
+      "quote": "See you, Space Captain.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "3",
+      "bits": "0",
+      "influence": "2",
+      "variants": [
+        {
+          "id": "69ddb8a103ea0252c34d1d65",
+          "rarity": "Supa!",
+          "artist": [
+            "Captain Chia"
+          ],
+          "imageId": "69ddb8a103ea0252c34d1d63",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb8a103ea0252c34d1d63",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb8a103ea0252c34d1d65",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-148__69ddb8a103ea0252c34d1d63.webp"
+        }
+      ]
+    },
+    {
+      "name": "It Should've Been Me!",
+      "cardNumber": "OP02/HKS-149",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Exhaust 1 opposing <b>Content</b> card or Persona.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "This random guy just gave me his ring.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "1",
+      "influence": "3",
+      "variants": [
+        {
+          "id": "69ddb91e03ea0252c34d1d6b",
+          "rarity": "Pon",
+          "artist": [
+            "Natalie Ong",
+            "WaHa"
+          ],
+          "imageId": "69ddb91e03ea0252c34d1d69",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb91e03ea0252c34d1d69",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb91e03ea0252c34d1d6b",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-149__69ddb91e03ea0252c34d1d69.webp"
+        }
+      ]
+    },
+    {
+      "name": "Single Life",
+      "cardNumber": "OP02/HKS-150",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent's Persona is on this <b>Platform.</b>\r\n<b>When Flipped:</b> Remove 1 opposing [Popularity] from this <b>Platform.</b>",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "When does it end bro?",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69ddb9ae03ea0252c34d1d71",
+          "rarity": "Supa!",
+          "artist": [
+            "稲咲"
+          ],
+          "imageId": "69ddb9ad03ea0252c34d1d6f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddb9ad03ea0252c34d1d6f",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddb9ae03ea0252c34d1d71",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-150__69ddb9ad03ea0252c34d1d6f.webp"
+        }
+      ]
+    },
+    {
+      "name": "FIRED",
+      "cardNumber": "OP02/HKS-151",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent played 1 or more <b>Content</b> cards on this <b>Platform</b> this round.\r\n<b>When Flipped:</b> Return 1 opposing <b>Content</b> card with [2 Cost] or less to its owner's hand.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "Captain Camille"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Surely I won't get laid off a 3rd time live on stream!",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "influence": "4",
+      "variants": [
+        {
+          "id": "69ddba6b03ea0252c34d1d77",
+          "rarity": "Pon",
+          "artist": [
+            "yanpans"
+          ],
+          "imageId": "69ddba6b03ea0252c34d1d75",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddba6b03ea0252c34d1d75",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddba6b03ea0252c34d1d77",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-151__69ddba6b03ea0252c34d1d75.webp"
+        }
+      ]
+    },
+    {
+      "name": "Wear Thigh Highs",
+      "cardNumber": "OP02/HKS-152",
+      "cardType": "Content",
+      "effect": "",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "What if the thigh highs rip?",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "3",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69ddbabd03ea0252c34d1d7d",
+          "rarity": "Pon",
+          "artist": [
+            "モリアオモリ"
+          ],
+          "imageId": "69ddbabc03ea0252c34d1d7b",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbabc03ea0252c34d1d7b",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbabd03ea0252c34d1d7d",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-152__69ddbabc03ea0252c34d1d7b.webp"
+        }
+      ]
+    },
+    {
+      "name": "Oversized Thighs",
+      "cardNumber": "OP02/HKS-153",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Move 1 opposing [Popularity] from another <b>Platform</b> to this <b>Platform.</b>",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Medically Thick Thighs.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "4",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69ddbb3303ea0252c34d1d83",
+          "rarity": "Supa!",
+          "artist": [
+            "Natalie Ong",
+            "WaHa"
+          ],
+          "imageId": "69ddbb3303ea0252c34d1d81",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbb3303ea0252c34d1d81",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbb3303ea0252c34d1d83",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-153__69ddbb3303ea0252c34d1d81.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bad Pick Up Lines",
+      "cardNumber": "OP02/HKS-154",
+      "cardType": "Content",
+      "effect": "This card costs you [2 Cost] less to play on a <b>Platform</b> where an opponent has more [Popularity] than you.\r\n<b>When a player wins a clash at this Platform:</b> Return this card to your hand.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Chat, rate my rizz.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "7",
+      "influence": "12",
+      "variants": [
+        {
+          "id": "69ddbbb803ea0252c34d1d89",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "すずま"
+          ],
+          "imageId": "69ddbbb803ea0252c34d1d87",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbbb803ea0252c34d1d87",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbbb803ea0252c34d1d89",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-154__69ddbbb803ea0252c34d1d87.webp"
+        }
+      ]
+    },
+    {
+      "name": "Boymode",
+      "cardNumber": "OP02/HKS-156",
+      "cardType": "Action",
+      "effect": "<b>Play only during a clash.</b>\r\n<hr />\r\nYour opponent can't gain [Popularity] this clash.",
+      "keywords": [],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "If you see anyone in like any sort of techwear...",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "3",
+      "variants": [
+        {
+          "id": "69ddbc1a03ea0252c34d1d8f",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "西田実鳥"
+          ],
+          "imageId": "69ddbc1a03ea0252c34d1d8d",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbc1a03ea0252c34d1d8d",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbc1a03ea0252c34d1d8f",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-156__69ddbc1a03ea0252c34d1d8d.webp"
+        }
+      ]
+    },
+    {
+      "name": "Beko Genning",
+      "cardNumber": "OP02/HKS-157",
+      "cardType": "Cameo",
+      "effect": "Negate the abilites of all opposing Personas on this <b>Platform.</b>\r\n[Discard] Move your Persona to this <b>Platform.</b> <i>Use only during a clash.</i>",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Beko Genning"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "quote": "Unlucky Maneki-neko by day, Jelly Donlette all the time.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "5",
+      "bits": "1",
+      "influence": "1",
+      "variants": [
+        {
+          "id": "69ddbcbc03ea0252c34d1d95",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "pushucchi24"
+          ],
+          "imageId": "69ddbcbc03ea0252c34d1d93",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbcbc03ea0252c34d1d93",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbcbc03ea0252c34d1d95",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-157__69ddbcbc03ea0252c34d1d93.webp"
+        }
+      ]
+    },
+    {
+      "name": "Date Night",
+      "cardNumber": "OP02/HKS-158",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Draw 1 card, then discard 1 card.",
+      "keywords": [],
+      "vtuber": [
+        "Minkye",
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "How do you feel about steak?",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69ddbd1803ea0252c34d1d9b",
+          "rarity": "Pon",
+          "artist": [
+            "Minkye"
+          ],
+          "imageId": "69ddbd1803ea0252c34d1d99",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbd1803ea0252c34d1d99",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbd1803ea0252c34d1d9b",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-158__69ddbd1803ea0252c34d1d99.webp"
+        }
+      ]
+    },
+    {
+      "name": "How to be a Femboy",
+      "cardNumber": "OP02/HKS-159",
+      "cardType": "Content",
+      "effect": "[Premium Content]\r\n<b>Flip Condition:</b> An opponent has more Subscribers than you.\r\n<b>When Flipped:</b> Play a <b>Content</b> card on this <b>Platform</b> (paying its cost). (You may use this during the <b>Platform</b> Phase.)",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Be a boy, Be feminine.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "influence": "5",
+      "variants": [
+        {
+          "id": "69ddbdda03ea0252c34d1da1",
+          "rarity": "Supa!",
+          "artist": [
+            "Natalie Ong",
+            "WaHa"
+          ],
+          "imageId": "69ddbdd903ea0252c34d1d9f",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbdd903ea0252c34d1d9f",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbdda03ea0252c34d1da1",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-159__69ddbdd903ea0252c34d1d9f.webp"
+        }
+      ]
+    },
+    {
+      "name": "Bottom Energy",
+      "cardNumber": "OP02/HKS-160",
+      "cardType": "Content",
+      "effect": "[Activate] Put 1 card from any player's Trash onto the bottom of their deck.",
+      "keywords": [
+        "Activate"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I have to come clean...",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "3",
+      "influence": "6",
+      "variants": [
+        {
+          "id": "69ddbe3003ea0252c34d1da7",
+          "rarity": "Pon",
+          "artist": [
+            "ゆひゃん"
+          ],
+          "imageId": "69ddbe3003ea0252c34d1da5",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbe3003ea0252c34d1da5",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbe3003ea0252c34d1da7",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-160__69ddbe3003ea0252c34d1da5.webp"
+        }
+      ]
+    },
+    {
+      "name": "Tax Evasion",
+      "cardNumber": "OP02/HKS-161",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> If you have a face-up <b>Premium Content</b> card, gain 3 [Bit] .\r\n<b>If this card would be deleted:</b> Return this card to its owner's hand instead.",
+      "keywords": [
+        "Premium Content"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "When I'm in jail, I can't make content.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "6",
+      "influence": "9",
+      "variants": [
+        {
+          "id": "69ddbec203ea0252c34d1dad",
+          "rarity": "Supa!",
+          "artist": [
+            "WaHa"
+          ],
+          "imageId": "69ddbec203ea0252c34d1dab",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbec203ea0252c34d1dab",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbec203ea0252c34d1dad",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-161__69ddbec203ea0252c34d1dab.webp"
+        }
+      ]
+    },
+    {
+      "name": "Horror Game Stream",
+      "cardNumber": "OP02/HKS-162",
+      "cardType": "Content",
+      "effect": "<b>If this card would be deleted:</b> Return this card to the top of its owner's deck instead.",
+      "keywords": [],
+      "vtuber": [
+        "Raelice"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I hate horror games.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "8",
+      "influence": "18",
+      "variants": [
+        {
+          "id": "69ddbf2a03ea0252c34d1db3",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "Amphrey"
+          ],
+          "imageId": "69ddbf2a03ea0252c34d1db1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbf2a03ea0252c34d1db1",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbf2a03ea0252c34d1db3",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-162__69ddbf2a03ea0252c34d1db1.webp"
+        }
+      ]
+    },
+    {
+      "name": "Little Sister Energy",
+      "cardNumber": "OP02/HKS-163",
+      "cardType": "Content",
+      "effect": "<b>When Played:</b> Each player shuffles their hand and Trash into their deck. Then, each player draws 5 cards.",
+      "keywords": [],
+      "vtuber": [
+        "La Avispa Nectarina"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "Why can't I just be Waifu? Why am I little sister?",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "10",
+      "influence": "25",
+      "variants": [
+        {
+          "id": "69ddbfb103ea0252c34d1dcc",
+          "rarity": "Ao Supa!",
+          "artist": [
+            "マノ居"
+          ],
+          "imageId": "69ddbfb103ea0252c34d1dca",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddbfb103ea0252c34d1dca",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddbfb103ea0252c34d1dcc",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-163__69ddbfb103ea0252c34d1dca.webp"
+        }
+      ]
+    },
+    {
+      "name": "Lonely MILF Looking for Comfort",
+      "cardNumber": "OP02/HKS-164",
+      "cardType": "Action",
+      "effect": "Your Persona gains +2 [Influence] this round.\r\nLook at the top card of your deck. You may play it (paying its [Empty Cost]).",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "The father has been dead for 5 years and the children neglect the mother.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "1",
+      "variants": [
+        {
+          "id": "69ddc03d03ea0252c34d1dd2",
+          "rarity": "Supa!",
+          "artist": [
+            "G Song"
+          ],
+          "imageId": "69ddc03d03ea0252c34d1dd0",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddc03d03ea0252c34d1dd0",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddc03d03ea0252c34d1dd2",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-164__69ddc03d03ea0252c34d1dd0.webp"
+        }
+      ]
+    },
+    {
+      "name": "Waifu Wheel",
+      "cardNumber": "OP02/HKS-165",
+      "cardType": "Action",
+      "effect": "Draw 3 cards, then put 2 cards from your hand on top of your deck.",
+      "keywords": [],
+      "vtuber": [
+        "Porcelain Maid"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "I've created an Abomination but like, in a good way.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "2",
+      "variants": [
+        {
+          "id": "69ddc09f03ea0252c34d1dd8",
+          "rarity": "Pon",
+          "artist": [
+            "Paufufufun"
+          ],
+          "imageId": "69ddc09e03ea0252c34d1dd6",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddc09e03ea0252c34d1dd6",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddc09f03ea0252c34d1dd8",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-165__69ddc09e03ea0252c34d1dd6.webp"
+        }
+      ]
+    },
+    {
+      "name": "Pengu",
+      "cardNumber": "OP02/HKS-166",
+      "cardType": "Cameo",
+      "effect": "[Discard] Gain 1 [Bit] .",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "LineChu"
+      ],
+      "color": [
+        "Green"
+      ],
+      "quote": "1.5 brain cells left.",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "3",
+      "bits": "1",
+      "influence": "1",
+      "variants": [
+        {
+          "id": "69ddc0e203ea0252c34d1dde",
+          "rarity": "Pon",
+          "artist": [
+            "teexpoon"
+          ],
+          "imageId": "69ddc0e203ea0252c34d1ddc",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69ddc0e203ea0252c34d1ddc",
+          "cardPageUrl": "https://www.theoshivault.com/card/69ddc0e203ea0252c34d1dde",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OP02-HKS-166__69ddc0e203ea0252c34d1ddc.webp"
         }
       ]
     },
