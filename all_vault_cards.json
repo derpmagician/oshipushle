@@ -5,25 +5,43 @@
       "id": "6909782d4f4a7b9ab155beaa",
       "name": "Set 1: Gen One - Phase Origins: Retail",
       "setCode": "OP01",
-      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "releaseDate": "",
       "setPageUrl": "https://www.theoshivault.com/set/6909782d4f4a7b9ab155beaa",
       "totalCards": 223,
       "sourceFile": "OP01_Set_1__Gen_One_-_Phase_Origins__Retail.json"
     },
     {
+      "id": "698d498b25ec2137424b0af0",
+      "name": "Oshi Push Hidden Links: Starter Deck LineChu",
+      "setCode": "OP02",
+      "releaseDate": "",
+      "setPageUrl": "https://www.theoshivault.com/set/698d498b25ec2137424b0af0",
+      "totalCards": 28,
+      "sourceFile": "OP02_Oshi_Push_Hidden_Links__Starter_Deck_LineChu.json"
+    },
+    {
+      "id": "698d497125ec2137424b0aea",
+      "name": "Oshi Push Hidden Links: Starter Deck Porcelain Maid",
+      "setCode": "OP02",
+      "releaseDate": "",
+      "setPageUrl": "https://www.theoshivault.com/set/698d497125ec2137424b0aea",
+      "totalCards": 29,
+      "sourceFile": "OP02_Oshi_Push_Hidden_Links__Starter_Deck_Porcelain_Maid.json"
+    },
+    {
       "id": "698bfdda017e44430a8f0e0c",
       "name": "Set 2: Gen Two - Hidden Links",
       "setCode": "OP02",
-      "releaseDate": "2026-04-01T00:00:00.000Z",
+      "releaseDate": "",
       "setPageUrl": "https://www.theoshivault.com/set/698bfdda017e44430a8f0e0c",
-      "totalCards": 153,
+      "totalCards": 161,
       "sourceFile": "OP02_Set_2__Gen_Two_-_Hidden_Links.json"
     },
     {
       "id": "6913933901489a191c7db31b",
       "name": "Gen One - Phase Origins: Pipkin Pippa Starter Deck",
       "setCode": "OPKS",
-      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "releaseDate": "",
       "setPageUrl": "https://www.theoshivault.com/set/6913933901489a191c7db31b",
       "totalCards": 27,
       "sourceFile": "OPKS_Gen_One_-_Phase_Origins__Pipkin_Pippa_Starter_Deck.json"
@@ -32,7 +50,7 @@
       "id": "6913936d01489a191c7db321",
       "name": "Gen One - Phase Origins: Tenma Maemi Starter Deck",
       "setCode": "OPKS",
-      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "releaseDate": "",
       "setPageUrl": "https://www.theoshivault.com/set/6913936d01489a191c7db321",
       "totalCards": 27,
       "sourceFile": "OPKS_Gen_One_-_Phase_Origins__Tenma_Maemi_Starter_Deck.json"
@@ -41,7 +59,7 @@
       "id": "690977804f4a7b9ab155bea0",
       "name": "Set 1: Gen One - Phase Origins: Debut",
       "setCode": "OPKS",
-      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "releaseDate": "",
       "setPageUrl": "https://www.theoshivault.com/set/690977804f4a7b9ab155bea0",
       "totalCards": 14,
       "sourceFile": "OPKS_Set_1__Gen_One_-_Phase_Origins__Debut.json"
@@ -50,7 +68,7 @@
       "id": "6913142b2ccc4ad1fbd4c467",
       "name": "Promos",
       "setCode": "Promo",
-      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "releaseDate": "",
       "setPageUrl": "https://www.theoshivault.com/set/6913142b2ccc4ad1fbd4c467",
       "totalCards": 3,
       "sourceFile": "Promo_Promos.json"
@@ -75,7 +93,7 @@
         "Zatsudan"
       ],
       "bits": "3",
-      "influence": "5",
+      "influence": "4",
       "variants": [
         {
           "id": "691264abd8b64bb3753e22b7",
