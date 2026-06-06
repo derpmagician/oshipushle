@@ -593,6 +593,7 @@ main.platform-mode .ac-details {
 .vtuber-cell .vtuber-text {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   width: 100%;
