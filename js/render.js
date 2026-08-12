@@ -69,7 +69,8 @@ export function renderGuessRow(guess, answer) {
   thumbCell.setAttribute("data-tooltip", guess.cardNumber);
   thumbCell.setAttribute("role", "gridcell");
   thumbCell.setAttribute("aria-label", `Card image: ${guess.name} (${guess.cardNumber})`);
-  const thumbUrl = guess.variants?.[0]?.myUrl;
+  const thumbVariant = (guess.variants ?? []).find((variant) => variant?.myUrl);
+  const thumbUrl = thumbVariant?.myUrl;
   if (thumbUrl && isAllowedImageUrl(thumbUrl)) {
     const img = document.createElement("img");
     img.src = thumbUrl;
@@ -156,7 +157,8 @@ export function renderPlatformGuessRow(guess, answer) {
   thumbCell.setAttribute("data-tooltip", guess.cardNumber);
   thumbCell.setAttribute("role", "gridcell");
   thumbCell.setAttribute("aria-label", `Card image: ${guess.name} (${guess.cardNumber})`);
-  const thumbUrl = guess.variants?.[0]?.myUrl;
+  const thumbVariant = (guess.variants ?? []).find((variant) => variant?.myUrl);
+  const thumbUrl = thumbVariant?.myUrl;
   if (thumbUrl && isAllowedImageUrl(thumbUrl)) {
     const img = document.createElement("img");
     img.src = thumbUrl;

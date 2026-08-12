@@ -72,7 +72,8 @@ export function setupAutocomplete(input, listEl, gameRef) {
       li.setAttribute("aria-label", buildOptionLabel(card));
 
       // Thumbnail (safe DOM creation)
-      const thumb = card.variants?.[0]?.myUrl || "";
+      const thumbVariant = (card.variants ?? []).find((variant) => variant?.myUrl);
+      const thumb = thumbVariant?.myUrl || "";
       if (thumb && isAllowedImageUrl(thumb)) {
         const img = document.createElement("img");
         img.className = "ac-thumb";

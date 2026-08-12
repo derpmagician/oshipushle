@@ -112,7 +112,8 @@ export function showWinModal(answer, guesses, puzzleNumber) {
 
   msg.textContent = `${answer.name} (${answer.cardNumber}) — ${guesses.length}/${MAX_GUESSES} guesses`;
 
-  const imgUrl = answer.variants?.[0]?.myUrl;
+  const imgVariant = (answer.variants ?? []).find((variant) => variant?.myUrl);
+  const imgUrl = imgVariant?.myUrl;
   setCardImage(imgDiv, imgUrl, answer.name);
 
   shareBtn.textContent = "📋 Share Result";
@@ -138,7 +139,8 @@ export function showEndlessWinModal(answer, guesses, session, onNextChallenge) {
 
   msg.textContent = `${answer.name} (${answer.cardNumber}) — solved in ${guesses.length} guess${guesses.length !== 1 ? "es" : ""}`;
 
-  const imgUrl = answer.variants?.[0]?.myUrl;
+  const imgVariant = (answer.variants ?? []).find((variant) => variant?.myUrl);
+  const imgUrl = imgVariant?.myUrl;
   setCardImage(imgDiv, imgUrl, answer.name);
 
   document.getElementById("daily-modal-section").classList.add("hidden");
