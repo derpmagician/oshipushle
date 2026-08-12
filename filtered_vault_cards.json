@@ -1,0 +1,547 @@
+{
+  "totalUniqueCards": 14,
+  "sets": [
+    {
+      "id": "6913933901489a191c7db31b",
+      "name": "Gen One - Phase Origins: Pipkin Pippa Starter Deck",
+      "setCode": "OPKS",
+      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "setPageUrl": "https://www.theoshivault.com/set/6913933901489a191c7db31b",
+      "totalCards": 27,
+      "sourceFile": "OPKS_Gen_One_-_Phase_Origins__Pipkin_Pippa_Starter_Deck.json"
+    },
+    {
+      "id": "6913936d01489a191c7db321",
+      "name": "Gen One - Phase Origins: Tenma Maemi Starter Deck",
+      "setCode": "OPKS",
+      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "setPageUrl": "https://www.theoshivault.com/set/6913936d01489a191c7db321",
+      "totalCards": 27,
+      "sourceFile": "OPKS_Gen_One_-_Phase_Origins__Tenma_Maemi_Starter_Deck.json"
+    },
+    {
+      "id": "690977804f4a7b9ab155bea0",
+      "name": "Set 1: Gen One - Phase Origins: Debut",
+      "setCode": "OPKS",
+      "releaseDate": "2025-10-15T00:00:00.000Z",
+      "setPageUrl": "https://www.theoshivault.com/set/690977804f4a7b9ab155bea0",
+      "totalCards": 14,
+      "sourceFile": "OPKS_Set_1__Gen_One_-_Phase_Origins__Debut.json"
+    }
+  ],
+  "cards": [
+    {
+      "name": "Pipkin Pippa",
+      "cardNumber": "OPKS/PHC-001",
+      "cardType": "Persona",
+      "effect": "[Clash Reward] <b>Gain 1</b> [Bit].",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "Pipkin Pippa"
+      ],
+      "color": [
+        "Red"
+      ],
+      "genre": [
+        "Zatsudan"
+      ],
+      "bits": "3",
+      "influence": "4",
+      "variants": [
+        {},
+        {
+          "id": "6992ffd947ce32f756ba6ef9",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "6992ffd947ce32f756ba6ef7",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6992ffd947ce32f756ba6ef7",
+          "cardPageUrl": "https://www.theoshivault.com/card/6992ffd947ce32f756ba6ef9",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-001__6992ffd947ce32f756ba6ef7.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Pipkin Pippa",
+      "cardNumber": "OPKS/PHC-003",
+      "cardType": "Upgrade",
+      "effect": "Pipkin Pippa gains +2[Influence] for each <b>Platform</b> Where you have a <b>Content</b> card.\r\n[Clash Reward] Gain 3[Bit].\r\n[Discard] Your <b>Persona</b> gains +2 [Influence] this clash.",
+      "keywords": [
+        "Clash Reward",
+        "Discard"
+      ],
+      "vtuber": [
+        "Pipkin Pippa"
+      ],
+      "color": [
+        "Red"
+      ],
+      "nickname": "Shipkin Shippa",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "7",
+      "bits": "5",
+      "influence": "9",
+      "variants": [
+        {},
+        {
+          "id": "6993032b764db4750f435ce3",
+          "rarity": "Kami!",
+          "artist": [
+            "みそじ"
+          ],
+          "imageId": "6993032a764db4750f435ce1",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6993032a764db4750f435ce1",
+          "cardPageUrl": "https://www.theoshivault.com/card/6993032b764db4750f435ce3",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-003__6993032a764db4750f435ce1.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Utatane Nasa",
+      "cardNumber": "OPKS/PHC-007",
+      "cardType": "Persona",
+      "effect": "<b>While you have 0 </b>[Bit]: Utatane Nasa gains +3 [Influence].",
+      "keywords": [],
+      "vtuber": [
+        "Utatane Nasa"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "genre": [
+        "Zatsudan"
+      ],
+      "bits": "3",
+      "influence": "3",
+      "variants": [
+        {},
+        {
+          "id": "6992fe2baa124cba78098515",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "minsgraph"
+          ],
+          "imageId": "6992fe2baa124cba78098513",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6992fe2baa124cba78098513",
+          "cardPageUrl": "https://www.theoshivault.com/card/6992fe2baa124cba78098515",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-007__6992fe2baa124cba78098513.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Utatane Nasa",
+      "cardNumber": "OPKS/PHC-009",
+      "cardType": "Upgrade",
+      "effect": "<b>While you have 0 </b>[Bit]: Utatane Nasa gains +5 [Influence].\r\n[Activate] Spend 3 [Bit], Draw 2 card.\r\n[Discard] Move your <b>Persona</b> to this <b>Platform.</b> Use only during a clash.",
+      "keywords": [
+        "Activate",
+        "Discard"
+      ],
+      "vtuber": [
+        "Utatane Nasa"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "nickname": "Kawaii Nasajira",
+      "genre": [
+        "Zatsudan"
+      ],
+      "cost": "6",
+      "bits": "6",
+      "influence": "6",
+      "variants": [
+        {},
+        {
+          "id": "6993068f10bc96b487897001",
+          "rarity": "Kami!",
+          "artist": [
+            "稲咲"
+          ],
+          "imageId": "6993068f10bc96b487896fff",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6993068f10bc96b487896fff",
+          "cardPageUrl": "https://www.theoshivault.com/card/6993068f10bc96b487897001",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-009__6993068f10bc96b487896fff.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Hakushika Iori",
+      "cardNumber": "OPKS/PHC-013",
+      "cardType": "Persona",
+      "effect": "<b>The first time you play an Action card each round:</b> Hakushika Iori gains +2 [Influence] this round.",
+      "keywords": [],
+      "vtuber": [
+        "Hakushika Iori"
+      ],
+      "color": [
+        "Green"
+      ],
+      "genre": [
+        "Poggers"
+      ],
+      "bits": "3",
+      "influence": "3",
+      "variants": [
+        {},
+        {
+          "id": "6993007c47ce32f756ba6f1e",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "6993007c47ce32f756ba6f1c",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6993007c47ce32f756ba6f1c",
+          "cardPageUrl": "https://www.theoshivault.com/card/6993007c47ce32f756ba6f1e",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-013__6993007c47ce32f756ba6f1c.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Hakushika Iori",
+      "cardNumber": "OPKS/PHC-015",
+      "cardType": "Upgrade",
+      "effect": "<b>The first time you play an Action card each round:</b> Hakushika Iori +4 [Influence] this round and you draw 1 card.\r\n[Discard] Gain 1 [Bit].",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Hakushika Iori"
+      ],
+      "color": [
+        "Green"
+      ],
+      "nickname": "Secret Agent",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "6",
+      "bits": "5",
+      "influence": "5",
+      "variants": [
+        {},
+        {
+          "id": "699304f20b43fdb95e6327e4",
+          "rarity": "Kami!",
+          "artist": [
+            "丸井ころ"
+          ],
+          "imageId": "699304f20b43fdb95e6327e2",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/699304f20b43fdb95e6327e2",
+          "cardPageUrl": "https://www.theoshivault.com/card/699304f20b43fdb95e6327e4",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-015__699304f20b43fdb95e6327e2.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Shisui Michiru",
+      "cardNumber": "OPKS/PHC-019",
+      "cardType": "Persona",
+      "effect": "<b>While you have at least 1 Content card on this Platform with [3 Cost] or less:</b> Shisui Michiru gains +1 [Influence].",
+      "keywords": [],
+      "vtuber": [
+        "Shisui Michiru"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "genre": [
+        "Poggers"
+      ],
+      "bits": "3",
+      "influence": "4",
+      "variants": [
+        {},
+        {
+          "id": "6992fe926f7fb91384821348",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "minsgraph"
+          ],
+          "imageId": "6992fe926f7fb91384821346",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6992fe926f7fb91384821346",
+          "cardPageUrl": "https://www.theoshivault.com/card/6992fe926f7fb91384821348",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-019__6992fe926f7fb91384821346.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Shisui Michiru",
+      "cardNumber": "OPKS/PHC-021",
+      "cardType": "Upgrade",
+      "effect": "<b>While you have at least 1 Content card on this Platform with cost 3 or less:</b> Shisui Michiru gains +5 [Influence].\r\n[Activate] Delete 1 <b>Content</b> card with cost 5 or more on this <b>Platform</b>.\r\n[Discard] Move your <b>Persona</b> to this <b>Platform.</b> Use only during a clash.",
+      "keywords": [
+        "Activate",
+        "Discard"
+      ],
+      "vtuber": [
+        "Shisui Michiru"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "nickname": "Witch Half Cat",
+      "genre": [
+        "Poggers"
+      ],
+      "cost": "8",
+      "bits": "6",
+      "influence": "7",
+      "variants": [
+        {},
+        {
+          "id": "699308f58da5a01e2090f037",
+          "rarity": "Kami!",
+          "artist": [
+            "みろまる"
+          ],
+          "imageId": "699308f58da5a01e2090f035",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/699308f58da5a01e2090f035",
+          "cardPageUrl": "https://www.theoshivault.com/card/699308f58da5a01e2090f037",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-021__699308f58da5a01e2090f035.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Fujikura Uruka",
+      "cardNumber": "OPKS/PHC-025",
+      "cardType": "Persona",
+      "effect": "<b>While you have exactly 1 Content card on this Platform:</b> Fujikura Uruka gains +1 [Influence].",
+      "keywords": [],
+      "vtuber": [
+        "Fujikura Uruka"
+      ],
+      "color": [
+        "Red"
+      ],
+      "genre": [
+        "Creatives"
+      ],
+      "bits": "3",
+      "influence": "4",
+      "variants": [
+        {},
+        {
+          "id": "699300e2148311e099541808",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "699300e2148311e099541806",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/699300e2148311e099541806",
+          "cardPageUrl": "https://www.theoshivault.com/card/699300e2148311e099541808",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-025__699300e2148311e099541806.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Fujikura Uruka",
+      "cardNumber": "OPKS/PHC-027",
+      "cardType": "Upgrade",
+      "effect": "<b>While you have exactly 1 Content card on this Platform:</b> Fujikura Uruka gains +5 [Influence].\r\n[Activate]<b>, delete 1 of your Content cards on any Platform:</b> Draw 2 cards.\r\n[Discard] Your <b>Persona</b> gains +2 [Influence] this clash.",
+      "keywords": [
+        "Activate",
+        "Discard"
+      ],
+      "vtuber": [
+        "Fujikura Uruka"
+      ],
+      "color": [
+        "Red"
+      ],
+      "nickname": "Gomi Kuma",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "7",
+      "bits": "6",
+      "influence": "6",
+      "variants": [
+        {},
+        {
+          "id": "69930a5c8adfe69cbc75e9ab",
+          "rarity": "Kami!",
+          "artist": [
+            "yakiNAShU"
+          ],
+          "imageId": "69930a5b8adfe69cbc75e9a9",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69930a5b8adfe69cbc75e9a9",
+          "cardPageUrl": "https://www.theoshivault.com/card/69930a5c8adfe69cbc75e9ab",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-027__69930a5b8adfe69cbc75e9a9.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Rinkou Ashelia",
+      "cardNumber": "OPKS/PHC-031",
+      "cardType": "Persona",
+      "effect": "<b>The first time you play a Content card each round:</b> Rinkou Ashelia +2 [Influence] this round.",
+      "keywords": [],
+      "vtuber": [
+        "Rinkou Ashelia"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "genre": [
+        "Creatives"
+      ],
+      "bits": "3",
+      "influence": "3",
+      "variants": [
+        {},
+        {
+          "id": "6992ff74bff6b403ba13fe85",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "Phase Connect"
+          ],
+          "imageId": "6992ff73bff6b403ba13fe83",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6992ff73bff6b403ba13fe83",
+          "cardPageUrl": "https://www.theoshivault.com/card/6992ff74bff6b403ba13fe85",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-031__6992ff73bff6b403ba13fe83.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Rinkou Ashelia",
+      "cardNumber": "OPKS/PHC-033",
+      "cardType": "Upgrade",
+      "effect": "<b>The first time you play a Content card each round:</b> Rinkou Ashelia gains +4 [Influence] this round and you draw 1 card.\r\n[Discard] Move your <b>Persona</b> to this <b>Platform.</b> Use only during a clash.",
+      "keywords": [
+        "Discard"
+      ],
+      "vtuber": [
+        "Rinkou Ashelia"
+      ],
+      "color": [
+        "Purple"
+      ],
+      "nickname": "Cheerful Virus",
+      "genre": [
+        "Creatives"
+      ],
+      "cost": "7",
+      "bits": "5",
+      "influence": "7",
+      "variants": [
+        {},
+        {
+          "id": "6993098e3248a2f107e76738",
+          "rarity": "Kami!",
+          "artist": [
+            "傘魚"
+          ],
+          "imageId": "6993098e3248a2f107e76736",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6993098e3248a2f107e76736",
+          "cardPageUrl": "https://www.theoshivault.com/card/6993098e3248a2f107e76738",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-033__6993098e3248a2f107e76736.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Tenma Maemi",
+      "cardNumber": "OPKS/PHC-037",
+      "cardType": "Persona",
+      "effect": "[Clash Reward] <b>Draw 1 card.</b>",
+      "keywords": [
+        "Clash Reward"
+      ],
+      "vtuber": [
+        "Tenma Maemi"
+      ],
+      "color": [
+        "Green"
+      ],
+      "genre": [
+        "Experience"
+      ],
+      "bits": "3",
+      "influence": "4",
+      "variants": [
+        {},
+        {
+          "id": "6992ff0afef6385ed68cf58c",
+          "rarity": "Aka Supa!",
+          "artist": [
+            "ValeforZero"
+          ],
+          "imageId": "6992ff0afef6385ed68cf58a",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/6992ff0afef6385ed68cf58a",
+          "cardPageUrl": "https://www.theoshivault.com/card/6992ff0afef6385ed68cf58c",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-037__6992ff0afef6385ed68cf58a.webp"
+        }
+      ],
+      "isDuplicate": true
+    },
+    {
+      "name": "Tenma Maemi",
+      "cardNumber": "OPKS/PHC-039",
+      "cardType": "Upgrade",
+      "effect": "<b>While you have 5 or more cards in your hands:</b> Tenma Maemi gains +4 [Influence].\r\n[Clash Reward] Draw 2 cards.\r\n[Discard] Gain 1 [Bit].",
+      "keywords": [
+        "Clash Reward",
+        "Discard"
+      ],
+      "vtuber": [
+        "Tenma Maemi"
+      ],
+      "color": [
+        "Green"
+      ],
+      "nickname": "30ma",
+      "genre": [
+        "Experience"
+      ],
+      "cost": "8",
+      "bits": "6",
+      "influence": "7",
+      "variants": [
+        {},
+        {
+          "id": "69930833f29918febab6ab78",
+          "rarity": "Kami!",
+          "artist": [
+            "秋原 买"
+          ],
+          "imageId": "69930833f29918febab6ab76",
+          "imageUrl": "https://oshi-push-database-server.vercel.app/cardimage/69930833f29918febab6ab76",
+          "cardPageUrl": "https://www.theoshivault.com/card/69930833f29918febab6ab78",
+          "limit": 3,
+          "myUrl": "https://res.cloudinary.com/dvx1k0wi2/image/upload/oshipush/OPKS-PHC-039__69930833f29918febab6ab76.webp"
+        }
+      ],
+      "isDuplicate": true
+    }
+  ]
+}
