@@ -54,7 +54,7 @@ export function setupAutocomplete(input, listEl, gameRef) {
           !gameRef.guessedNames.has(c.cardNumber) &&
           (c.name.toLowerCase().includes(val) || c.cardNumber.toLowerCase().includes(val))
       )
-      .slice(0, 8);
+      .slice(0, 20);
 
     if (matches.length === 0) {
       closeList();
